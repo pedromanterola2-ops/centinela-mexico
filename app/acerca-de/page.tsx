@@ -99,8 +99,12 @@ export default function AcercaDePage() {
         <div className="grid gap-4 sm:grid-cols-2">
           {[
             {
-              titulo: "Solo fuentes oficiales",
-              desc: "Cada dato cita su fuente oficial. No se usan filtraciones, datos clasificados ni rumores.",
+              titulo: "Datos de fuentes oficiales",
+              desc: "El núcleo de datos (fichas, cifras y registros) proviene de fuentes oficiales y de acceso público. No se usan filtraciones, datos clasificados ni rumores.",
+            },
+            {
+              titulo: "Divulgación claramente diferenciada",
+              desc: "La sección Actualidad añade medios y canales especializados (no oficiales) como material de divulgación, siempre etiquetados como tales y separados de las fuentes oficiales.",
             },
             {
               titulo: "Datos verificables o marcados",
