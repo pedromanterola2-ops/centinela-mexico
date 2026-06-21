@@ -1,5 +1,4 @@
 import type { Metadata } from "next";
-import Image from "next/image";
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import {
@@ -75,13 +74,12 @@ export default async function EquipoDetallePage({ params }: PageProps) {
         <div className="relative flex h-40 items-center justify-center rounded-lg border border-border bg-bg-elevated/60 overflow-hidden">
           {item.imagen_url ? (
             <>
-              <Image
+              {/* eslint-disable-next-line @next/next/no-img-element */}
+              <img
                 src={item.imagen_url}
                 alt={item.nombre}
-                fill
-                className="object-cover object-center"
-                sizes="200px"
-                unoptimized
+                referrerPolicy="no-referrer"
+                className="absolute inset-0 w-full h-full object-cover object-center"
               />
               {/* Crédito de imagen */}
               {item.imagen_fuente && (
@@ -89,7 +87,7 @@ export default async function EquipoDetallePage({ params }: PageProps) {
                   href={item.imagen_fuente}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="absolute bottom-1 right-1.5 text-[9px] text-white/60 hover:text-white/90 bg-black/40 px-1 rounded"
+                  className="absolute bottom-1 right-1.5 text-[9px] text-white/60 hover:text-white/90 bg-black/40 px-1 rounded z-10"
                   title="Ver fuente de imagen en Wikimedia Commons"
                 >
                   {item.imagen_licencia ?? "Wikimedia Commons"} ↗

@@ -217,6 +217,18 @@ export default async function FuerzaArmadaDetallePage({ params }: PageProps) {
         </section>
       )}
 
+      {/* Historia */}
+      {(fuerza as { historia?: string }).historia && (
+        <section className="mb-8">
+          <h2 className="text-xs font-semibold text-text-muted uppercase tracking-widest mb-3">
+            Historia
+          </h2>
+          <p className="text-sm text-text-muted leading-relaxed max-w-3xl">
+            {(fuerza as { historia?: string }).historia}
+          </p>
+        </section>
+      )}
+
       {/* Equipamiento asociado (relación inversa) */}
       {equipamiento.length > 0 && (
         <section className="mb-8">

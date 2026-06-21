@@ -128,3 +128,18 @@
     text-wrap: balance;
   }
 }
+
+/* ─── Carrusel de totales ──────────────────────────────────────────────── */
+@keyframes carousel-scroll {
+  0%   { transform: translateX(0); }
+  100% { transform: translateX(-50%); }
+}
+
+.carousel-track {
+  animation: carousel-scroll 35s linear infinite;
+  will-change: transform;
+}
+
+.carousel-track:hover {
+  animation-play-state: paused;
+}

@@ -14,8 +14,12 @@
     "zona_militar": "Zona Militar con sede en Aguascalientes",
     "region_militar": "II Región Militar (Guadalajara)",
     "presencia_naval": false,
-    "riesgos_principales": ["sismos", "sequía", "incendios forestales"],
-    "descripcion": "Estado del centro-occidente con fuerte base industrial automotriz y manufactura de exportación. Una de las entidades más pequeñas en superficie pero con alta densidad de actividad económica. Relativamente bajos índices de violencia. Población según el Censo 2020 (INEGI).",
+    "riesgos_principales": [
+      "sismos",
+      "sequía",
+      "incendios forestales"
+    ],
+    "descripcion": "Estado del centro-occidente con fuerte base industrial automotriz y manufactura de exportación. Una de las entidades más pequeñas en superficie pero con alta densidad de actividad económica. Pertenece a la II Región Militar con sede en Guadalajara. Su zona militar cubre las funciones del Plan DN-III-E para sismos y sequías crónicas que afectan la entidad. La Policía Estatal opera bajo la Secretaría de Seguridad Pública local. Presenta relativamente bajos índices de violencia respecto al promedio nacional, aunque en años recientes se han registrado incidencias vinculadas al tráfico de drogas en corredores carreteros. Población según el Censo 2020 (INEGI).",
     "fuente_url": "https://www.inegi.org.mx/programas/ccpv/2020/",
     "pendiente_verificacion": true
   },
@@ -35,8 +39,13 @@
     "region_militar": "II Región Militar",
     "presencia_naval": true,
     "zona_naval": "2ª Zona Naval (Ensenada)",
-    "riesgos_principales": ["sismos", "tsunamis", "sequía", "incendios forestales"],
-    "descripcion": "Estado fronterizo del noroeste con 225 km de frontera terrestre con California, EUA. Mayor zona metropolitana fronteriza del país (Tijuana-San Diego). Importante industria maquiladora. Zona sísmica activa por la falla de San Andrés. Principales cruces fronterizos: Tijuana, Tecate, Mexicali, Otay. Población según el Censo 2020 (INEGI).",
+    "riesgos_principales": [
+      "sismos",
+      "tsunamis",
+      "sequía",
+      "incendios forestales"
+    ],
+    "descripcion": "Estado fronterizo del noroeste con 225 km de frontera terrestre con California, EUA. Mayor zona metropolitana fronteriza del país (Tijuana–San Diego). Importante industria maquiladora. Zona sísmica activa por la falla de San Andrés. Principales cruces fronterizos: Tijuana (el más transitado del mundo), Tecate, Mexicali y Otay. Cuenta con la 2ª Zona Militar en Tijuana y la 28ª en Mexicali, así como la 2ª Zona Naval en Ensenada para vigilancia del litoral pacífico y la Zona Económica Exclusiva. La disputa territorial entre el Cártel de Tijuana y el Cártel de Sinaloa marcó la seguridad de Baja California en los años 2000; en años recientes el Cártel Jalisco Nueva Generación también ha buscado presencia en la entidad. Población según el Censo 2020 (INEGI).",
     "fuente_url": "https://www.inegi.org.mx/programas/ccpv/2020/",
     "pendiente_verificacion": true
   },
@@ -56,8 +65,13 @@
     "region_militar": "II Región Militar",
     "presencia_naval": true,
     "zona_naval": "Zona Naval en La Paz",
-    "riesgos_principales": ["huracanes", "sismos", "sequía", "tsunamis"],
-    "descripcion": "Entidad menos poblada del noroeste peninsular, rodeada por el Golfo de California y el Pacífico. Principal destino turístico de naturaleza (Los Cabos). Altamente expuesta a huracanes del Pacífico durante junio-noviembre. La Paz es la capital y el mayor puerto de la península. Población según el Censo 2020 (INEGI).",
+    "riesgos_principales": [
+      "huracanes",
+      "sismos",
+      "sequía",
+      "tsunamis"
+    ],
+    "descripcion": "Entidad menos poblada del noroeste peninsular, rodeada por el Golfo de California y el Océano Pacífico. Principal destino turístico de naturaleza (Los Cabos). Altamente expuesta a huracanes del Pacífico durante junio–noviembre. La Paz es la capital y el mayor puerto de la península. La 3ª Zona Militar y una Zona Naval en La Paz ejercen vigilancia de los extensos litorales y de la actividad pesquera en el Golfo de California. La pesca ilegal y el tráfico de drogas por vía marítima representan los principales retos de seguridad en la entidad. Población según el Censo 2020 (INEGI).",
     "fuente_url": "https://www.inegi.org.mx/programas/ccpv/2020/",
     "pendiente_verificacion": true
   },
@@ -77,8 +91,12 @@
     "region_militar": "X Región Militar (Mérida)",
     "presencia_naval": true,
     "zona_naval": "Zona Naval en Lerma/Campeche (vigilancia de plataformas petroleras)",
-    "riesgos_principales": ["huracanes", "inundaciones", "mareas de tormenta"],
-    "descripcion": "Estado del sureste en la Península de Yucatán, con costas sobre el Golfo de México. Estratégico para la protección de la Sonda de Campeche (yacimientos petroleros de Pemex). Capital declarada Patrimonio Mundial de la UNESCO. Frontera con Guatemala. Bajo volumen de violencia respecto al promedio nacional. Población según el Censo 2020 (INEGI).",
+    "riesgos_principales": [
+      "huracanes",
+      "inundaciones",
+      "mareas de tormenta"
+    ],
+    "descripcion": "Estado del sureste en la Península de Yucatán, con costas sobre el Golfo de México. Estratégico para la protección de la Sonda de Campeche, donde se concentran los yacimientos petroleros marinos de Pemex que históricamente han aportado más del 60% de la producción nacional de crudo. La Zona Naval en Lerma–Campeche tiene como misión primaria la seguridad de las plataformas y el espacio marítimo en la Sonda. La capital fue declarada Patrimonio Mundial de la UNESCO. Frontera terrestre con Guatemala. Presenta bajo volumen de violencia respecto al promedio nacional, con riesgos principalmente asociados a huracanes e inundaciones costeras. Población según el Censo 2020 (INEGI).",
     "fuente_url": "https://www.inegi.org.mx/programas/ccpv/2020/",
     "pendiente_verificacion": true
   },
@@ -97,8 +115,13 @@
     "zona_militar": "Zona Militar con sede en Saltillo / Zona Militar en Torreón",
     "region_militar": "IX Región Militar (Monterrey)",
     "presencia_naval": false,
-    "riesgos_principales": ["sequía", "heladas", "incendios forestales", "granizadas"],
-    "descripcion": "Estado más extenso del noreste, con 512 km de frontera con Texas (EUA) en los cruces de Piedras Negras, Acuña y Ciudad Acuña. Importante industria siderúrgica (AHMSA en Monclova), automotriz (Saltillo) y minera (Torreón-Monclova). Zona desértica con altas temperaturas en verano y heladas en invierno. Población según el Censo 2020 (INEGI).",
+    "riesgos_principales": [
+      "sequía",
+      "heladas",
+      "incendios forestales",
+      "granizadas"
+    ],
+    "descripcion": "Estado más extenso del noreste, con 512 km de frontera con Texas (EUA) en los cruces de Piedras Negras, Acuña y Ciudad Acuña. Importante industria siderúrgica (AHMSA en Monclova), automotriz (Saltillo) y minera (Torreón–Monclova). Zona desértica con altas temperaturas en verano y heladas en invierno. La 9ª Región Militar con sede en Monterrey coordina las zonas militares del estado. Coahuila fue escenario de una intensa presencia de Los Zetas entre 2010 y 2015, con episodios documentados de desapariciones forzadas en municipios como Allende (2011). La Fuerza Coahuila es el cuerpo policial estatal de élite creado para hacer frente a estas amenazas. Población según el Censo 2020 (INEGI).",
     "fuente_url": "https://www.inegi.org.mx/programas/ccpv/2020/",
     "pendiente_verificacion": true
   },
@@ -118,8 +141,13 @@
     "region_militar": "II Región Militar (Guadalajara)",
     "presencia_naval": true,
     "zona_naval": "3ª Zona Naval (Manzanillo)",
-    "riesgos_principales": ["sismos", "tsunamis", "huracanes", "actividad volcánica (Volcán de Colima)"],
-    "descripcion": "Estado más pequeño de México en superficie, con litoral en el Pacífico y presencia del Volcán de Fuego de Colima (uno de los más activos del país). Alberga el puerto de Manzanillo, principal puerto de contenedores del Pacífico mexicano. Alta sismicidad y riesgo volcánico permanente. Afectado por el sismo del 19-S-2022 (magnitud 7.6). Población según el Censo 2020 (INEGI).",
+    "riesgos_principales": [
+      "sismos",
+      "tsunamis",
+      "huracanes",
+      "actividad volcánica (Volcán de Colima)"
+    ],
+    "descripcion": "Estado más pequeño de México en superficie, con litoral en el Pacífico y presencia del Volcán de Fuego de Colima, uno de los más activos del país. Alberga el puerto de Manzanillo, principal puerto de contenedores del Pacífico mexicano y punto estratégico de importaciones. Alta sismicidad y riesgo volcánico permanente. Afectado por el sismo del 19-S-2022 (magnitud 7.6). La 3ª Zona Naval en Manzanillo tiene como misión prioritaria la vigilancia del tráfico marítimo de contenedores y la detección del ingreso ilícito de drogas por vía marítima, siendo Manzanillo uno de los puertos con mayor incautación de precursores químicos en México. Población según el Censo 2020 (INEGI).",
     "fuente_url": "https://www.inegi.org.mx/programas/ccpv/2020/",
     "pendiente_verificacion": true
   },
@@ -139,8 +167,14 @@
     "region_militar": "VIII Región Militar",
     "presencia_naval": true,
     "zona_naval": "Sector Naval en Puerto Madero",
-    "riesgos_principales": ["sismos", "deslaves", "inundaciones", "huracanes", "erupciones volcánicas"],
-    "descripcion": "Estado del sureste con 654 km de frontera con Guatemala y Belice. Alta diversidad étnica y cultural (tzotziles, tzeltales, tojolabales). Importante corredor migratorio internacional. Alta sismicidad. El volcán Tacaná se encuentra en la frontera con Guatemala. Afectado por el terremoto del 7-S-2017 (8.2 Mw) y el huracán Stan (2005). Población según el Censo 2020 (INEGI).",
+    "riesgos_principales": [
+      "sismos",
+      "deslaves",
+      "inundaciones",
+      "huracanes",
+      "erupciones volcánicas"
+    ],
+    "descripcion": "Estado del sureste con 654 km de frontera con Guatemala y Belice, la más extensa del sur. Alta diversidad étnica y cultural (tzotziles, tzeltales, tojolabales, entre otros 12 pueblos indígenas). Importante corredor migratorio internacional. Alta sismicidad: afectado por el terremoto del 7-S-2017 (8.2 Mw) y el huracán Stan (2005). El volcán Tacaná se ubica en la frontera con Guatemala. La 39ª Zona Militar en San Cristóbal y las instalaciones militares en Tuxtla Gutiérrez coordinan operaciones de vigilancia fronteriza, apoyo a migración y seguridad. En 2023–2024 se documentó un incremento de la violencia en Chiapas vinculado a la expansión del CJNG y disputas con grupos locales como 'Los Chapitos', afectando municipios de la región Altos y frontera. Población según el Censo 2020 (INEGI).",
     "fuente_url": "https://www.inegi.org.mx/programas/ccpv/2020/",
     "pendiente_verificacion": true
   },
@@ -159,8 +193,13 @@
     "zona_militar": "5ª Zona Militar (Chihuahua) / 42ª Zona Militar (Ciudad Juárez)",
     "region_militar": "IV Región Militar",
     "presencia_naval": false,
-    "riesgos_principales": ["sequía", "heladas", "incendios forestales", "granizadas"],
-    "descripcion": "Estado más grande de México, con 904 km de frontera con Texas y Nuevo México (EUA), incluyendo el cruce Ciudad Juárez–El Paso, el más transitado del mundo. Escenario del Operativo Conjunto Chihuahua (2008). Corredor clave del Cártel de Sinaloa y el Cártel de Juárez. Forma parte del 'Triángulo Dorado' de producción de drogas junto con Sinaloa y Durango. Población según el Censo 2020 (INEGI).",
+    "riesgos_principales": [
+      "sequía",
+      "heladas",
+      "incendios forestales",
+      "granizadas"
+    ],
+    "descripcion": "Estado más grande de México, con 904 km de frontera con Texas y Nuevo México (EUA), incluyendo el cruce Ciudad Juárez–El Paso, el más transitado del mundo en términos de comercio legal. Escenario del Operativo Conjunto Chihuahua (2008), uno de los primeros despliegues masivos de fuerzas federales en el país. Corredor clave del Cártel de Sinaloa y el Cártel de Juárez, cuya guerra por el control de la plaza (2008–2012) dejó miles de muertos y convirtió a Ciudad Juárez en una de las ciudades más violentas del mundo. Forma parte del 'Triángulo Dorado' de producción de drogas junto con Sinaloa y Durango. La 5ª Zona Militar en Chihuahua y la 42ª en Ciudad Juárez coordinan operaciones de seguridad. Población según el Censo 2020 (INEGI).",
     "fuente_url": "https://www.inegi.org.mx/programas/ccpv/2020/",
     "pendiente_verificacion": true
   },
@@ -179,8 +218,13 @@
     "zona_militar": "1ª Zona Militar (Estado Mayor de la Defensa Nacional)",
     "region_militar": "I Región Militar",
     "presencia_naval": false,
-    "riesgos_principales": ["sismos", "inundaciones urbanas", "hundimiento diferencial del suelo", "deslaves en suelo lacustre"],
-    "descripcion": "Capital federal y principal metrópoli del país (ZMVM con ~22 millones). Sede del gobierno federal y de la mayoría de instituciones nacionales de seguridad. Asentada sobre el antiguo lago de Texcoco, con alta vulnerabilidad sísmica por amplificación de ondas en suelo blando. Devastada por los sismos de 1985 y 2017. El C5-CDMX integra más de 16,000 cámaras. Población según el Censo 2020 (INEGI).",
+    "riesgos_principales": [
+      "sismos",
+      "inundaciones urbanas",
+      "hundimiento diferencial del suelo",
+      "deslaves en suelo lacustre"
+    ],
+    "descripcion": "Capital federal y principal metrópoli del país (ZMVM con ~22 millones). Sede del gobierno federal y de la mayoría de instituciones nacionales de seguridad. Asentada sobre el antiguo lago de Texcoco, con alta vulnerabilidad sísmica por amplificación de ondas en suelo blando. Devastada por los sismos de 1985 y 2017. Bajo la 1ª Zona Militar, coordina con el Estado Mayor de la Defensa Nacional y la I Región Militar. La SSC-CDMX opera más de 16,000 cámaras a través del C5-CDMX. La entidad alberga el Campo Militar No. 1, instalación de la SEDENA de máxima importancia histórica, así como el CEFERESO del Altiplano (Estado de México) y el Centro de Readaptación Social Varonil Oriente. Sede de las principales instancias de coordinación del Sistema Nacional de Seguridad Pública. Población según el Censo 2020 (INEGI).",
     "fuente_url": "https://www.inegi.org.mx/programas/ccpv/2020/",
     "pendiente_verificacion": true
   },
@@ -199,8 +243,13 @@
     "zona_militar": "Zona Militar con sede en Durango",
     "region_militar": "III Región Militar (Mazatlán)",
     "presencia_naval": false,
-    "riesgos_principales": ["incendios forestales", "sequía", "heladas", "sismos"],
-    "descripcion": "Estado del noroeste con vasta cobertura forestal en la Sierra Madre Occidental. Históricamente zona de producción de amapola y tráfico de drogas. La sierra Durango-Sinaloa-Chihuahua forma el llamado 'Triángulo Dorado'. Alta incidencia de incendios forestales en época de estiaje. Capital con notable arquitectura colonial. Población según el Censo 2020 (INEGI).",
+    "riesgos_principales": [
+      "incendios forestales",
+      "sequía",
+      "heladas",
+      "sismos"
+    ],
+    "descripcion": "Estado del noroeste con vasta cobertura forestal en la Sierra Madre Occidental. Históricamente zona de producción de amapola y tráfico de drogas: junto con Sinaloa y Chihuahua conforma el llamado 'Triángulo Dorado', la principal región de cultivo de enervantes en México. La zona serrana de Durango fue escenario de operativos de erradicación de cultivos ilícitos de la SEDENA desde los años setenta (Operación Cóndor). Alta incidencia de incendios forestales en época de estiaje. El Operativo Conjunto Chihuahua (2008) incluyó despliegue en Durango. Capital con notable arquitectura colonial declarada Pueblo Mágico. Población según el Censo 2020 (INEGI).",
     "fuente_url": "https://www.inegi.org.mx/programas/ccpv/2020/",
     "pendiente_verificacion": true
   },
@@ -219,8 +268,13 @@
     "zona_militar": "16ª Zona Militar (Irapuato)",
     "region_militar": "XII Región Militar (Irapuato/Bajío)",
     "presencia_naval": false,
-    "riesgos_principales": ["sismos", "sequía", "granizadas", "inundaciones en el Bajío"],
-    "descripcion": "Estado del Bajío con alta densidad industrial (Corredor automotriz Silao-León-Salamanca, refinería Pemex en Salamanca). En años recientes ha tenido alta incidencia delictiva, especialmente del CJNG y el Cártel de Santa Rosa de Lima, que provocó desplazamientos de población en la región Guanajuato-Irapuato-Salamanca. Capital declarada Patrimonio Mundial de la UNESCO. Población según el Censo 2020 (INEGI).",
+    "riesgos_principales": [
+      "sismos",
+      "sequía",
+      "granizadas",
+      "inundaciones en el Bajío"
+    ],
+    "descripcion": "Estado del Bajío con alta densidad industrial (Corredor automotriz Silao–León–Salamanca, refinería Pemex en Salamanca). En años recientes ha tenido la tasa de homicidios más alta del país en varios períodos, resultado de la disputa violenta entre el Cártel Jalisco Nueva Generación (CJNG) y el Cártel de Santa Rosa de Lima (CSRL) por el control del corredor Guanajuato–Irapuato–Salamanca. Esta disputa también ha involucrado robo de combustible (huachicol) en los ductos de Pemex de la región. La 16ª Zona Militar en Irapuato y la XII Región Militar coordinan operaciones de seguridad en la entidad. Capital declarada Patrimonio Mundial de la UNESCO. Población según el Censo 2020 (INEGI).",
     "fuente_url": "https://www.inegi.org.mx/programas/ccpv/2020/",
     "pendiente_verificacion": true
   },
@@ -240,8 +294,13 @@
     "region_militar": "VII Región Militar",
     "presencia_naval": true,
     "zona_naval": "7ª Zona Naval (Acapulco)",
-    "riesgos_principales": ["huracanes", "sismos", "deslaves", "inundaciones"],
-    "descripcion": "Estado del sur con el principal puerto turístico del Pacífico (Acapulco), devastado por el huracán Otis en octubre de 2023 (categoría 5, el más intenso del Pacífico mexicano). Alta incidencia de violencia vinculada al crimen organizado. La Normal Rural de Ayotzinapa, sede de la desaparición forzada de 43 estudiantes en 2014, se ubica en Iguala. Población según el Censo 2020 (INEGI).",
+    "riesgos_principales": [
+      "huracanes",
+      "sismos",
+      "deslaves",
+      "inundaciones"
+    ],
+    "descripcion": "Estado del sur con el principal puerto turístico del Pacífico (Acapulco), devastado por el huracán Otis en octubre de 2023 (categoría 5, el más intenso registrado en el Pacífico mexicano al tocar tierra). La 27ª Zona Militar en Acapulco y la 35ª en Chilpancingo, junto con la 7ª Zona Naval, coordinan operaciones de seguridad en una entidad con alta complejidad: Guerrero ha sido escenario de disputas entre los Guerreros Unidos, la Familia Michoacana y el CJNG. La desaparición forzada de 43 estudiantes normalistas de Ayotzinapa en Iguala (26 de septiembre de 2014) se convirtió en el caso de derechos humanos más emblemático de la historia reciente del país. Activo corredor de producción y tráfico de heroína. Población según el Censo 2020 (INEGI).",
     "fuente_url": "https://www.inegi.org.mx/programas/ccpv/2020/",
     "pendiente_verificacion": true
   },
@@ -260,8 +319,13 @@
     "zona_militar": "18ª Zona Militar (Pachuca)",
     "region_militar": "I Región Militar",
     "presencia_naval": false,
-    "riesgos_principales": ["sismos", "inundaciones en el Valle del Mezquital", "deslaves en sierra", "heladas"],
-    "descripcion": "Estado del centro-norte con fuerte presencia de comunidades indígenas (otomíes, nahuas). Alberga la refinería Miguel Hidalgo de Pemex en Tula y el NAICM (Aeropuerto Internacional Felipe Ángeles colinda al noreste). Zona afectada por inundaciones del río Tula. Alta incidencia de robo de hidrocarburo (huachicol) en el corredor Pachuca-Tula. Población según el Censo 2020 (INEGI).",
+    "riesgos_principales": [
+      "sismos",
+      "inundaciones en el Valle del Mezquital",
+      "deslaves en sierra",
+      "heladas"
+    ],
+    "descripcion": "Estado del centro-norte con fuerte presencia de comunidades indígenas (otomíes, nahuas, tepehuas). Alberga la refinería Miguel Hidalgo de Pemex en Tula —la más grande del país— y el corredor industrial Pachuca–Tula. El AIFA (Aeropuerto Internacional Felipe Ángeles) colinda al suroeste con el estado. La 18ª Zona Militar en Pachuca y la I Región Militar coordinan las operaciones en la entidad. El corredor Pachuca–Tula–Ixmiquilpan ha registrado alta incidencia de robo de hidrocarburo (huachicol) vinculado a tomas clandestinas en ductos de Pemex, problema que derivó en el 'Operativo Hidalgo' de la SEDENA en 2019. Zona afectada por inundaciones del río Tula. Población según el Censo 2020 (INEGI).",
     "fuente_url": "https://www.inegi.org.mx/programas/ccpv/2020/",
     "pendiente_verificacion": true
   },
@@ -281,8 +345,13 @@
     "region_militar": "II Región Militar (Guadalajara)",
     "presencia_naval": true,
     "zona_naval": "Sector Naval en Puerto Vallarta",
-    "riesgos_principales": ["sismos", "tsunamis", "incendios forestales", "huracanes en litoral"],
-    "descripcion": "Segundo estado más poblado del occidente, sede de la II Región Militar y del Colegio del Aire. ZM de Guadalajara es la segunda más grande del país. Sede del Cártel Jalisco Nueva Generación (CJNG), uno de los más poderosos de México. Puerto Vallarta en el Pacífico norte. Alta actividad sísmica en la región Barca-Chapala. Corredor tecnológico (Silicon Valley mexicano). Población según el Censo 2020 (INEGI).",
+    "riesgos_principales": [
+      "sismos",
+      "tsunamis",
+      "incendios forestales",
+      "huracanes en litoral"
+    ],
+    "descripcion": "Segundo estado más poblado del occidente, sede de la II Región Militar (Guadalajara) y del Colegio del Aire. La ZM de Guadalajara es la segunda más grande del país. Sede histórica y cuartel general del Cártel Jalisco Nueva Generación (CJNG), considerado por la DEA una de las organizaciones criminales más poderosas del mundo. En mayo de 2015, el CJNG emboscó un convoy de la Fuerza Rural y derribó un helicóptero Bell 412 de la SEDENA en Jalisco. Sede de la 5ª Zona Militar en Guadalajara y de un Sector Naval en Puerto Vallarta. Puerto Vallarta en el Pacífico norte. Alta actividad sísmica en la región Barca–Chapala. Corredor tecnológico (Silicon Valley mexicano). Población según el Censo 2020 (INEGI).",
     "fuente_url": "https://www.inegi.org.mx/programas/ccpv/2020/",
     "pendiente_verificacion": true
   },
@@ -301,8 +370,14 @@
     "zona_militar": "22ª Zona Militar (Toluca) / zonas colindantes con CDMX bajo I RM",
     "region_militar": "I Región Militar",
     "presencia_naval": false,
-    "riesgos_principales": ["sismos", "inundaciones", "deslaves en zonas montañosas", "heladas", "nieve"],
-    "descripcion": "Estado más poblado de México, que rodea a la Ciudad de México en tres lados. Sede de la Base Aérea Militar No. 1 (Santa Lucía/AIFA). Alta densidad industrial en el corredor Toluca-Lerma. La ZM de Neza-Chalco-Ecatepec tiene alta incidencia delictiva. Alta exposición sísmica. Segundo presupuesto de seguridad pública más alto del país. Población según el Censo 2020 (INEGI).",
+    "riesgos_principales": [
+      "sismos",
+      "inundaciones",
+      "deslaves en zonas montañosas",
+      "heladas",
+      "nieve"
+    ],
+    "descripcion": "Estado más poblado de México, que rodea a la Ciudad de México en tres lados. Sede de la Base Aérea Militar No. 1 (Santa Lucía/AIFA), bajo administración de la SEDENA. La 22ª Zona Militar en Toluca y la I Región Militar coordinan las operaciones en la entidad. Alta densidad industrial en el corredor Toluca–Lerma. La ZM de Neza–Chalco–Ecatepec tiene alta incidencia delictiva: robo de vehículos, secuestro y extorsión. Alta exposición sísmica. El Penal de Santiaguito, el Penal de Barrientos y varios CEFERESOS se ubican en la entidad. Segundo presupuesto de seguridad pública más alto del país; la Policía del Estado de México es una de las corporaciones estatales más grandes. Población según el Censo 2020 (INEGI).",
     "fuente_url": "https://www.inegi.org.mx/programas/ccpv/2020/",
     "pendiente_verificacion": true
   },
@@ -322,8 +397,13 @@
     "region_militar": "II Región Militar (Guadalajara)",
     "presencia_naval": true,
     "zona_naval": "Sector Naval en Lázaro Cárdenas",
-    "riesgos_principales": ["sismos", "tsunamis", "huracanes en litoral", "incendios forestales"],
-    "descripcion": "Estado escenario del primer Operativo Conjunto federal (2006) y afectado por el sismo 19-S-2022. El puerto de Lázaro Cárdenas es el segundo mayor del Pacífico. Alta presencia de grupos criminales (CJNG, Cárteles Unidos) y autodefensas en la Tierra Caliente. El volcán Paricutín surgió en 1943 en este estado. Corredor aguacatero de exportación internacional. Población según el Censo 2020 (INEGI).",
+    "riesgos_principales": [
+      "sismos",
+      "tsunamis",
+      "huracanes en litoral",
+      "incendios forestales"
+    ],
+    "descripcion": "Estado escenario del primer Operativo Conjunto federal en México (diciembre 2006, contra La Familia Michoacana), con despliegue de más de 5,000 efectivos de SEDENA, SEMAR y PFP. El puerto de Lázaro Cárdenas es el segundo mayor del Pacífico mexicano y punto documentado de ingreso de precursores químicos para la producción de metanfetaminas. Alta presencia del CJNG y grupos denominados 'Cárteles Unidos' en la Tierra Caliente; las autodefensas surgidas en 2013 en respuesta al control cartelero de esa región fueron un fenómeno documentado por el gobierno federal. La 21ª Zona Militar en Morelia y la 43ª en Apatzingán refuerzan el despliegue. Afectado por el sismo 19-S-2022. Corredor aguacatero de exportación internacional (primer lugar mundial). Población según el Censo 2020 (INEGI).",
     "fuente_url": "https://www.inegi.org.mx/programas/ccpv/2020/",
     "pendiente_verificacion": true
   },
@@ -342,8 +422,13 @@
     "zona_militar": "24ª Zona Militar (Cuernavaca)",
     "region_militar": "I Región Militar",
     "presencia_naval": false,
-    "riesgos_principales": ["sismos", "deslaves", "inundaciones", "riesgo volcánico (Popocatépetl)"],
-    "descripcion": "Estado del centro gravemente afectado por el sismo del 19-S-2017, especialmente en Jojutla y Cuautla. Zona de influencia del radio de exclusión del Volcán Popocatépetl. Alta densidad turística (Cuernavaca, 'ciudad de la eterna primavera'). En años recientes alta presencia de crimen organizado en zonas periféricas. Población según el Censo 2020 (INEGI).",
+    "riesgos_principales": [
+      "sismos",
+      "deslaves",
+      "inundaciones",
+      "riesgo volcánico (Popocatépetl)"
+    ],
+    "descripcion": "Estado del centro gravemente afectado por el sismo del 19-S-2017, especialmente en Jojutla, Cuautla y Cuernavaca, donde fallecieron 74 personas. Zona de influencia del radio de exclusión del Volcán Popocatépetl (zona de alerta permanente en municipios del norte). La 24ª Zona Militar en Cuernavaca coordina las operaciones en la entidad. Históricamente relevante en seguridad: en diciembre de 2009, la SEMAR abatió a Arturo Beltrán Leyva 'El Barbas' en un departamento de Cuernavaca, uno de los operativos más significativos del sexenio de Calderón. En años recientes se ha documentado presencia del CJNG y grupos locales en el corredor Cuautla–Jojutla. Población según el Censo 2020 (INEGI).",
     "fuente_url": "https://www.inegi.org.mx/programas/ccpv/2020/",
     "pendiente_verificacion": true
   },
@@ -363,8 +448,13 @@
     "region_militar": "II Región Militar (Guadalajara)",
     "presencia_naval": true,
     "zona_naval": "Sector Naval en San Blas",
-    "riesgos_principales": ["huracanes", "sismos", "tsunamis", "inundaciones"],
-    "descripcion": "Estado del occidente con litoral en el Pacífico norte. Corredor turístico Riviera Nayarit (Nuevo Vallarta, Bucerías, Sayulita). Alta exposición a ciclones del Pacífico durante la temporada junio-noviembre. El río San Pedro-Mezquital es el principal del estado. Comunidades indígenas huicholes (wixaritari) en la sierra. Población según el Censo 2020 (INEGI).",
+    "riesgos_principales": [
+      "huracanes",
+      "sismos",
+      "tsunamis",
+      "inundaciones"
+    ],
+    "descripcion": "Estado del occidente con litoral en el Pacífico norte. Corredor turístico Riviera Nayarit (Nuevo Vallarta, Bucerías, Sayulita). Alta exposición a ciclones del Pacífico durante la temporada junio–noviembre. El río San Pedro–Mezquital es el principal del estado. Comunidades indígenas huicholes (wixaritari) en la sierra. La Zona Militar en Tepic y la II Región Militar coordinan las operaciones locales. Un Sector Naval en San Blas ejerce vigilancia del litoral nayarita. La entidad ha registrado presencia del Cártel de Sinaloa y disputas territoriales con el CJNG en el corredor serrano que conecta con Jalisco y Durango. La gobernadora Roberto Sandoval Castañeda fue señalada en 2017 por vínculos con el crimen organizado, siendo un caso documentado públicamente. Población según el Censo 2020 (INEGI).",
     "fuente_url": "https://www.inegi.org.mx/programas/ccpv/2020/",
     "pendiente_verificacion": true
   },
@@ -383,8 +473,13 @@
     "zona_militar": "7ª Zona Militar (Monterrey)",
     "region_militar": "IX Región Militar (Monterrey)",
     "presencia_naval": false,
-    "riesgos_principales": ["inundaciones urbanas (río Santa Catarina)", "granizadas", "sequía", "heladas"],
-    "descripcion": "Estado industrial del noreste con frontera limitada (Nuevo Laredo está en Tamaulipas). La ZM de Monterrey es el segundo polo industrial del país. Sede de la IX Región Militar. La Fuerza Civil fue creada en 2011 como modelo de corporación policial profesional. El río Santa Catarina atraviesa la ZM y ha causado inundaciones históricas (2010). Alta incidencia histórica de violencia ligada al Cártel del Golfo y Los Zetas. Población según el Censo 2020 (INEGI).",
+    "riesgos_principales": [
+      "inundaciones urbanas (río Santa Catarina)",
+      "granizadas",
+      "sequía",
+      "heladas"
+    ],
+    "descripcion": "Estado industrial del noreste, sede de la IX Región Militar en Monterrey. La ZM de Monterrey es el segundo polo industrial del país. La Fuerza Civil fue creada en 2011 como modelo de corporación policial profesional de alto desempeño, con reclutamiento universitario y entrenamiento avanzado. El río Santa Catarina atraviesa la ZM de Monterrey y causó inundaciones históricas en 2010 (huracán Alex). Nuevo León fue escenario de la disputa entre el Cártel del Golfo y Los Zetas durante los años 2010–2012, con impacto directo en la seguridad metropolitana. La entidad no tiene frontera directa con EUA (Nuevo Laredo está en Tamaulipas), pero el corredor carretero Monterrey–Laredo es uno de los más importantes del continente para el comercio bilateral. Población según el Censo 2020 (INEGI).",
     "fuente_url": "https://www.inegi.org.mx/programas/ccpv/2020/",
     "pendiente_verificacion": true
   },
@@ -404,8 +499,13 @@
     "region_militar": "VIII Región Militar",
     "presencia_naval": true,
     "zona_naval": "11ª Zona Naval (Salina Cruz) — ASTIMAR",
-    "riesgos_principales": ["sismos", "deslaves", "inundaciones", "tsunamis"],
-    "descripcion": "Estado del sur con la mayor diversidad lingüística y étnica del país (16 grupos étnicos reconocidos). Alta sismicidad: gravemente afectado por el sismo del 7-S-2017 (8.2 Mw) y el sismo de junio de 2020 (7.4 Mw). El ASTIMAR en Salina Cruz fabrica buques para la SEMAR. Parques eólicos del Istmo de Tehuantepec con alta capacidad instalada. Capital declarada Patrimonio Mundial de la UNESCO. Población según el Censo 2020 (INEGI).",
+    "riesgos_principales": [
+      "sismos",
+      "deslaves",
+      "inundaciones",
+      "tsunamis"
+    ],
+    "descripcion": "Estado del sur con la mayor diversidad lingüística y étnica del país (16 grupos étnicos y 174 variantes lingüísticas reconocidas). Alta sismicidad: gravemente afectado por el sismo del 7-S-2017 (8.2 Mw) —el más intenso registrado en México en el siglo XXI— y por el sismo de junio de 2020 (7.4 Mw). La 11ª Zona Naval en Salina Cruz alberga el ASTIMAR-2, astillero donde la SEMAR fabrica embarcaciones de patrulla de diseño nacional. El Istmo de Tehuantepec concentra los parques eólicos más grandes de México. La 28ª Zona Militar en Oaxaca y una zona adicional en Ixtepec coordinan las operaciones de seguridad. El corredor costero de la Costa Grande ha registrado disputas entre grupos del crimen organizado. Capital declarada Patrimonio Mundial de la UNESCO. Población según el Censo 2020 (INEGI).",
     "fuente_url": "https://www.inegi.org.mx/programas/ccpv/2020/",
     "pendiente_verificacion": true
   },
@@ -424,8 +524,14 @@
     "zona_militar": "25ª Zona Militar (Puebla)",
     "region_militar": "I Región Militar",
     "presencia_naval": false,
-    "riesgos_principales": ["sismos", "riesgo volcánico (Popocatépetl)", "deslaves", "heladas", "granizadas"],
-    "descripcion": "Estado del centro-oriente, cuyo territorio fue epicentro del sismo del 19-S-2017 (magnitud 7.1). En el radio de influencia del Volcán Popocatépetl. Importante corredor industrial (Volkswagen, Audi en San José Chiapa). Históricamente importante como vía de acceso entre el centro del país y el puerto de Veracruz (Autopista Puebla-Orizaba-Veracruz). Población según el Censo 2020 (INEGI).",
+    "riesgos_principales": [
+      "sismos",
+      "riesgo volcánico (Popocatépetl)",
+      "deslaves",
+      "heladas",
+      "granizadas"
+    ],
+    "descripcion": "Estado del centro-oriente cuyo territorio fue el epicentro del sismo del 19-S-2017 (magnitud 7.1), que causó 370 muertes en todo el país y daños estructurales masivos en la ciudad de Puebla. En el radio de influencia permanente del Volcán Popocatépetl: municipios como San Nicolás de los Ranchos y Santiago Xalizintla se ubican dentro de la zona de exclusión de 12 km. Importante corredor industrial (Volkswagen en Cuautlancingo, Audi en San José Chiapa). La 25ª Zona Militar en Puebla y la I Región Militar coordinan las operaciones. La entidad es corredor de tráfico de personas y mercancías ilícitas entre el centro del país, Oaxaca y Veracruz. La Nueva Autopista Puebla–Oaxaca ha reconfigurado la logística de esa ruta. Población según el Censo 2020 (INEGI).",
     "fuente_url": "https://www.inegi.org.mx/programas/ccpv/2020/",
     "pendiente_verificacion": true
   },
@@ -444,8 +550,12 @@
     "zona_militar": "19ª Zona Militar (Querétaro)",
     "region_militar": "XII Región Militar",
     "presencia_naval": false,
-    "riesgos_principales": ["sequía", "sismos", "granizadas"],
-    "descripcion": "Estado del centro-occidente con uno de los menores índices de violencia del país. Importante parque aeroespacial (Bombardier, Safran, Airbus) y corredor automotriz. Centro histórico declarado Patrimonio Mundial de la UNESCO. Paso estratégico en la carretera federal 57 (México-Laredo). Relativamente baja incidencia delictiva comparada con estados vecinos. Población según el Censo 2020 (INEGI).",
+    "riesgos_principales": [
+      "sequía",
+      "sismos",
+      "granizadas"
+    ],
+    "descripcion": "Estado del centro-occidente con uno de los menores índices de violencia del país y fuerte crecimiento económico. Importante parque aeroespacial (Bombardier, Safran, Honeywell) y corredor automotriz en el Bajío. La 19ª Zona Militar en Querétaro y la XII Región Militar coordinan las operaciones. Centro histórico declarado Patrimonio Mundial de la UNESCO. Paso estratégico en la carretera federal 57 (México–Laredo), la arteria carretera más importante del norte del país. Relativamente baja incidencia delictiva, aunque en años recientes se ha documentado la expansión del CJNG en el corredor Irapuato–Querétaro. Sede de importantes instalaciones logísticas de distribución nacional. Población según el Censo 2020 (INEGI).",
     "fuente_url": "https://www.inegi.org.mx/programas/ccpv/2020/",
     "pendiente_verificacion": true
   },
@@ -465,8 +575,12 @@
     "region_militar": "X Región Militar (Mérida)",
     "presencia_naval": true,
     "zona_naval": "Zona Naval en Cancún / Zona Naval en Cozumel",
-    "riesgos_principales": ["huracanes", "mareas de tormenta", "inundaciones"],
-    "descripcion": "Estado del sureste con el corredor turístico Cancún-Riviera Maya-Tulum, el principal destino turístico internacional de México. Devastado por el huracán Wilma (2005). Frontera con Belice. Alta vulnerabilidad a huracanes del Caribe (categoría 5 históricamente). El Caribe mexicano concentra actividad de crimen organizado vinculada al tráfico de drogas y personas. Población según el Censo 2020 (INEGI).",
+    "riesgos_principales": [
+      "huracanes",
+      "mareas de tormenta",
+      "inundaciones"
+    ],
+    "descripcion": "Estado del sureste con el corredor turístico Cancún–Riviera Maya–Tulum, el principal destino turístico internacional de México. Devastado por el huracán Wilma (2005, categoría 4) y afectado periódicamente por tormentas tropicales del Caribe. Frontera con Belice. La 32ª Zona Militar en Chetumal y una Zona Militar en Cancún, junto con las Zonas Navales en Cancún y Cozumel, vigilan el litoral caribeño. El Caribe mexicano es corredor documentado de tráfico de drogas y personas hacia el territorio continental; la SEMAR realiza patrullajes marítimos permanentes en la zona. La alta afluencia turística internacional y la industria hotelera conviven con una creciente presencia del crimen organizado en actividades de extorsión. Población según el Censo 2020 (INEGI).",
     "fuente_url": "https://www.inegi.org.mx/programas/ccpv/2020/",
     "pendiente_verificacion": true
   },
@@ -485,8 +599,13 @@
     "zona_militar": "12ª Zona Militar (San Luis Potosí)",
     "region_militar": "IX Región Militar",
     "presencia_naval": false,
-    "riesgos_principales": ["sequía", "inundaciones (Zona Huasteca)", "heladas", "granizadas"],
-    "descripcion": "Estado del noreste-occidente con gran diversidad de ecosistemas: desierto en el altiplano, montañas en la sierra y selva húmeda en la Huasteca potosina. Importante minería (plata, zinc) y sector automotriz (GM). La Huasteca Potosina es zona ecoturística emergente. Corredor de tráfico de drogas entre el norte y el Bajío. Población según el Censo 2020 (INEGI).",
+    "riesgos_principales": [
+      "sequía",
+      "inundaciones (Zona Huasteca)",
+      "heladas",
+      "granizadas"
+    ],
+    "descripcion": "Estado del noreste-occidente con gran diversidad de ecosistemas: desierto en el altiplano, montañas en la sierra y selva húmeda en la Huasteca potosina. Importante minería (plata, zinc, fluorita) y sector automotriz (GM en San Luis Potosí). La 12ª Zona Militar en San Luis Potosí y la IX Región Militar coordinan las operaciones. La Huasteca Potosina es zona ecoturística emergente. El corredor carretero San Luis Potosí–Monterrey–Laredo es un eje clave del comercio exterior: el estado actúa como nodo logístico entre el Bajío y la frontera norte, siendo también una ruta de tráfico de drogas documentada. Presencia del Cártel del Noreste y disputas territoriales con el CJNG en municipios de la Huasteca. Población según el Censo 2020 (INEGI).",
     "fuente_url": "https://www.inegi.org.mx/programas/ccpv/2020/",
     "pendiente_verificacion": true
   },
@@ -506,8 +625,13 @@
     "region_militar": "III Región Militar (Mazatlán)",
     "presencia_naval": true,
     "zona_naval": "6ª Zona Naval (Mazatlán)",
-    "riesgos_principales": ["huracanes", "inundaciones", "sismos", "sequía"],
-    "descripcion": "Estado noroestense con litoral sobre el Pacífico y el Golfo de California. Sede histórica del Cártel de Sinaloa, uno de los más poderosos del mundo. Alta productividad agrícola (principales cultivos: maíz, tomate, chile, garbanzo). El puerto de Mazatlán tiene importante actividad pesquera y turística. Escenario del Operativo Conjunto Sinaloa. El 'Triángulo Dorado' (Sinaloa-Durango-Chihuahua) es zona de producción de opiáceos. Población según el Censo 2020 (INEGI).",
+    "riesgos_principales": [
+      "huracanes",
+      "inundaciones",
+      "sismos",
+      "sequía"
+    ],
+    "descripcion": "Estado noroestense con litoral sobre el Pacífico y el Golfo de California. Sede histórica del Cártel de Sinaloa, considerado por la DEA uno de los cárteles más poderosos del mundo, cuyas figuras más notorias son Joaquín 'El Chapo' Guzmán (capturado y extraditado en 2017) e Ismael 'El Mayo' Zambada. El 'Triángulo Dorado' (Sinaloa–Durango–Chihuahua) es zona histórica de producción de amapola y marihuana. La 9ª Zona Militar en Culiacán y la 10ª en Mazatlán, junto con la 6ª Zona Naval en Mazatlán, coordinan las operaciones. Culiacán fue escenario del 'Culiacanazo' (17 de octubre de 2019) y del operativo de captura de Ovidio Guzmán (enero 2023). Alta productividad agrícola (primer lugar nacional en tomate y garbanzo). Población según el Censo 2020 (INEGI).",
     "fuente_url": "https://www.inegi.org.mx/programas/ccpv/2020/",
     "pendiente_verificacion": true
   },
@@ -527,8 +651,13 @@
     "region_militar": "IV Región Militar",
     "presencia_naval": true,
     "zona_naval": "Zona Naval en Guaymas",
-    "riesgos_principales": ["sequía", "incendios forestales", "calor extremo", "sismos"],
-    "descripcion": "Segundo estado más extenso de México, con 600 km de frontera con Arizona (EUA). Importante industria minera (cobre en Cananea y Nacozari) y maquiladora en Hermosillo y Guaymas. Los cruces fronterizos de Nogales, Agua Prieta y Sonoyta son puntos clave de tráfico ilícito. Altamente afectado por la sequía crónica del norte árido y el calor extremo (zona con temperaturas de hasta 50°C). Población según el Censo 2020 (INEGI).",
+    "riesgos_principales": [
+      "sequía",
+      "incendios forestales",
+      "calor extremo",
+      "sismos"
+    ],
+    "descripcion": "Segundo estado más extenso de México, con 600 km de frontera con Arizona (EUA) en los cruces de Nogales, Agua Prieta y Sonoyta. Importante industria minera (cobre en Cananea y Nacozari, oro en Hermosillo). La 8ª Zona Militar en Hermosillo y zonas adicionales en Nogales y Agua Prieta refuerzan la vigilancia fronteriza. La Zona Naval en Guaymas patrulla el Golfo de California. El derrame de la mina Buenavista del Cobre (Grupo México, 2014) en el río Sonora fue el mayor desastre ambiental minero de la historia de México. El corredor de cruces fronterizos de Sonora es clave tanto para el comercio legal (maquiladoras en Hermosillo y Nogales) como para el tráfico ilícito documentado por la DEA. La masacre de la familia LeBarón en Bavispe (noviembre 2019) visibilizó la violencia en la sierra sonorense. Población según el Censo 2020 (INEGI).",
     "fuente_url": "https://www.inegi.org.mx/programas/ccpv/2020/",
     "pendiente_verificacion": true
   },
@@ -548,8 +677,13 @@
     "region_militar": "VI Región Militar (Villahermosa)",
     "presencia_naval": true,
     "zona_naval": "Zona Naval Fluvial en Frontera (Centla)",
-    "riesgos_principales": ["inundaciones", "mareas de tormenta", "lluvias extremas", "deslaves"],
-    "descripcion": "Estado del sureste con la mayor densidad de ríos del país (Grijalva y Usumacinta). Devastado por las inundaciones históricas de 2007 (más del 70% del territorio bajo el agua) y de 2010. Alta producción petrolera (Pemex tiene presencia desde la década de 1950). Zona de operaciones fluviales de la SEMAR. Sede de la VI Región Militar. Población según el Censo 2020 (INEGI).",
+    "riesgos_principales": [
+      "inundaciones",
+      "mareas de tormenta",
+      "lluvias extremas",
+      "deslaves"
+    ],
+    "descripcion": "Estado del sureste con la mayor densidad hídrica del país (ríos Grijalva y Usumacinta). Devastado por las inundaciones históricas de 2007 —más del 70% del territorio bajo el agua, afectando a más de un millón de personas— y por inundaciones recurrentes en 2010, 2020 y 2023. Alta producción petrolera histórica (Pemex tiene presencia desde la década de 1950): la Región Sur concentra campos de gas y petróleo en declive. La SEMAR realiza operaciones fluviales en los ríos del estado. La VI Región Militar con sede en Villahermosa coordina las operaciones del sureste. El municipio de Cunduacán es sede de instalaciones educativas y logísticas de Pemex. Villahermosa concentra la actividad institucional y gubernamental del estado. Población según el Censo 2020 (INEGI).",
     "fuente_url": "https://www.inegi.org.mx/programas/ccpv/2020/",
     "pendiente_verificacion": true
   },
@@ -569,8 +703,13 @@
     "region_militar": "IX Región Militar (Monterrey)",
     "presencia_naval": true,
     "zona_naval": "2ª Zona Naval (Tampico)",
-    "riesgos_principales": ["huracanes", "inundaciones", "sequía en el norte", "frentes fríos"],
-    "descripcion": "Estado fronterizo del noreste con la mayor extensión de frontera con Texas (EUA): cruces de Nuevo Laredo, Reynosa y Matamoros. Zona históricamente disputada entre el Cártel del Golfo y Los Zetas. El Operativo Conjunto Tamaulipas (2010) fue uno de los más prolongados. El Golfo de México provee litoral importante para la pesca y el gas natural offshore. El puerto de Tampico tiene actividad petroquímica significativa. Población según el Censo 2020 (INEGI).",
+    "riesgos_principales": [
+      "huracanes",
+      "inundaciones",
+      "sequía en el norte",
+      "frentes fríos"
+    ],
+    "descripcion": "Estado fronterizo del noreste con la mayor extensión de frontera con Texas (EUA): cruces de Nuevo Laredo, Reynosa, Matamoros y Ciudad Acuña. Zona históricamente disputada entre el Cártel del Golfo y Los Zetas, cuya escisión violenta en 2010 desató una ola de violencia que convirtió a varios municipios de Tamaulipas en las zonas más peligrosas del país durante varios años. El Operativo Conjunto Tamaulipas (2010) fue uno de los más prolongados del sexenio calderonista. El Puerto de Tampico tiene importante actividad petroquímica y pesquera. El Golfo de México provee litoral para la pesca y la explotación de gas natural offshore. La 8ª Zona Naval en Tampico y zonas adicionales vigilan el litoral. En 2022–2023, el Cártel del Noreste (facción Zetas) continuaba disputando plazas con facciones del Cártel del Golfo. Población según el Censo 2020 (INEGI).",
     "fuente_url": "https://www.inegi.org.mx/programas/ccpv/2020/",
     "pendiente_verificacion": true
   },
@@ -589,8 +728,13 @@
     "zona_militar": "23ª Zona Militar (Tlaxcala)",
     "region_militar": "I Región Militar",
     "presencia_naval": false,
-    "riesgos_principales": ["sismos", "riesgo volcánico (La Malinche / Popocatépetl)", "heladas", "granizadas"],
-    "descripcion": "Estado más pequeño de México por superficie, completamente mediterráneo. En el radio de influencia del Popocatépetl y del volcán La Malinche (cuyo Parque Nacional está en su territorio). En años recientes ha registrado aumento en tráfico de personas vinculado a redes del crimen organizado. Relativamente baja incidencia delictiva violenta respecto al promedio nacional. Población según el Censo 2020 (INEGI).",
+    "riesgos_principales": [
+      "sismos",
+      "riesgo volcánico (La Malinche / Popocatépetl)",
+      "heladas",
+      "granizadas"
+    ],
+    "descripcion": "Estado más pequeño de México por superficie, completamente mediterráneo (sin litoral ni frontera exterior). El Parque Nacional La Malinche y el volcán homónimo (4,461 msnm) se ubican en su territorio. En el radio de influencia del Volcán Popocatépetl, cuya actividad afecta municipios del sur del estado. La Zona Militar en Tlaxcala y la I Región Militar coordinan las operaciones. En años recientes se ha documentado un aumento en el tráfico de personas (trata) vinculado a redes del crimen organizado en el corredor Tlaxcala–Puebla, siendo uno de los estados con mayor registro histórico de este delito según la CNDH. Relativamente baja incidencia de homicidios dolosos respecto al promedio nacional. Economía basada en manufactura textil y de autopartes. Población según el Censo 2020 (INEGI).",
     "fuente_url": "https://www.inegi.org.mx/programas/ccpv/2020/",
     "pendiente_verificacion": true
   },
@@ -610,8 +754,14 @@
     "region_militar": "XI Región Militar (Xalapa)",
     "presencia_naval": true,
     "zona_naval": "1ª Zona Naval (Veracruz) — sede de la Fuerza Naval del Golfo",
-    "riesgos_principales": ["huracanes", "inundaciones", "sismos", "deslaves en sierra", "frentes fríos (nortes)"],
-    "descripcion": "Estado del golfo con la mayor tradición portuaria (Puerto de Veracruz, fundado en 1519). Sede de la 1ª Zona Naval (Fuerza Naval del Golfo) y de la Heroica Escuela Naval Militar (Antón Lizardo). Afectado por el huracán Grace (2021). Alta producción de caña de azúcar, cítricos y petróleo en las cuencas del sur (Poza Rica, Coatzacoalcos). La Organización ha tenido disputas violentas entre Zetas y Cártel Jalisco. Población según el Censo 2020 (INEGI).",
+    "riesgos_principales": [
+      "huracanes",
+      "inundaciones",
+      "sismos",
+      "deslaves en sierra",
+      "frentes fríos (nortes)"
+    ],
+    "descripcion": "Estado del golfo con la mayor tradición portuaria de México (Puerto de Veracruz, fundado en 1519, primer puerto de América). Sede de la 1ª Zona Naval —Fuerza Naval del Golfo— y de la Heroica Escuela Naval Militar en Antón Lizardo, la más antigua del país. La SEMAR tiene en Veracruz su principal base del Golfo. Afectado por el huracán Grace (2021) y por inundaciones periódicas. Alta producción de caña de azúcar, cítricos y petróleo en las cuencas del sur (Poza Rica, Coatzacoalcos). Entre 2011 y 2016 el estado vivió una de las crisis de seguridad más graves del país, con disputas entre Los Zetas y el CJNG que resultaron en altos índices de homicidio y desaparición forzada. La 26ª Zona Militar en Veracruz y la VI Región Militar coordinan las operaciones terrestres. Población según el Censo 2020 (INEGI).",
     "fuente_url": "https://www.inegi.org.mx/programas/ccpv/2020/",
     "pendiente_verificacion": true
   },
@@ -631,8 +781,12 @@
     "region_militar": "X Región Militar (Mérida)",
     "presencia_naval": true,
     "zona_naval": "Zona Naval en Progreso",
-    "riesgos_principales": ["huracanes", "mareas de tormenta", "inundaciones"],
-    "descripcion": "Estado del sureste con los menores índices de violencia del país. Mérida figura consistentemente entre las ciudades más seguras de México. Sede de la X Región Militar, que cubre la Península de Yucatán. Alta actividad arqueológica (Chichén Itzá, Uxmal —Patrimonios de la Humanidad). El puerto de Progreso es el principal del estado. La costa peninsular es baja y muy vulnerable a mareas de tormenta. Economía basada en turismo, henequén (sisal) y comercio. Población según el Censo 2020 (INEGI).",
+    "riesgos_principales": [
+      "huracanes",
+      "mareas de tormenta",
+      "inundaciones"
+    ],
+    "descripcion": "Estado del sureste con los menores índices de violencia del país; Mérida figura consistentemente entre las ciudades más seguras de México y Latinoamérica. Sede de la X Región Militar, que cubre toda la Península de Yucatán. El Puerto de Progreso es el principal del estado y recibe cruceros internacionales. La costa peninsular es baja y muy vulnerable a mareas de tormenta y nortes invernales. Economía basada en turismo arqueológico (Chichén Itzá y Uxmal, Patrimonios de la Humanidad UNESCO), henequén (sisal) y manufactura ligera. La baja incidencia delictiva se atribuye a factores históricos y geográficos: la península yucateca ha sido relativamente periférica a los corredores del crimen organizado. Sin embargo, el crecimiento del Tren Maya y la actividad turística han atraído mayor atención de organizaciones criminales en años recientes. Población según el Censo 2020 (INEGI).",
     "fuente_url": "https://www.inegi.org.mx/programas/ccpv/2020/",
     "pendiente_verificacion": true
   },
@@ -651,8 +805,13 @@
     "zona_militar": "Zona Militar con sede en Zacatecas",
     "region_militar": "XII Región Militar (Irapuato/Bajío)",
     "presencia_naval": false,
-    "riesgos_principales": ["sequía", "heladas", "granizadas", "sismos"],
-    "descripcion": "Estado del occidente con importante tradición minera (plata). En años recientes ha registrado un aumento drástico de la violencia vinculada a la disputa entre el Cártel de Sinaloa, el CJNG y grupos locales, con tasas de homicidio entre las más altas del país. Capital declarada Patrimonio Mundial de la UNESCO (2003). Alta tasa de migración histórica hacia Estados Unidos. Población según el Censo 2020 (INEGI).",
+    "riesgos_principales": [
+      "sequía",
+      "heladas",
+      "granizadas",
+      "sismos"
+    ],
+    "descripcion": "Estado del occidente con importante tradición minera (primer productor de plata en el mundo colonial). Capital declarada Patrimonio Mundial de la UNESCO (1993). Alta tasa de migración histórica hacia Estados Unidos; la diáspora zacatecana es una de las más importantes en EUA. En años recientes ha registrado un aumento drástico de la violencia vinculada a la disputa entre el Cártel de Sinaloa, el CJNG y el Cártel del Noreste por el control de corredores carreteros estratégicos, con tasas de homicidio entre las más altas del país desde 2020. La 11ª Zona Militar en Zacatecas y la XII Región Militar coordinan las operaciones. El corredor carretero Zacatecas–Fresnillo–Jerez ha sido el principal escenario de la disputa territorial entre estos grupos. Población según el Censo 2020 (INEGI).",
     "fuente_url": "https://www.inegi.org.mx/programas/ccpv/2020/",
     "pendiente_verificacion": true
   }
