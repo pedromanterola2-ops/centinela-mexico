@@ -49,10 +49,17 @@ async function getTotales(): Promise<TotalesIndexados> {
 export default async function HomePage() {
   const totales = await getTotales();
 
+  const heroStats = [
+    { label: "Fuerzas / dependencias", value: String(totales.fuerzas_armadas), accent: true },
+    { label: "Entidades federativas", value: String(totales.estados) },
+    { label: "Equipos catalogados", value: String(totales.equipamiento) },
+    { label: "Instalaciones indexadas", value: String(totales.instalaciones) },
+  ];
+
   return (
     <>
       {/* Hero + búsqueda global */}
-      <Hero />
+      <Hero stats={heroStats} />
 
       <div className="pb-4">
         <SearchBar />

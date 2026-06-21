@@ -1,13 +1,13 @@
 import Link from "next/link";
 
-const STATS = [
-  { label: "Fuerzas armadas", value: "4",  accent: true },
-  { label: "Entidades federativas", value: "32" },
-  { label: "Zonas militares", value: "46" },
-  { label: "Equipos catalogados", value: "—" },
-];
+export interface HeroStat {
+  label: string;
+  value: string;
+  accent?: boolean;
+}
 
-export function Hero() {
+export function Hero({ stats }: { stats: HeroStat[] }) {
+  const STATS = stats;
   return (
     <section className="relative overflow-hidden py-14 sm:py-20 bg-grid">
       {/* Luz sutil en esquina superior izquierda */}
