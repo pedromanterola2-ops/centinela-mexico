@@ -88,6 +88,9 @@ export default async function ActualidadPage({ searchParams }: PageProps) {
     tipo: "gobierno",
   }));
 
+  // Fuentes especializadas con contenido de México ahora mismo (para el directorio).
+  const presentes = new Set(especializados.map((e) => e.fuenteSlug));
+
   const especiales: Item[] = especializados.map((e) => ({
     id: e.id,
     titulo: e.titulo,
@@ -133,8 +136,9 @@ export default async function ActualidadPage({ searchParams }: PageProps) {
           Dos niveles de fuentes: boletines de dependencias{" "}
           <strong>oficiales</strong> y publicaciones recientes de{" "}
           <strong>medios y canales especializados</strong> de divulgación y
-          análisis (no oficiales). Cada nota enlaza directamente a su fuente. Las
-          publicaciones de medios se actualizan automáticamente desde sus feeds.
+          análisis (no oficiales). Cada nota enlaza directamente a su fuente. De
+          las fuentes especializadas solo se muestran las publicaciones
+          relacionadas con México; las que no tratan del país no aparecen.
         </p>
       </div>
 
@@ -249,7 +253,13 @@ export default async function ActualidadPage({ searchParams }: PageProps) {
 
       {/* Directorio de fuentes por nivel */}
       <section className="mt-12 space-y-8">
-        {(["oficial", "especializada"] as Tier[]).map((tier) => (
+        {(["oficial", "especializada"] as Tier[]).map((tier) => {
+          const lista =
+            tier === "oficial"
+              ? fuentesPorTier(tier)
+              : fuentesPorTier(tier).filter((f) => presentes.has(f.slug));
+          if (lista.length === 0) return null;
+          return (
           <div key={tier}>
             <h2 className="text-sm font-semibold text-green-400 uppercase tracking-widest mb-4">
               {tier === "oficial"
@@ -257,7 +267,7 @@ export default async function ActualidadPage({ searchParams }: PageProps) {
                 : "Divulgación y análisis especializado (no oficial)"}
             </h2>
             <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-3">
-              {fuentesPorTier(tier).map((f) => (
+              {lista.map((f) => (
                 <a
                   key={f.slug}
                   href={f.url}
@@ -286,7 +296,8 @@ export default async function ActualidadPage({ searchParams }: PageProps) {
               ))}
             </div>
           </div>
-        ))}
+          );
+        })}
       </section>
 
       <p className="mt-10 text-[11px] text-text-muted/50 leading-relaxed">

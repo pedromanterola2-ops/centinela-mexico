@@ -29,6 +29,15 @@ const REVALIDATE_SECONDS = 1800; // 30 min
 const TIMEOUT_MS = 8000;
 const PER_SOURCE = 6;
 
+/**
+ * Filtro de relevancia a México (alta precisión). Solo se conservan los items
+ * de fuentes especializadas que mencionan a México o a sus instituciones/estados
+ * de seguridad. Una fuente sin coincidencias simplemente no aporta items y se
+ * oculta de la sección.
+ */
+const ES_MEXICO =
+  /m[eé]xic|mexican[oa]s?|sedena|\bsemar\b|sheinbaum|\bcdmx\b|cenapred|\bcjng\b|michoac[aá]n|sinaloa|tamaulipas|\bchiapas\b|\boaxaca\b|\bjalisco\b|guardia nacional|ej[eé]rcito mexicano|fuerza a[eé]rea mexicana|armada de m[eé]xico/i;
+
 /** Decodifica el cuerpo respetando el charset declarado (header o prólogo XML). */
 function decodeBuffer(buf: ArrayBuffer, contentType: string | null): string {
   const bytes = new Uint8Array(buf);
@@ -85,9 +94,18 @@ function parseFeed(xml: string, f: Fuente): ItemActualidad[] {
     : xml.split(/<item[\s>]/i).slice(1).map((b) => "<item " + b.split(/<\/item>/i)[0] + "</item>");
 
   const items: ItemActualidad[] = [];
-  for (const block of blocks.slice(0, PER_SOURCE)) {
+  for (const block of blocks) {
+    if (items.length >= PER_SOURCE) break;
     const titulo = decode(tag(block, "title") ?? "");
     if (!titulo) continue;
+
+    const resumenRaw0 = isAtom
+      ? tag(block, "media:description") ?? tag(block, "summary") ?? tag(block, "content")
+      : tag(block, "description") ?? tag(block, "content:encoded");
+    const resumenFull = decode(resumenRaw0 ?? "");
+
+    // Filtro de relevancia a México sobre título + resumen completo.
+    if (!ES_MEXICO.test(`${titulo} ${resumenFull}`)) continue;
 
     let url: string | null = null;
     if (isAtom) {
@@ -103,16 +121,12 @@ function parseFeed(xml: string, f: Fuente): ItemActualidad[] {
       ? tag(block, "published") ?? tag(block, "updated")
       : tag(block, "pubDate") ?? tag(block, "dc:date");
 
-    const resumenRaw = isAtom
-      ? tag(block, "media:description") ?? tag(block, "summary") ?? tag(block, "content")
-      : tag(block, "description") ?? tag(block, "content:encoded");
-
     items.push({
       id: `${f.slug}:${url ?? titulo}`,
       titulo,
       url,
       fecha: toYMD(fechaRaw),
-      resumen: truncate(decode(resumenRaw ?? "")) || null,
+      resumen: truncate(resumenFull) || null,
       fuente: f.nombre,
       fuenteSlug: f.slug,
       tier: "especializada",

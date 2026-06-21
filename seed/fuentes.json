@@ -130,29 +130,5 @@
     "pais": "AR",
     "ingesta": "activa",
     "prioridad": false
-  },
-  {
-    "slug": "zona-militar",
-    "nombre": "Zona Militar",
-    "descripcion": "Medio especializado en defensa y seguridad de América Latina. Su feed restringe el acceso automatizado; se enlaza directamente.",
-    "url": "https://www.zona-militar.com",
-    "rss_url": "https://www.zona-militar.com/feed/",
-    "tier": "especializada",
-    "tipo": "medio",
-    "pais": "AR",
-    "ingesta": "no_disponible",
-    "prioridad": false
-  },
-  {
-    "slug": "conflictradar360",
-    "nombre": "Conflict Radar 360",
-    "descripcion": "Sitio de seguimiento y análisis de conflictos. No expone un feed público; se enlaza directamente.",
-    "url": "https://www.conflictradar360.com",
-    "rss_url": null,
-    "tier": "especializada",
-    "tipo": "medio",
-    "pais": "INT",
-    "ingesta": "ninguna",
-    "prioridad": false
   }
 ]
