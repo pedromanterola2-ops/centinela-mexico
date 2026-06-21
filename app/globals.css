@@ -1,0 +1,130 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* ─── Variables CSS ────────────────────────────────────────────────────── */
+:root {
+  --color-bg: #080d0b;
+  --color-surface: #0f1712;
+  --color-elevated: #162019;
+  --color-border: #1e2e24;
+  --color-green: #2d7a47;
+  --color-green-light: #3d9e5e;
+  --color-guinda: #9b1a30;
+  --color-cobre: #b87340;
+  --color-cobre-light: #d4945a;
+  --color-text: #d1e0d8;
+  --color-text-bright: #e8f0ec;
+  --color-text-muted: #7a9486;
+}
+
+/* ─── Base ─────────────────────────────────────────────────────────────── */
+@layer base {
+  html {
+    @apply scroll-smooth;
+  }
+
+  body {
+    background-color: var(--color-bg);
+    color: var(--color-text);
+    font-family: var(--font-sans), system-ui, sans-serif;
+    @apply antialiased;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    font-family: var(--font-sans), system-ui, sans-serif;
+    letter-spacing: -0.02em;
+  }
+
+  .font-mono, code, pre, [class*="font-mono"] {
+    font-family: var(--font-mono), monospace;
+  }
+
+  ::selection {
+    background-color: var(--color-green);
+    color: #fff;
+  }
+
+  /* Scrollbar personalizado */
+  ::-webkit-scrollbar {
+    width: 6px;
+    height: 6px;
+  }
+  ::-webkit-scrollbar-track {
+    background: var(--color-bg);
+  }
+  ::-webkit-scrollbar-thumb {
+    background: var(--color-border);
+    border-radius: 3px;
+  }
+  ::-webkit-scrollbar-thumb:hover {
+    background: var(--color-green);
+  }
+}
+
+/* ─── Components ───────────────────────────────────────────────────────── */
+@layer components {
+  /* Línea divisoria con color verde-militar */
+  .divider {
+    @apply border-t border-border;
+  }
+
+  /* Caja de dato con borde izquierdo de acento */
+  .stat-card {
+    @apply bg-bg-surface border border-border rounded-lg p-4;
+    border-left: 3px solid var(--color-green);
+  }
+
+  /* Etiqueta de fuente pendiente */
+  .badge-pendiente {
+    @apply inline-flex items-center gap-1 text-xs px-2 py-0.5 rounded-full;
+    background: rgba(155, 26, 48, 0.15);
+    color: #e88a98;
+    border: 1px solid rgba(155, 26, 48, 0.3);
+  }
+
+  /* Etiqueta de fuente verificada */
+  .badge-verificado {
+    @apply inline-flex items-center gap-1 text-xs px-2 py-0.5 rounded-full;
+    background: rgba(45, 122, 71, 0.15);
+    color: #7dca9c;
+    border: 1px solid rgba(45, 122, 71, 0.3);
+  }
+
+  /* Input de búsqueda global */
+  .search-input {
+    @apply w-full bg-bg-surface border border-border rounded px-4 py-2.5 text-sm text-text
+    placeholder:text-text-muted focus:outline-none transition-colors;
+    font-family: var(--font-sans), system-ui, sans-serif;
+  }
+  .search-input:focus {
+    border-color: var(--color-green);
+    box-shadow: 0 0 0 1px var(--color-green);
+  }
+
+  /* Etiqueta monospace de dato — label pequeño arriba de un número */
+  .data-label {
+    font-family: var(--font-mono), monospace;
+    font-size: 9px;
+    letter-spacing: 0.15em;
+    text-transform: uppercase;
+    color: var(--color-text-muted);
+  }
+
+  /* Grid pattern de fondo */
+  .bg-grid {
+    background-image: linear-gradient(
+        rgba(45, 122, 71, 0.03) 1px,
+        transparent 1px
+      ),
+      linear-gradient(90deg, rgba(45, 122, 71, 0.03) 1px, transparent 1px);
+    background-size: 48px 48px;
+  }
+}
+
+/* ─── Utilities ────────────────────────────────────────────────────────── */
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+}

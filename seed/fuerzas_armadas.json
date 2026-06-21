@@ -1,0 +1,178 @@
+[
+  {
+    "slug": "sedena",
+    "nombre": "Secretaría de la Defensa Nacional",
+    "siglas": "SEDENA",
+    "tipo": "fuerza_armada",
+    "dependencia": "Poder Ejecutivo Federal",
+    "anio_fundacion": 1937,
+    "mision": "Organizar, administrar, adiestrar, equipar y desarrollar a las Fuerzas Armadas de tierra y aire para la defensa exterior y seguridad interior del país.",
+    "efectivos_aprox": 220000,
+    "presupuesto_aprox": null,
+    "anio_presupuesto": null,
+    "estructura": {
+      "ramas": ["Ejército Mexicano", "Fuerza Aérea Mexicana"],
+      "regiones_militares": 12,
+      "zonas_militares": 46,
+      "guarniciones_aprox": 238,
+      "doctrina_y_planes": [
+        "Plan DN-III-E (auxilio a la población civil en desastres)",
+        "Plan DN-I (Defensa Interior del Territorio Nacional)",
+        "Plan DN-II (Defensa contra Invasión Exterior)"
+      ],
+      "academias": [
+        "Heroico Colegio Militar",
+        "Escuela Militar de Ingenieros",
+        "Escuela Militar de Medicina",
+        "Escuela Militar de Aviación (Colegio del Aire)",
+        "Escuela Militar de Materiales de Guerra"
+      ],
+      "industria": [
+        "Dirección General de Industria Militar (DGIM)",
+        "Fábrica de Armas (FX-05, municiones)",
+        "Fábricas de ropa, calzado y equipo"
+      ]
+    },
+    "descripcion": "Principal institución armada de México, encargada de la defensa nacional y el apoyo a la seguridad interior. Creada por decreto el 1 de septiembre de 1937, agrupa al Ejército Mexicano y a la Fuerza Aérea Mexicana, y se organiza territorialmente en 12 regiones y 46 zonas militares. Cuenta con la Dirección General de Industria Militar (DGIM), que fabrica el fusil FX-05 Xiuhcóatl y municiones de uso exclusivo. Su instrumento de auxilio a la población en desastres es el Plan DN-III-E, activado en todos los desastres naturales mayores del país desde 1985.",
+    "fuente_url": "https://www.gob.mx/sedena",
+    "pendiente_verificacion": true
+  },
+  {
+    "slug": "armada-de-mexico",
+    "nombre": "Secretaría de Marina — Armada de México",
+    "siglas": "SEMAR",
+    "tipo": "fuerza_armada",
+    "dependencia": "Poder Ejecutivo Federal",
+    "anio_fundacion": 1940,
+    "mision": "Emplear el Poder Naval de la Federación para la defensa exterior y coadyuvar en la seguridad interior del país, con énfasis en la vigilancia de la Zona Económica Exclusiva.",
+    "efectivos_aprox": 60000,
+    "presupuesto_aprox": null,
+    "anio_presupuesto": null,
+    "estructura": {
+      "mandos_navales_regionales": 10,
+      "zonas_navales": 16,
+      "sectores_navales": 32,
+      "subsectores_navales": null,
+      "fuerzas_navales": ["Fuerza Naval del Golfo", "Fuerza Naval del Pacífico"],
+      "infanteria_marina": "Cuerpo de Infantería de Marina",
+      "fuerzas_especiales": "Fuerzas Especiales de la Armada de México (FEAM)",
+      "doctrina_y_planes": [
+        "Plan Marina (auxilio a la población civil)",
+        "Programa de Atención Médica de Primer Contacto"
+      ],
+      "academias": [
+        "Heroica Escuela Naval Militar (Antón Lizardo, Veracruz)"
+      ],
+      "astilleros": [
+        "ASTIMAR-1 (Veracruz)",
+        "ASTIMAR-2 (Salina Cruz, Oaxaca)",
+        "ASTIMAR-3 (Manzanillo, Colima)"
+      ]
+    },
+    "descripcion": "Fuerza naval de México encargada de la defensa del mar territorial, aguas interiores y Zona Económica Exclusiva (200 millas náuticas en ambos litorales). Fundada como Secretaría de Marina en 1940, organiza el Poder Naval en 10 mandos regionales, 16 zonas y 32 sectores navales. Cuenta con el Cuerpo de Infantería de Marina y las FEAM para operaciones especiales. Sus astilleros (ASTIMAR) construyen buques de guerra de diseño nacional, incluyendo el ARM Reformador (POLA-001, 2018). Su plan de auxilio a la población es el Plan Marina.",
+    "fuente_url": "https://www.gob.mx/semar",
+    "pendiente_verificacion": true
+  },
+  {
+    "slug": "guardia-nacional",
+    "nombre": "Guardia Nacional",
+    "siglas": "GN",
+    "tipo": "fuerza_seguridad",
+    "dependencia": "Secretaría de Seguridad y Protección Ciudadana",
+    "anio_fundacion": 2019,
+    "mision": "Realizar la función de seguridad pública a cargo de la Federación y salvaguardar la vida, las libertades, la integridad y el patrimonio de las personas.",
+    "efectivos_aprox": 100000,
+    "presupuesto_aprox": null,
+    "anio_presupuesto": null,
+    "estructura": {
+      "coordinaciones_estatales": 32,
+      "coordinaciones_regionales": 6,
+      "cuarteles_regionales": null,
+      "marco_legal": "Ley de la Guardia Nacional — DOF 27/06/2019",
+      "funciones": [
+        "Prevención del delito y violencia",
+        "Seguridad en carreteras, vías y zonas federales",
+        "Apoyo a operaciones de seguridad pública estatal y municipal",
+        "Guardia, custodia y vigilancia de instalaciones estratégicas",
+        "Investigación policial (Policía de Investigación GN)"
+      ],
+      "antecesores": [
+        "Policía Federal (disuelta 2019)",
+        "Policía Militar (integrada a GN)",
+        "Policía Naval (integrada a GN)"
+      ]
+    },
+    "descripcion": "Corporación de seguridad pública federal creada por decreto del DOF el 27 de junio de 2019, en sustitución de la Policía Federal. Integra elementos de la extinta Policía Federal, la Policía Militar de la SEDENA y la Policía Naval de la SEMAR. Se despliega mediante 32 coordinaciones estatales y 6 regionales. Desde diciembre de 2022, por reforma constitucional, quedó adscrita a la SEDENA, aunque sigue coordinando con la SSPC en materia de política de seguridad pública.",
+    "fuente_url": "https://www.dof.gob.mx/nota_detalle.php?codigo=5563178&fecha=27/06/2019",
+    "pendiente_verificacion": true
+  },
+  {
+    "slug": "fuerza-aerea-mexicana",
+    "nombre": "Fuerza Aérea Mexicana",
+    "siglas": "FAM",
+    "tipo": "fuerza_armada",
+    "dependencia": "SEDENA",
+    "anio_fundacion": 1944,
+    "mision": "Defender la soberanía del espacio aéreo nacional, apoyar operaciones terrestres y cumplir misiones humanitarias en aplicación del Plan DN-III-E.",
+    "efectivos_aprox": null,
+    "presupuesto_aprox": null,
+    "anio_presupuesto": null,
+    "estructura": {
+      "bases_aereas_militares": 8,
+      "reconocimiento_formal": "10 de febrero de 1944",
+      "escuadrones": [
+        "Escuadrones de caza/interceptación (F-5E/F Tiger II)",
+        "Escuadrones de transporte (C-130, C-295, CN-235)",
+        "Escuadrones de entrenamiento (PC-7, PC-9M)",
+        "Unidades de helicópteros (UH-60, Mi-17, Bell 412, MD 530F)"
+      ],
+      "doctrina_y_planes": [
+        "Apoyo aéreo al Plan DN-III-E",
+        "Defensa del espacio aéreo (interceptación)",
+        "Transporte VIP y logístico"
+      ],
+      "academias": [
+        "Colegio del Aire (Escuela Militar de Aviación — Zapopan, Jalisco)"
+      ],
+      "bases_principales": [
+        "BAM No. 1 — Santa Lucía, Estado de México (AIFA)",
+        "BAM No. 2 — Ixtepec, Oaxaca",
+        "BAM No. 4 — Zapopan, Jalisco"
+      ]
+    },
+    "descripcion": "Componente aéreo del Ejército Mexicano, reconocido formalmente el 10 de febrero de 1944 (aunque sus antecedentes datan de 1915). Opera desde 8 bases aéreas distribuidas en el territorio nacional y agrupa unidades de interceptación (F-5E Tiger II), transporte (C-130, C-295, CN-235), entrenamiento (PC-7, PC-9M) y helicópteros (UH-60, Mi-17, MD 530F, Bell 412). Brinda apoyo aéreo en misiones humanitarias del Plan DN-III-E y es responsable de la vigilancia y control del espacio aéreo nacional.",
+    "fuente_url": "https://www.gob.mx/sedena",
+    "pendiente_verificacion": true
+  },
+  {
+    "slug": "sspc",
+    "nombre": "Secretaría de Seguridad y Protección Ciudadana",
+    "siglas": "SSPC",
+    "tipo": "dependencia_seguridad",
+    "dependencia": "Poder Ejecutivo Federal",
+    "anio_fundacion": 2018,
+    "mision": "Formular y ejecutar las políticas, programas y acciones tendientes a garantizar la seguridad pública de la nación y coadyuvar a la gobernabilidad democrática.",
+    "efectivos_aprox": null,
+    "presupuesto_aprox": null,
+    "anio_presupuesto": null,
+    "estructura": {
+      "organos_coordinados": [
+        "Guardia Nacional (hasta 2022, ahora en SEDENA)",
+        "Coordinación Nacional de Protección Civil (CNPC)",
+        "Centro Nacional de Inteligencia (CNI)",
+        "Secretariado Ejecutivo del SNSP (SESNSP)",
+        "Centro Nacional de Prevención y Readaptación Social (CEFERESO)"
+      ],
+      "marco_legal": "Decreto DOF 30/11/2018 (creación) — reemplaza a la SSP y la Segob en materia de seguridad",
+      "funciones_principales": [
+        "Coordinación del Sistema Nacional de Seguridad Pública",
+        "Inteligencia para la seguridad interior",
+        "Política penitenciaria federal",
+        "Coordinación de Protección Civil federal"
+      ]
+    },
+    "descripcion": "Dependencia del Ejecutivo Federal creada en 2018 para asumir las funciones de seguridad que correspondían a la Secretaría de Gobernación. Coordina el Sistema Nacional de Seguridad Pública (SNSP) con los estados y municipios mediante el SESNSP, el cual publica las estadísticas delictivas oficiales. Supervisa la Coordinación Nacional de Protección Civil (CNPC) y el CENAPRED. Desde diciembre de 2022, la Guardia Nacional pasó a adscribirse a la SEDENA, aunque la SSPC mantiene la rectoría de la política de seguridad.",
+    "fuente_url": "https://www.gob.mx/sspc",
+    "pendiente_verificacion": false
+  }
+]

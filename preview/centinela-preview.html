@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Centinela México — Vista previa</title>
+<style>
+  :root{
+    --bg:#080d0b; --surface:#0f1712; --elevated:#162019; --border:#1e2e24;
+    --green:#2d7a47; --green-light:#3d9e5e; --green-400:#4caf6d; --guinda:#9b1a30;
+    --guinda-300:#e88a98; --text:#d1e0d8; --muted:#7a9486;
+    --amber:#d97706; --sky:#0284c7;
+  }
+  *{box-sizing:border-box;margin:0;padding:0}
+  body{background:var(--bg);color:var(--text);font-family:system-ui,-apple-system,"Segoe UI",sans-serif;-webkit-font-smoothing:antialiased;line-height:1.5}
+  a{color:inherit;text-decoration:none}
+  .mono{font-family:ui-monospace,Menlo,Consolas,monospace}
+  .wrap{max-width:1100px;margin:0 auto;padding:0 20px}
+  /* Header */
+  header{position:sticky;top:0;z-index:50;border-bottom:1px solid var(--border);background:rgba(8,13,11,.95);backdrop-filter:blur(6px)}
+  .hrow{display:flex;align-items:center;justify-content:space-between;height:56px;gap:16px}
+  .logo{display:flex;align-items:center;gap:10px}
+  .logo .mark{display:flex;height:28px;width:28px;align-items:center;justify-content:center;border-radius:6px;border:1px solid rgba(45,122,71,.4);background:rgba(45,122,71,.1);color:var(--green-400);font-weight:700;font-size:11px}
+  .logo .t1{font-size:14px;font-weight:600;line-height:1}
+  .logo .t2{display:block;font-size:10px;color:var(--muted);letter-spacing:.18em;text-transform:uppercase;line-height:1.4}
+  nav.main{display:flex;gap:2px;flex-wrap:wrap}
+  nav.main button{background:none;border:none;cursor:pointer;white-space:nowrap;border-radius:5px;padding:6px 10px;font-size:12px;font-weight:500;color:var(--muted);transition:.15s;font-family:inherit}
+  nav.main button:hover{color:var(--text);background:var(--elevated)}
+  nav.main button.active{background:rgba(45,122,71,.12);color:var(--green-400)}
+  /* sections */
+  .page{display:none;padding:40px 0 60px}
+  .page.show{display:block}
+  .sec-label{font-size:11px;font-weight:600;color:var(--muted);text-transform:uppercase;letter-spacing:.18em;margin-bottom:8px}
+  h1.title{font-size:30px;font-weight:700;margin-bottom:12px}
+  .lede{font-size:14px;color:var(--muted);max-width:640px;line-height:1.7}
+  h2.group{font-size:13px;font-weight:600;color:var(--green-400);text-transform:uppercase;letter-spacing:.15em;margin:28px 0 12px}
+  .grid{display:grid;gap:12px}
+  .g3{grid-template-columns:repeat(3,1fr)}
+  .g4{grid-template-columns:repeat(4,1fr)}
+  @media(max-width:800px){.g3,.g4{grid-template-columns:repeat(2,1fr)}nav.main{display:none}}
+  @media(max-width:520px){.g3,.g4{grid-template-columns:1fr}}
+  .card{border:1px solid var(--border);background:var(--surface);border-radius:10px;padding:18px;transition:.2s}
+  .card:hover{border-color:rgba(45,122,71,.4);transform:translateY(-2px)}
+  .badge{display:inline-flex;align-items:center;gap:5px;font-size:11px;font-weight:500;padding:2px 9px;border-radius:999px}
+  .b-ver{background:rgba(45,122,71,.12);color:#7dca9c;border:1px solid rgba(45,122,71,.25)}
+  .b-pend{background:rgba(155,26,48,.12);color:var(--guinda-300);border:1px solid rgba(155,26,48,.25)}
+  .b-gris{background:var(--elevated);color:var(--muted);border:1px solid var(--border)}
+  .dot{height:6px;width:6px;border-radius:50%;background:currentColor;opacity:.7}
+  .ico{display:flex;height:44px;width:44px;align-items:center;justify-content:center;border-radius:9px;border:1px solid rgba(45,122,71,.3);background:rgba(45,122,71,.1);color:var(--green-400);font-weight:700;font-size:12px}
+  .between{display:flex;align-items:flex-start;justify-content:space-between;margin-bottom:14px}
+  .cardtitle{font-size:14px;font-weight:600;margin-bottom:4px}
+  .card:hover .cardtitle{color:var(--green-400)}
+  .csub{font-size:12px;color:var(--muted);line-height:1.5;margin-bottom:12px}
+  .cmeta{font-size:10px;color:rgba(122,148,134,.7)}
+  .cmeta .sep{color:var(--border)}
+  /* hero */
+  .hero{text-align:center;padding:60px 0 30px;border-bottom:1px solid var(--border);position:relative;background-image:linear-gradient(rgba(45,122,71,.04) 1px,transparent 1px),linear-gradient(90deg,rgba(45,122,71,.04) 1px,transparent 1px);background-size:40px 40px}
+  .hero h1{font-size:40px;font-weight:800;letter-spacing:-.02em;margin-bottom:14px}
+  .hero h1 .accent{color:var(--green-400)}
+  .hero p{font-size:15px;color:var(--muted);max-width:600px;margin:0 auto 26px}
+  .search{max-width:560px;margin:0 auto;display:flex;border:1px solid var(--border);background:var(--surface);border-radius:10px;overflow:hidden}
+  .search input{flex:1;background:none;border:none;outline:none;color:var(--text);padding:13px 16px;font-size:14px;font-family:inherit}
+  .search input::placeholder{color:var(--muted)}
+  .search .btn{background:rgba(45,122,71,.12);color:var(--green-400);border:none;border-left:1px solid var(--border);padding:0 18px;font-size:13px;font-weight:600;cursor:pointer;font-family:inherit}
+  .totals{display:flex;flex-wrap:wrap;gap:10px;justify-content:center;margin-top:34px}
+  .total{border:1px solid var(--border);background:var(--surface);border-radius:9px;padding:12px 18px;min-width:96px}
+  .total .n{font-size:24px;font-weight:700;color:var(--green-400)}
+  .total .l{font-size:10px;color:var(--muted);text-transform:uppercase;letter-spacing:.1em;margin-top:2px}
+  /* stat */
+  .stat{border:1px solid var(--border);background:var(--surface);border-radius:10px;padding:16px;border-left:2px solid var(--green)}
+  .stat.gnd{border-left-color:var(--guinda)}
+  .stat .sl{font-size:11px;color:var(--muted);text-transform:uppercase;letter-spacing:.08em;margin-bottom:4px}
+  .stat .sv{font-size:22px;font-weight:600}
+  .stat .sv.pend{font-size:15px;color:var(--muted)}
+  .stat .ss{font-size:11px;color:var(--muted);margin-top:3px}
+  /* chips */
+  .chips{display:flex;flex-wrap:wrap;gap:8px;align-items:center;margin-bottom:20px}
+  .chip{border:1px solid var(--border);background:var(--surface);color:var(--muted);border-radius:999px;padding:5px 13px;font-size:12px;font-weight:500;cursor:default}
+  .chip.on{border-color:rgba(45,122,71,.4);background:rgba(45,122,71,.15);color:var(--green-400)}
+  .chiplabel{font-size:10px;color:var(--muted);text-transform:uppercase;letter-spacing:.15em;margin-right:4px}
+  /* table */
+  table{width:100%;border-collapse:collapse;font-size:13px;border:1px solid var(--border);border-radius:10px;overflow:hidden}
+  thead tr{background:rgba(22,32,25,.5);border-bottom:1px solid var(--border)}
+  th{padding:11px 14px;text-align:center;font-weight:600}
+  th.f{text-align:left;color:var(--muted);font-size:11px;text-transform:uppercase;letter-spacing:.08em;width:34%}
+  th.a{color:var(--green-400)}th.b{color:var(--guinda-300)}
+  td{padding:10px 14px;text-align:center;border-bottom:1px solid var(--border)}
+  td.f{text-align:left;color:var(--muted);font-size:11px;text-transform:uppercase;letter-spacing:.04em}
+  tr:last-child td{border-bottom:none}
+  td.win-a{background:rgba(45,122,71,.1);color:#9fe0b6;font-weight:600}
+  td.win-b{background:rgba(155,26,48,.1);color:var(--guinda-300);font-weight:600}
+  /* timeline */
+  .tl{position:relative;border-left:1px solid var(--border);margin-left:6px;padding-left:22px}
+  .tlitem{position:relative;margin-bottom:26px}
+  .tldot{position:absolute;left:-29px;top:5px;height:14px;width:14px;border-radius:50%;border:2px solid var(--bg)}
+  .tdate{font-size:12px;color:var(--muted)}
+  .ttag{font-size:10px;text-transform:uppercase;letter-spacing:.08em;color:var(--muted);border:1px solid var(--border);border-radius:4px;padding:1px 6px;margin-left:8px}
+  .ttitle{font-size:14px;font-weight:600;margin:4px 0}
+  .tdesc{font-size:12px;color:var(--muted);line-height:1.6}
+  .ents{display:flex;flex-wrap:wrap;gap:6px;margin-top:8px}
+  .ent{font-size:10px;color:var(--muted);background:var(--elevated);border:1px solid var(--border);border-radius:4px;padding:1px 7px}
+  .yr{font-size:18px;font-weight:700;color:var(--green-400);margin:22px 0 10px;font-family:ui-monospace,monospace}
+  .pillrow{display:flex;flex-wrap:wrap;gap:16px;margin-top:10px}
+  .green-pill{display:inline-flex;border:1px solid rgba(45,122,71,.2);background:rgba(45,122,71,.06);color:var(--green-400);border-radius:7px;padding:5px 11px;font-size:12px}
+  .src{font-size:11px;color:var(--green-400);margin-top:10px;display:inline-block}
+  .note{font-size:11px;color:rgba(122,148,134,.5);margin-top:26px}
+  /* footer */
+  footer{border-top:1px solid var(--border);padding:24px 0;margin-top:40px}
+  footer p{font-size:11px;color:var(--muted);text-align:center;max-width:680px;margin:0 auto}
+  .previewbar{background:var(--elevated);border-bottom:1px solid var(--border);font-size:11px;color:var(--muted);text-align:center;padding:6px}
+  .map-ph{height:300px;border:1px dashed var(--border);border-radius:12px;display:flex;align-items:center;justify-content:center;color:var(--muted);background:rgba(45,122,71,.03)}
+</style>
+</head>
+<body>
+<div class="previewbar">Vista previa estática · Centinela México · datos reales del seed · tema y componentes según el proyecto</div>
+<header>
+  <div class="wrap hrow">
+    <div class="logo">
+      <div class="mark">CM</div>
+      <div><span class="t1">Centinela</span><span class="t2">México</span></div>
+    </div>
+    <nav class="main" id="nav"></nav>
+  </div>
+</header>
+
+<main class="wrap">
+  <!-- HOME -->
+  <section class="page show" id="home">
+    <div class="hero" style="margin:0 -20px">
+      <h1>Centinela <span class="accent">México</span></h1>
+      <p>Base de datos interactiva, educativa y de fuentes abiertas sobre las fuerzas de seguridad y defensa de México y sus 32 entidades federativas.</p>
+      <div class="search"><input placeholder="Buscar fuerza armada, estado, equipo, operativo…" /><button class="btn">Buscar</button></div>
+      <div class="totals">
+        <div class="total"><div class="n">4</div><div class="l">Fuerzas</div></div>
+        <div class="total"><div class="n">32</div><div class="l">Estados</div></div>
+        <div class="total"><div class="n">10</div><div class="l">Equipamiento</div></div>
+        <div class="total"><div class="n">8</div><div class="l">Operativos</div></div>
+        <div class="total"><div class="n">6</div><div class="l">Desastres</div></div>
+      </div>
+    </div>
+    <h2 class="group" style="margin-top:34px">Secciones</h2>
+    <div class="grid g4" id="homegrid"></div>
+  </section>
+
+  <!-- ESTADOS -->
+  <section class="page" id="estados">
+    <div class="sec-label">Sección</div><h1 class="title">Estados</h1>
+    <p class="lede">Las 32 entidades federativas y sus fuerzas estatales de seguridad. Población según el Censo 2020 (INEGI); las cifras de seguridad sin fuente confirmada se marcan como pendientes.</p>
+    <div id="estadosgroups"></div>
+    <p class="note">32 entidades indexadas · agrupadas por región.</p>
+  </section>
+
+  <!-- COMPARADOR -->
+  <section class="page" id="comparador">
+    <div class="sec-label">Sección</div><h1 class="title">Comparador</h1>
+    <p class="lede">Compara lado a lado dos entidades o dos fuerzas. Se resalta el valor numérico mayor; los datos sin fuente aparecen como “Pendiente”.</p>
+    <div class="chips" style="margin-top:18px"><span class="chip on">Estados</span><span class="chip">Fuerzas armadas</span></div>
+    <table>
+      <thead><tr><th class="f">Campo</th><th class="a">Veracruz</th><th class="b">Jalisco</th></tr></thead>
+      <tbody>
+        <tr><td class="f">Región</td><td>Sureste</td><td>Occidente</td></tr>
+        <tr><td class="f">Capital</td><td>Xalapa-Enríquez</td><td>Guadalajara</td></tr>
+        <tr><td class="f">Población (2020)</td><td class="win-a">8,062,579 ▲</td><td>8,348,151</td></tr>
+        <tr><td class="f">Corporación estatal</td><td>Policía Estatal (Fuerza Civil)</td><td>Policía Jalisco</td></tr>
+        <tr><td class="f">Efectivos estatales</td><td style="color:var(--muted)">Pendiente</td><td style="color:var(--muted)">Pendiente</td></tr>
+        <tr><td class="f">Presupuesto seguridad</td><td style="color:var(--muted)">Pendiente</td><td style="color:var(--muted)">Pendiente</td></tr>
+      </tbody>
+    </table>
+    <div style="margin-top:14px"><span class="src">Ver ficha de Veracruz →</span> &nbsp; <span class="src" style="color:var(--guinda-300)">Ver ficha de Jalisco →</span></div>
+    <p class="note" style="font-size:13px;color:var(--muted)">Nota: en la población, Jalisco es realmente mayor — el ▲ del mock es ilustrativo; en el sitio el resaltado se calcula del dato real.</p>
+  </section>
+
+  <!-- EQUIPAMIENTO -->
+  <section class="page" id="equipamiento">
+    <div class="sec-label">Sección</div><h1 class="title">Equipamiento</h1>
+    <p class="lede">Catálogo de material en servicio, clasificado por categoría y operador. Compilado de fuentes oficiales; las cantidades no confirmadas se omiten.</p>
+    <div class="chips" style="margin-top:18px"><span class="chiplabel">Categoría</span><span class="chip on">Todas</span><span class="chip">Terrestre</span><span class="chip">Aéreo</span><span class="chip">Naval</span><span class="chip">Individual</span></div>
+    <div class="chips"><span class="chiplabel">Operador</span><span class="chip on">Todos</span><span class="chip">SEDENA</span><span class="chip">SEMAR</span><span class="chip">Fuerza Aérea Mexicana</span></div>
+    <div class="grid g4" id="equipgrid"></div>
+  </section>
+
+  <!-- OPERATIVOS -->
+  <section class="page" id="operativos">
+    <div class="sec-label">Sección</div><h1 class="title">Operativos</h1>
+    <p class="lede">Cronología de operativos de seguridad y despliegues de auxilio (Plan DN-III-E, Plan Marina). Compilado de fuentes oficiales.</p>
+    <div class="chips" style="margin-top:18px"><span class="chiplabel">Tipo</span><span class="chip on">Todos</span><span class="chip">Seguridad</span><span class="chip">Desastre</span><span class="chip">Humanitario</span><span class="chip">Ceremonial</span></div>
+    <div id="timeline"></div>
+  </section>
+
+  <!-- PROTECCION CIVIL -->
+  <section class="page" id="pc">
+    <div class="sec-label">Sección</div><h1 class="title">Protección Civil</h1>
+    <p class="lede">El SINAPROC articula la prevención y la respuesta ante desastres. Estructura institucional, planes de auxilio y registro de desastres históricos.</p>
+    <h2 class="group">Estructura institucional</h2>
+    <div class="grid g3" id="pcorg"></div>
+    <h2 class="group">Planes de respuesta</h2>
+    <div class="grid g3" id="pcplans"></div>
+    <h2 class="group">Registro de desastres históricos</h2>
+    <div class="chips"><span class="chiplabel">Tipo</span><span class="chip on">Todos</span><span class="chip">Sismo</span><span class="chip">Huracán</span><span class="chip">Inundación</span></div>
+    <div id="pcdis"></div>
+  </section>
+
+  <!-- MAPA (pendiente) -->
+  <section class="page" id="mapa">
+    <div class="sec-label">Sección · Próxima (Fase 10)</div><h1 class="title">Mapa interactivo</h1>
+    <p class="lede">Diferenciador principal. Mapa de México (MapLibre + OpenStreetMap) con capas de bases militares, zonas navales, aeropuertos militares, C4/C5 y academias. Aún no construido.</p>
+    <div class="map-ph" style="margin-top:20px">Mapa interactivo — Fase 10 (pendiente)</div>
+  </section>
+</main>
+
+<footer><div class="wrap"><p>Información con fines educativos e informativos, compilada de fuentes oficiales y de acceso público.</p></div></footer>
+
+<script>
+const NAV=[["home","Inicio"],["estados","Estados"],["comparador","Comparador"],["equipamiento","Equipamiento"],["operativos","Operativos"],["pc","Protección Civil"],["mapa","Mapa"]];
+const nav=document.getElementById('nav');
+NAV.forEach(([id,label],i)=>{const b=document.createElement('button');b.textContent=label;b.className=i===0?'active':'';b.onclick=()=>{document.querySelectorAll('.page').forEach(p=>p.classList.remove('show'));document.getElementById(id).classList.add('show');document.querySelectorAll('#nav button').forEach(x=>x.classList.remove('active'));b.classList.add('active');window.scrollTo(0,0);};nav.appendChild(b);});
+
+// Home section cards
+const SECS=[["Fuerzas Armadas","SEDENA, SEMAR, FAM y Guardia Nacional"],["Estados","32 entidades federativas"],["Comparador","Compara entidades o fuerzas"],["Equipamiento","Material terrestre, aéreo y naval"],["Operativos","Cronología de operativos y auxilio"],["Protección Civil","SINAPROC, DN-III-E, Plan Marina"],["Actualidad","Boletines de fuentes oficiales"],["Mapa","Instalaciones por categoría"]];
+document.getElementById('homegrid').innerHTML=SECS.map(([t,d])=>`<div class="card"><div class="cardtitle">${t}</div><div class="csub">${d}</div></div>`).join('');
+
+// Estados grouped
+const EST={
+ "Noroeste":[["Baja California","Mexicali","3,769,020"],["Baja California Sur","La Paz","798,447"],["Chihuahua","Chihuahua","3,741,869"],["Durango","Victoria de Durango","1,832,650"],["Sinaloa","Culiacán","3,026,943"],["Sonora","Hermosillo","2,944,840"]],
+ "Noreste":[["Coahuila","Saltillo","3,146,771"],["Nuevo León","Monterrey","5,784,442"],["Tamaulipas","Cd. Victoria","3,527,735"]],
+ "Occidente":[["Aguascalientes","Aguascalientes","1,425,607"],["Colima","Colima","731,391"],["Guanajuato","Guanajuato","6,166,934"],["Jalisco","Guadalajara","8,348,151"],["Michoacán","Morelia","4,748,846"],["Nayarit","Tepic","1,235,456"],["Querétaro","Santiago de Querétaro","2,368,467"],["San Luis Potosí","San Luis Potosí","2,822,255"],["Zacatecas","Zacatecas","1,622,138"]],
+ "Centro":[["Ciudad de México","Ciudad de México","9,209,944"],["Estado de México","Toluca","16,992,418"],["Hidalgo","Pachuca","3,082,841"],["Morelos","Cuernavaca","1,971,520"],["Puebla","Puebla","6,583,278"],["Tlaxcala","Tlaxcala","1,342,977"]],
+ "Sur":[["Chiapas","Tuxtla Gutiérrez","5,543,828"],["Guerrero","Chilpancingo","3,540,685"],["Oaxaca","Oaxaca de Juárez","4,132,148"]],
+ "Sureste":[["Campeche","San Fco. de Campeche","928,363"],["Quintana Roo","Chetumal","1,857,985"],["Tabasco","Villahermosa","2,402,598"],["Veracruz","Xalapa","8,062,579"],["Yucatán","Mérida","2,320,898"]]
+};
+document.getElementById('estadosgroups').innerHTML=Object.entries(EST).map(([reg,arr])=>`
+ <h2 class="group">${reg} <span style="color:rgba(122,148,134,.6);font-size:10px;font-weight:400">${arr.length} entidades</span></h2>
+ <div class="grid g3">${arr.map(([n,cap,pob])=>`<div class="card"><div class="between"><div class="ico">${n.replace(/^(Estado de |Heroica )/,'').slice(0,3).toUpperCase()}</div><span class="badge b-pend"><span class="dot"></span>En verificación</span></div><div class="cardtitle">${n}</div><div class="cmeta mono">${cap} <span class="sep">·</span> ${pob} hab.</div></div>`).join('')}</div>`).join('');
+
+// Equipamiento
+const EQ=[["Airbus (CASA) C-295","Aéreo","España","Fuerza Aérea Mexicana"],["ARM Reformador","Naval","México (diseño Damen)","SEMAR"],["FX-05 Xiuhcóatl","Individual","México","SEDENA"],["HMMWV (Humvee)","Terrestre","Estados Unidos","SEDENA"],["Heckler & Koch G3","Individual","Alemania (lic. MX)","SEDENA"],["Lockheed C-130 Hércules","Aéreo","Estados Unidos","Fuerza Aérea Mexicana"],["Patrullas Clase Oaxaca","Naval","México","SEMAR"],["Pilatus PC-7","Aéreo","Suiza","Fuerza Aérea Mexicana"],["Plasan Sandcat","Terrestre","Israel","SEDENA"],["Sikorsky UH-60 Black Hawk","Aéreo","Estados Unidos","SEDENA"]];
+document.getElementById('equipgrid').innerHTML=EQ.map(([n,cat,ori,op])=>`<div class="card" style="padding:0;overflow:hidden"><div style="height:96px;display:flex;align-items:center;justify-content:center;background:rgba(22,32,25,.6);border-bottom:1px solid var(--border);position:relative"><span style="font-size:30px;color:rgba(122,148,134,.3)" class="mono">${cat[0]}</span><span style="position:absolute;top:8px;left:8px" class="badge b-gris">${cat}</span></div><div style="padding:16px"><div class="cardtitle" style="line-height:1.3">${n}</div><div class="csub" style="margin-bottom:8px">${op}</div><div class="cmeta mono">${ori}</div></div></div>`).join('');
+
+// Timeline
+const TC={desastre:'var(--amber)',seguridad:'var(--guinda)',humanitario:'var(--sky)',ceremonial:'var(--green)'};
+const OPS=[["2023","25 de octubre de 2023","desastre","Desastre","Auxilio por el huracán Otis (Plan DN-III-E / Plan Marina)","Despliegue en Acapulco y la Costa de Guerrero tras el huracán Otis.",["SEDENA","SEMAR","Guardia Nacional","Guerrero"]],
+["2020","24 de marzo de 2020","humanitario","Humanitario","Plan DN-III-E y Plan Marina ante la pandemia de COVID-19","Apoyo en hospitales, distribución de insumos y operación de instalaciones.",["SEDENA","SEMAR","Guardia Nacional"]],
+["2017","19 de septiembre de 2017","desastre","Desastre","Auxilio por el sismo del 19 de septiembre de 2017 (Plan DN-III-E)","Rescate y remoción de escombros en el centro del país.",["SEDENA","SEMAR","Ciudad de México","Morelos","Puebla"]],
+["2017","7 de septiembre de 2017","desastre","Desastre","Auxilio por el sismo del 7 de septiembre de 2017","Respuesta al terremoto de magnitud 8.2 frente a Chiapas y Oaxaca.",["SEDENA","SEMAR","Oaxaca","Chiapas"]],
+["2006","11 de diciembre de 2006","seguridad","Seguridad","Operativo Conjunto Michoacán","Inicio de la estrategia de participación militar ampliada en seguridad.",["SEDENA","SEMAR","Michoacán"]],
+["2005","21 de octubre de 2005","desastre","Desastre","Auxilio por el huracán Wilma (Plan DN-III-E)","Despliegue en Quintana Roo ante el impacto sobre Cancún y la Riviera Maya.",["SEDENA","SEMAR","Quintana Roo"]],
+["1985","19 de septiembre de 1985","desastre","Desastre","Auxilio por el sismo de 1985 (Plan DN-III-E)","Labores de rescate y apoyo a la población en la Ciudad de México.",["SEDENA","Ciudad de México"]]];
+let html='',lastYr='';
+OPS.forEach(([yr,date,tipo,tl,title,desc,ents])=>{if(yr!==lastYr){if(lastYr)html+='</div>';html+=`<div class="yr">${yr}</div><div class="tl">`;lastYr=yr;}
+ html+=`<div class="tlitem"><span class="tldot" style="background:${TC[tipo]}"></span><span class="tdate mono">${date}</span><span class="ttag">${tl}</span><div class="ttitle">${title}</div><div class="tdesc">${desc}</div><div class="ents">${ents.map(e=>`<span class="ent">${e}</span>`).join('')}</div></div>`;});
+html+='</div>';document.getElementById('timeline').innerHTML=html;
+
+// PC
+const ORG=[["CNPC","Coordinación Nacional de Protección Civil","Coordina el SINAPROC y articula la respuesta federal ante emergencias."],["CENAPRED","Centro Nacional de Prevención de Desastres","Monitoreo de fenómenos, investigación y sistemas de alerta."],["SE-PC","Sistemas Estatales y Municipales","Primeros niveles de respuesta, articulados con el nivel federal."]];
+document.getElementById('pcorg').innerHTML=ORG.map(([s,n,d])=>`<div class="card"><div class="ico" style="width:fit-content;padding:0 10px;margin-bottom:12px">${s}</div><div class="cardtitle" style="margin-bottom:6px">${n}</div><div class="csub">${d}</div></div>`).join('');
+const PLN=[["Plan DN-III-E","SEDENA · Ejército y Fuerza Aérea","Auxilio a la población: evacuación, rescate, albergues y ayuda."],["Plan Marina","SEMAR · Armada de México","Protección y auxilio en zonas costeras y marítimas."],["PC estatal y municipal","Gobiernos estatales/municipales","Protocolos locales, primer eslabón de atención."]];
+document.getElementById('pcplans').innerHTML=PLN.map(([n,dep,d])=>`<div class="card" style="border-left:2px solid var(--green)"><div class="cardtitle">${n}</div><div class="cmeta mono" style="margin:2px 0 10px">${dep}</div><div class="csub" style="margin:0">${d}</div></div>`).join('');
+const DIS=[["Huracán Otis","Huracán","25 de octubre de 2023","Plan DN-III-E / Plan Marina",["Guerrero"]],["Sismo del 19 de septiembre de 2017","Sismo","19 de septiembre de 2017","Plan DN-III-E",["Ciudad de México","Morelos","Puebla","Estado de México"]],["Sismo del 7 de septiembre de 2017","Sismo","7 de septiembre de 2017","Plan DN-III-E / Plan Marina",["Oaxaca","Chiapas"]],["Inundaciones de Tabasco de 2007","Inundación","28 de octubre de 2007","Plan DN-III-E / Plan Marina",["Tabasco","Chiapas"]],["Huracán Wilma","Huracán","21 de octubre de 2005","Plan DN-III-E / Plan Marina",["Quintana Roo","Yucatán"]],["Sismo del 19 de septiembre de 1985","Sismo","19 de septiembre de 1985","Plan DN-III-E",["Ciudad de México","Michoacán","Jalisco"]]];
+document.getElementById('pcdis').innerHTML=DIS.map(([n,tp,fe,resp,est])=>`<div class="card" style="margin-bottom:12px"><div style="display:flex;flex-wrap:wrap;gap:10px;align-items:center;margin-bottom:6px"><div class="cardtitle" style="margin:0">${n}</div><span class="badge b-gris">${tp}</span><span class="badge b-pend"><span class="dot"></span>En verificación</span></div><div class="cmeta mono" style="margin-bottom:12px">${fe}</div><div class="pillrow"><div><div class="chiplabel">Respuesta institucional</div><span class="green-pill">${resp}</span></div><div><div class="chiplabel">Estados afectados</div><div class="ents">${est.map(e=>`<span class="ent">${e}</span>`).join('')}</div></div></div></div>`).join('');
+</script>
+</body>
+</html>
