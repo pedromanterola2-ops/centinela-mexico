@@ -60,7 +60,7 @@ export default async function FuerzaArmadaDetallePage({ params }: PageProps) {
   return (
     <div className="mx-auto max-w-5xl px-4 sm:px-6 lg:px-8 py-10">
       {/* Breadcrumb */}
-      <nav className="mb-6 text-sm text-text-muted">
+      <nav className="mb-6 text-xs text-text-muted">
         <Link href="/" className="hover:text-green-400 transition-colors">
           Inicio
         </Link>
@@ -95,9 +95,9 @@ export default async function FuerzaArmadaDetallePage({ params }: PageProps) {
             <Badge variant="gris">{tipoFuerzaLabel(fuerza.tipo)}</Badge>
           </div>
           {fuerza.siglas && (
-            <p className="text-base text-text mb-1">{fuerza.nombre}</p>
+            <p className="text-sm text-text mb-1">{fuerza.nombre}</p>
           )}
-          <p className="text-sm text-text-muted">
+          <p className="text-xs text-text-muted">
             {fuerza.dependencia ?? "Dependencia no especificada"}
             {fuerza.anio_fundacion && ` · Fundada en ${fuerza.anio_fundacion}`}
           </p>
@@ -106,7 +106,7 @@ export default async function FuerzaArmadaDetallePage({ params }: PageProps) {
 
       {/* Datos clave */}
       <section className="mb-8">
-        <h2 className="text-sm font-semibold text-text-muted uppercase tracking-widest mb-3">
+        <h2 className="text-xs font-semibold text-text-muted uppercase tracking-widest mb-3">
           Datos clave
         </h2>
         <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-3">
@@ -163,7 +163,7 @@ export default async function FuerzaArmadaDetallePage({ params }: PageProps) {
       {/* Estructura (listas) */}
       {listas.length > 0 && (
         <section className="mb-8">
-          <h2 className="text-sm font-semibold text-text-muted uppercase tracking-widest mb-3">
+          <h2 className="text-xs font-semibold text-text-muted uppercase tracking-widest mb-3">
             Estructura
           </h2>
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
@@ -172,14 +172,14 @@ export default async function FuerzaArmadaDetallePage({ params }: PageProps) {
                 key={key}
                 className="rounded-lg border border-border bg-bg-surface p-4"
               >
-                <p className="text-sm text-text-muted uppercase tracking-wider mb-2.5">
+                <p className="text-xs text-text-muted uppercase tracking-wider mb-2.5">
                   {humanizeKey(key)}
                 </p>
                 <div className="flex flex-wrap gap-1.5">
                   {value.map((item) => (
                     <span
                       key={item}
-                      className="inline-flex items-center rounded-md border border-green-500/20 bg-green-500/5 px-2.5 py-1 text-sm text-green-400"
+                      className="inline-flex items-center rounded-md border border-green-500/20 bg-green-500/5 px-2.5 py-1 text-xs text-green-400"
                     >
                       {item}
                     </span>
@@ -194,11 +194,11 @@ export default async function FuerzaArmadaDetallePage({ params }: PageProps) {
       {/* Misión */}
       {fuerza.mision && (
         <section className="mb-8">
-          <h2 className="text-sm font-semibold text-text-muted uppercase tracking-widest mb-3">
+          <h2 className="text-xs font-semibold text-text-muted uppercase tracking-widest mb-3">
             Misión
           </h2>
           <div className="rounded-lg border border-border bg-bg-surface p-5">
-            <p className="text-base text-text leading-relaxed italic">
+            <p className="text-sm text-text leading-relaxed italic">
               &ldquo;{fuerza.mision}&rdquo;
             </p>
           </div>
@@ -208,10 +208,10 @@ export default async function FuerzaArmadaDetallePage({ params }: PageProps) {
       {/* Descripción */}
       {fuerza.descripcion && (
         <section className="mb-8">
-          <h2 className="text-sm font-semibold text-text-muted uppercase tracking-widest mb-3">
+          <h2 className="text-xs font-semibold text-text-muted uppercase tracking-widest mb-3">
             Descripción
           </h2>
-          <p className="text-base text-text-muted leading-relaxed max-w-3xl">
+          <p className="text-sm text-text-muted leading-relaxed max-w-3xl">
             {fuerza.descripcion}
           </p>
         </section>
@@ -220,10 +220,10 @@ export default async function FuerzaArmadaDetallePage({ params }: PageProps) {
       {/* Historia */}
       {(fuerza as { historia?: string }).historia && (
         <section className="mb-8">
-          <h2 className="text-sm font-semibold text-text-muted uppercase tracking-widest mb-3">
+          <h2 className="text-xs font-semibold text-text-muted uppercase tracking-widest mb-3">
             Historia
           </h2>
-          <p className="text-base text-text-muted leading-relaxed max-w-3xl">
+          <p className="text-sm text-text-muted leading-relaxed max-w-3xl">
             {(fuerza as { historia?: string }).historia}
           </p>
         </section>
@@ -232,7 +232,7 @@ export default async function FuerzaArmadaDetallePage({ params }: PageProps) {
       {/* Equipamiento asociado (relación inversa) */}
       {equipamiento.length > 0 && (
         <section className="mb-8">
-          <h2 className="text-sm font-semibold text-text-muted uppercase tracking-widest mb-3">
+          <h2 className="text-xs font-semibold text-text-muted uppercase tracking-widest mb-3">
             Equipamiento asociado
           </h2>
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-3">
@@ -243,7 +243,7 @@ export default async function FuerzaArmadaDetallePage({ params }: PageProps) {
                 className="group rounded-lg border border-border bg-bg-surface p-4 transition-colors hover:border-green-500/40"
               >
                 <div className="flex items-center justify-between gap-2 mb-1.5">
-                  <span className="text-base font-medium text-text group-hover:text-green-400 transition-colors leading-snug">
+                  <span className="text-sm font-medium text-text group-hover:text-green-400 transition-colors leading-snug">
                     {e.nombre}
                   </span>
                   <Badge variant="gris">
@@ -251,14 +251,14 @@ export default async function FuerzaArmadaDetallePage({ params }: PageProps) {
                   </Badge>
                 </div>
                 {e.origen_pais && (
-                  <p className="text-[13px] text-text-muted/70 font-mono">
+                  <p className="text-[11px] text-text-muted/70 font-mono">
                     {e.origen_pais}
                   </p>
                 )}
               </Link>
             ))}
           </div>
-          <p className="mt-2 text-[13px] text-text-muted/50">
+          <p className="mt-2 text-[11px] text-text-muted/50">
             Relación derivada del operador registrado en el catálogo de
             equipamiento.
           </p>
@@ -270,10 +270,10 @@ export default async function FuerzaArmadaDetallePage({ params }: PageProps) {
         <section className="mb-2">
           <div className="rounded-lg border border-green-500/20 bg-green-500/[0.06] p-4 flex items-center justify-between gap-4 flex-wrap">
             <div>
-              <p className="text-sm font-semibold text-green-400 mb-0.5">
+              <p className="text-xs font-semibold text-green-400 mb-0.5">
                 Fuente oficial
               </p>
-              <p className="text-sm text-text-muted font-mono break-all">
+              <p className="text-xs text-text-muted font-mono break-all">
                 {fuerza.fuente_url}
               </p>
             </div>
@@ -281,7 +281,7 @@ export default async function FuerzaArmadaDetallePage({ params }: PageProps) {
               href={fuerza.fuente_url}
               target="_blank"
               rel="noopener noreferrer"
-              className="shrink-0 rounded-md border border-green-500/30 text-green-400 px-3.5 py-2 text-sm font-medium hover:bg-green-500/10 transition-colors"
+              className="shrink-0 rounded-md border border-green-500/30 text-green-400 px-3.5 py-2 text-xs font-medium hover:bg-green-500/10 transition-colors"
             >
               Visitar fuente →
             </a>

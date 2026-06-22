@@ -37,7 +37,7 @@ function Chip({
   return (
     <Link
       href={href}
-      className={`rounded-full border px-3 py-1 text-sm font-medium transition-colors ${
+      className={`rounded-full border px-3 py-1 text-xs font-medium transition-colors ${
         activo
           ? "border-green-500/40 bg-green-500/15 text-green-400"
           : "border-border bg-bg-surface text-text-muted hover:text-text hover:border-green-500/30"
@@ -99,11 +99,11 @@ export default async function OperativosPage({ searchParams }: PageProps) {
     <div className="mx-auto max-w-4xl px-4 sm:px-6 lg:px-8 py-12">
       {/* Encabezado de sección */}
       <div className="mb-8">
-        <p className="text-sm font-semibold text-text-muted uppercase tracking-widest mb-2">
+        <p className="text-xs font-semibold text-text-muted uppercase tracking-widest mb-2">
           Sección
         </p>
         <h1 className="text-3xl font-bold text-text mb-3">Operativos</h1>
-        <p className="text-base text-text-muted max-w-2xl leading-relaxed">
+        <p className="text-sm text-text-muted max-w-2xl leading-relaxed">
           Cronología de operativos de seguridad y despliegues de auxilio de las
           fuerzas armadas, incluyendo activaciones del Plan DN-III-E y del Plan
           Marina. Compilado de fuentes oficiales de acceso público.
@@ -113,7 +113,7 @@ export default async function OperativosPage({ searchParams }: PageProps) {
       {/* Filtros */}
       <div className="mb-10 space-y-3">
         <div className="flex flex-wrap items-center gap-2">
-          <span className="text-xs text-text-muted uppercase tracking-widest mr-1">
+          <span className="text-[10px] text-text-muted uppercase tracking-widest mr-1">
             Tipo
           </span>
           <Chip href={filtroHref({ decada: decadaActiva })} activo={!tipoActivo}>
@@ -132,7 +132,7 @@ export default async function OperativosPage({ searchParams }: PageProps) {
 
         {decadas.length > 0 && (
           <div className="flex flex-wrap items-center gap-2">
-            <span className="text-xs text-text-muted uppercase tracking-widest mr-1">
+            <span className="text-[10px] text-text-muted uppercase tracking-widest mr-1">
               Década
             </span>
             <Chip href={filtroHref({ tipo: tipoActivo })} activo={!decadaActiva}>
@@ -154,7 +154,7 @@ export default async function OperativosPage({ searchParams }: PageProps) {
       {/* Cronología agrupada por año */}
       {items.length === 0 ? (
         <div className="rounded-lg border border-dashed border-border bg-bg-surface/30 p-12 text-center">
-          <p className="text-base text-text-muted">
+          <p className="text-sm text-text-muted">
             No hay operativos que coincidan con el filtro seleccionado.
           </p>
         </div>
@@ -171,7 +171,7 @@ export default async function OperativosPage({ searchParams }: PageProps) {
         </div>
       )}
 
-      <p className="mt-10 text-[13px] text-text-muted/50">
+      <p className="mt-10 text-[11px] text-text-muted/50">
         {items.length} de {todos.length} operativo(s) indexado(s). Datos de
         fuentes oficiales; resultados y cifras sin confirmar se marcan como
         pendientes.

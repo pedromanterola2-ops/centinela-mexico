@@ -49,10 +49,10 @@ export function TotalsBlock({ totales }: TotalesBlockProps) {
               {data[item.key] > 0 ? (
                 formatNumber(data[item.key])
               ) : (
-                <span className="text-text-muted/40 text-base font-normal">—</span>
+                <span className="text-text-muted/40 text-sm font-normal">—</span>
               )}
             </span>
-            <span className="font-mono text-[11px] text-text-muted/60 tracking-[0.1em] uppercase leading-tight whitespace-nowrap">
+            <span className="font-mono text-[9px] text-text-muted/60 tracking-[0.1em] uppercase leading-tight whitespace-nowrap">
               {item.sublabel}
             </span>
           </div>

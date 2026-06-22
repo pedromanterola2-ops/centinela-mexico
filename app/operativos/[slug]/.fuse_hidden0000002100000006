@@ -41,7 +41,7 @@ export default async function OperativoDetallePage({ params }: PageProps) {
   return (
     <div className="mx-auto max-w-4xl px-4 sm:px-6 lg:px-8 py-10">
       {/* Breadcrumb */}
-      <nav className="mb-6 text-sm text-text-muted">
+      <nav className="mb-6 text-xs text-text-muted">
         <Link href="/" className="hover:text-green-400 transition-colors">
           Inicio
         </Link>
@@ -64,7 +64,7 @@ export default async function OperativoDetallePage({ params }: PageProps) {
           )}
           <Badge variant="gris">{tipoOperativoLabel(op.tipo)}</Badge>
         </div>
-        <p className="text-sm text-text-muted">
+        <p className="text-xs text-text-muted">
           {formatFecha(op.fecha_inicio)}
           {op.fecha_fin && ` — ${formatFecha(op.fecha_fin)}`}
         </p>
@@ -73,16 +73,16 @@ export default async function OperativoDetallePage({ params }: PageProps) {
       {/* Datos clave */}
       <section className="mb-8 grid grid-cols-1 sm:grid-cols-2 gap-3">
         <div className="rounded-lg border border-border bg-bg-surface p-4">
-          <p className="text-sm text-text-muted uppercase tracking-wider mb-1">
+          <p className="text-xs text-text-muted uppercase tracking-wider mb-1">
             Inicio
           </p>
-          <p className="text-base text-text">{formatFecha(op.fecha_inicio)}</p>
+          <p className="text-sm text-text">{formatFecha(op.fecha_inicio)}</p>
         </div>
         <div className="rounded-lg border border-border bg-bg-surface p-4">
-          <p className="text-sm text-text-muted uppercase tracking-wider mb-1">
+          <p className="text-xs text-text-muted uppercase tracking-wider mb-1">
             Fin
           </p>
-          <p className="text-base text-text">
+          <p className="text-sm text-text">
             {op.fecha_fin ? (
               formatFecha(op.fecha_fin)
             ) : (
@@ -95,14 +95,14 @@ export default async function OperativoDetallePage({ params }: PageProps) {
       {/* Entidades involucradas */}
       {op.entidades_involucradas.length > 0 && (
         <section className="mb-8">
-          <h2 className="text-sm font-semibold text-text-muted uppercase tracking-widest mb-3">
+          <h2 className="text-xs font-semibold text-text-muted uppercase tracking-widest mb-3">
             Entidades involucradas
           </h2>
           <div className="flex flex-wrap gap-1.5">
             {op.entidades_involucradas.map((ent) => (
               <span
                 key={ent}
-                className="inline-flex items-center rounded-md border border-green-500/20 bg-green-500/5 px-2.5 py-1 text-sm text-green-400"
+                className="inline-flex items-center rounded-md border border-green-500/20 bg-green-500/5 px-2.5 py-1 text-xs text-green-400"
               >
                 {ent}
               </span>
@@ -114,10 +114,10 @@ export default async function OperativoDetallePage({ params }: PageProps) {
       {/* Descripción */}
       {op.descripcion && (
         <section className="mb-8">
-          <h2 className="text-sm font-semibold text-text-muted uppercase tracking-widest mb-3">
+          <h2 className="text-xs font-semibold text-text-muted uppercase tracking-widest mb-3">
             Descripción
           </h2>
-          <p className="text-base text-text-muted leading-relaxed max-w-3xl">
+          <p className="text-sm text-text-muted leading-relaxed max-w-3xl">
             {op.descripcion}
           </p>
         </section>
@@ -125,16 +125,16 @@ export default async function OperativoDetallePage({ params }: PageProps) {
 
       {/* Resultado */}
       <section className="mb-8">
-        <h2 className="text-sm font-semibold text-text-muted uppercase tracking-widest mb-3">
+        <h2 className="text-xs font-semibold text-text-muted uppercase tracking-widest mb-3">
           Resultado
         </h2>
         {op.resultado ? (
-          <p className="text-base text-text-muted leading-relaxed max-w-3xl">
+          <p className="text-sm text-text-muted leading-relaxed max-w-3xl">
             {op.resultado}
           </p>
         ) : (
           <div className="rounded-lg border-l-2 border-l-guinda-500 border border-border bg-bg-surface p-4">
-            <p className="text-base text-text-muted">
+            <p className="text-sm text-text-muted">
               Pendiente de verificación con fuente oficial.
             </p>
           </div>
@@ -146,10 +146,10 @@ export default async function OperativoDetallePage({ params }: PageProps) {
         <section className="mb-2">
           <div className="rounded-lg border border-green-500/20 bg-green-500/[0.06] p-4 flex items-center justify-between gap-4 flex-wrap">
             <div>
-              <p className="text-sm font-semibold text-green-400 mb-0.5">
+              <p className="text-xs font-semibold text-green-400 mb-0.5">
                 Fuente oficial
               </p>
-              <p className="text-sm text-text-muted font-mono break-all">
+              <p className="text-xs text-text-muted font-mono break-all">
                 {op.fuente_url}
               </p>
             </div>
@@ -157,7 +157,7 @@ export default async function OperativoDetallePage({ params }: PageProps) {
               href={op.fuente_url}
               target="_blank"
               rel="noopener noreferrer"
-              className="shrink-0 rounded-md border border-green-500/30 text-green-400 px-3.5 py-2 text-sm font-medium hover:bg-green-500/10 transition-colors"
+              className="shrink-0 rounded-md border border-green-500/30 text-green-400 px-3.5 py-2 text-xs font-medium hover:bg-green-500/10 transition-colors"
             >
               Visitar fuente →
             </a>
