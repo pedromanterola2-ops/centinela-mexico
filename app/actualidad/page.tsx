@@ -104,16 +104,6 @@ export default async function ActualidadPage({ searchParams }: PageProps) {
     prioridad: e.prioridad,
   }));
 
-  // Canales destacados: el video más reciente de cada canal prioritario.
-  const destacados: Item[] = [];
-  const vistos = new Set<string>();
-  for (const e of especiales) {
-    if (e.prioridad && e.tipo === "youtube" && !vistos.has(e.fuente)) {
-      vistos.add(e.fuente);
-      destacados.push(e);
-    }
-  }
-
   const combinadas = [...oficiales, ...especiales].sort((a, b) => {
     const fa = a.fecha ?? "";
     const fb = b.fecha ?? "";
@@ -141,39 +131,6 @@ export default async function ActualidadPage({ searchParams }: PageProps) {
           relacionadas con México; las que no tratan del país no aparecen.
         </p>
       </div>
-
-      {/* Canales destacados */}
-      {destacados.length > 0 && (
-        <section className="mb-10">
-          <h2 className="text-sm font-semibold text-cobre-400 uppercase tracking-widest mb-4">
-            Canales destacados
-          </h2>
-          <div className="grid grid-cols-1 sm:grid-cols-3 gap-3">
-            {destacados.map((d) => (
-              <a
-                key={d.id}
-                href={d.url ?? "#"}
-                target="_blank"
-                rel="noopener noreferrer"
-                className="group flex flex-col rounded-lg border border-border bg-bg-surface p-4 transition-colors hover:border-cobre-500/40"
-              >
-                <div className="flex items-center gap-2 mb-2">
-                  <span className="font-mono text-[10px] uppercase tracking-wider text-cobre-400">
-                    ▷ Video
-                  </span>
-                  <span className="text-[11px] text-text-muted/70">{d.fuente}</span>
-                </div>
-                <p className="text-sm font-semibold text-text leading-snug group-hover:text-cobre-300 transition-colors">
-                  {d.titulo}
-                </p>
-                <span className="mt-2 font-mono text-[10px] text-text-muted/60">
-                  {formatFecha(d.fecha)}
-                </span>
-              </a>
-            ))}
-          </div>
-        </section>
-      )}
 
       {/* Filtro por nivel */}
       <div className="mb-8 flex flex-wrap items-center gap-2">

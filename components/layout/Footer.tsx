@@ -63,6 +63,36 @@ export function Footer() {
           </div>
         </div>
 
+        {/* Red Centinela */}
+        <div className="mt-8 pt-6 border-t border-border">
+          <p className="font-mono text-[9px] text-text-muted/50 uppercase tracking-[0.2em] mb-3">
+            Red Centinela
+          </p>
+          <a
+            href="https://centinelatactico.com"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="group flex items-center justify-between gap-6 rounded-lg border border-cobre-500/25 bg-cobre-500/5 px-5 py-4 transition-colors hover:border-cobre-500/50 hover:bg-cobre-500/10"
+          >
+            <div className="flex items-center gap-4">
+              <div className="flex h-9 w-9 shrink-0 items-center justify-center rounded-sm border border-cobre-500/30 bg-cobre-500/10">
+                <span className="font-mono text-[11px] font-bold text-cobre-400">⚔</span>
+              </div>
+              <div>
+                <p className="text-sm font-semibold text-cobre-400 leading-none mb-1">
+                  Centinela Táctico
+                </p>
+                <p className="text-[11px] text-text-muted leading-snug">
+                  Base de datos global de fuerzas armadas · 198 países · Rankings · Comparador
+                </p>
+              </div>
+            </div>
+            <span className="shrink-0 font-mono text-[11px] text-cobre-500/60 group-hover:text-cobre-400 transition-colors">
+              centinelatactico.com →
+            </span>
+          </a>
+        </div>
+
         {/* Disclaimer con acento cobre */}
         <div className="mt-7 pt-6 border-t border-border">
           <div className="border-l-2 border-cobre-500 pl-4 py-1">
