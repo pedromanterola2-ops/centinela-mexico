@@ -18,6 +18,10 @@ export const metadata: Metadata = {
   title: "Comparador",
   description:
     "Compara lado a lado dos entidades federativas o dos fuerzas armadas de México: población, efectivos, presupuesto y datos institucionales.",
+  // Los query params generan URLs diferentes; el canonical evita contenido duplicado
+  alternates: {
+    canonical: "/comparador",
+  },
 };
 
 interface PageProps {

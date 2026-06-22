@@ -17,6 +17,9 @@ const ibmPlexMono = IBM_Plex_Mono({
   display: "swap",
 });
 
+const BASE_URL =
+  process.env.NEXT_PUBLIC_SITE_URL ?? "https://centinela-mexico.vercel.app";
+
 export const metadata: Metadata = {
   title: {
     default: "Centinela México",
@@ -33,10 +36,19 @@ export const metadata: Metadata = {
     "seguridad México",
     "defensa México",
   ],
+  metadataBase: new URL(BASE_URL),
   openGraph: {
     type: "website",
     locale: "es_MX",
     siteName: "Centinela México",
+    url: BASE_URL,
+  },
+  twitter: {
+    card: "summary_large_image",
+    site: "@CentinelaMx",
+    title: "Centinela México",
+    description:
+      "Base de datos educativa sobre las fuerzas de seguridad y defensa de México. Fuentes oficiales y de acceso público.",
   },
 };
 
