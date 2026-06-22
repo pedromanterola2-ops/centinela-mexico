@@ -72,6 +72,7 @@ export function Footer() {
             href="https://centinelatactico.com"
             target="_blank"
             rel="noopener noreferrer"
+            aria-label="Visitar Centinela Táctico — base de datos global de fuerzas armadas (abre en nueva pestaña)"
             className="group flex items-center justify-between gap-6 rounded-lg border border-cobre-500/25 bg-cobre-500/5 px-5 py-4 transition-colors hover:border-cobre-500/50 hover:bg-cobre-500/10"
           >
             <div className="flex items-center gap-4">

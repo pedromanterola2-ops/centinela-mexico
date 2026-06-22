@@ -53,7 +53,7 @@ export default async function EquipoDetallePage({ params }: PageProps) {
   return (
     <div className="mx-auto max-w-5xl px-4 sm:px-6 lg:px-8 py-10">
       {/* Breadcrumb */}
-      <nav className="mb-6 text-sm text-text-muted">
+      <nav aria-label="Ruta de navegación" className="mb-6 text-sm text-text-muted">
         <Link href="/" className="hover:text-green-400 transition-colors">
           Inicio
         </Link>

@@ -48,8 +48,15 @@ export default function RootLayout({
   return (
     <html lang="es" className={`dark ${spaceGrotesk.variable} ${ibmPlexMono.variable}`}>
       <body className="min-h-screen flex flex-col bg-bg-base text-text antialiased">
+        {/* Skip-to-content — visible solo en focus para usuarios de teclado */}
+        <a
+          href="#main-content"
+          className="sr-only focus:not-sr-only focus:fixed focus:top-2 focus:left-2 focus:z-[9999] focus:rounded focus:bg-green-500 focus:px-4 focus:py-2 focus:text-sm focus:font-semibold focus:text-white"
+        >
+          Ir al contenido principal
+        </a>
         <Header />
-        <main className="flex-1">{children}</main>
+        <main id="main-content" className="flex-1">{children}</main>
         <Footer />
       </body>
     </html>

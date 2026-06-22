@@ -53,7 +53,7 @@ export function SearchBar() {
     <div className="mx-auto max-w-2xl px-4">
       <form onSubmit={handleSubmit} className="relative">
         <div className="relative">
-          {/* Icono de búsqueda */}
+          {/* Icono de búsqueda — decorativo, el input ya tiene aria-label */}
           <div className="absolute left-4 top-1/2 -translate-y-1/2 text-text-muted pointer-events-none">
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -65,6 +65,8 @@ export function SearchBar() {
               strokeWidth="2"
               strokeLinecap="round"
               strokeLinejoin="round"
+              aria-hidden="true"
+              focusable="false"
             >
               <circle cx="11" cy="11" r="8" />
               <path d="m21 21-4.3-4.3" />

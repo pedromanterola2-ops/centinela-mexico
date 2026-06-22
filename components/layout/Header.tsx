@@ -49,11 +49,12 @@ export function Header() {
           <div className="hidden lg:block w-px h-5 bg-border shrink-0 mr-4" />
 
           {/* Navegación desktop */}
-          <nav className="hidden lg:flex items-center gap-0.5 flex-1 overflow-x-auto">
+          <nav aria-label="Navegación principal" className="hidden lg:flex items-center gap-0.5 flex-1 overflow-x-auto">
             {NAV_ITEMS.map((item) => (
               <Link
                 key={item.href}
                 href={item.href}
+                aria-current={pathname.startsWith(item.href) ? "page" : undefined}
                 className={cn(
                   "whitespace-nowrap rounded-sm px-2.5 py-1.5 text-[13px] font-medium transition-colors",
                   pathname.startsWith(item.href)
@@ -120,7 +121,8 @@ export function Header() {
             <button
               className="lg:hidden flex flex-col gap-[5px] p-2"
               onClick={() => setMenuOpen((v) => !v)}
-              aria-label="Abrir menú"
+              aria-label={menuOpen ? "Cerrar menú" : "Abrir menú"}
+              aria-expanded={menuOpen}
             >
               <span className={cn("block h-px w-5 bg-text-muted transition-transform", menuOpen && "translate-y-[7px] rotate-45")} />
               <span className={cn("block h-px w-5 bg-text-muted transition-opacity",   menuOpen && "opacity-0")} />
@@ -131,13 +133,14 @@ export function Header() {
 
         {/* Menú mobile */}
         {menuOpen && (
-          <nav className="lg:hidden border-t border-border py-3">
+          <nav aria-label="Menú de navegación" className="lg:hidden border-t border-border py-3">
             <div className="grid grid-cols-2 gap-1">
               {[...NAV_ITEMS, ...SECONDARY_NAV].map((item) => (
                 <Link
                   key={item.href}
                   href={item.href}
                   onClick={() => setMenuOpen(false)}
+                  aria-current={pathname.startsWith(item.href) ? "page" : undefined}
                   className={cn(
                     "rounded-sm px-3 py-2 text-base transition-colors",
                     pathname.startsWith(item.href)

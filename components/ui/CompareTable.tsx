@@ -62,13 +62,13 @@ export function CompareTable({
       <table className="w-full border-collapse text-base">
         <thead>
           <tr className="border-b border-border bg-bg-elevated/50">
-            <th className="py-3 px-4 text-left text-sm text-text-muted uppercase tracking-wider font-medium w-1/3">
+            <th scope="col" className="py-3 px-4 text-left text-sm text-text-muted uppercase tracking-wider font-medium w-1/3">
               Campo
             </th>
-            <th className="py-3 px-4 text-center font-semibold text-green-400">
+            <th scope="col" className="py-3 px-4 text-center font-semibold text-green-400">
               {labelA}
             </th>
-            <th className="py-3 px-4 text-center font-semibold text-guinda-300">
+            <th scope="col" className="py-3 px-4 text-center font-semibold text-guinda-300">
               {labelB}
             </th>
           </tr>

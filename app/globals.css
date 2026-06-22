@@ -143,3 +143,10 @@
 .carousel-track:hover {
   animation-play-state: paused;
 }
+
+/* Respetar preferencia de movimiento reducido */
+@media (prefers-reduced-motion: reduce) {
+  .carousel-track {
+    animation: none;
+  }
+}
