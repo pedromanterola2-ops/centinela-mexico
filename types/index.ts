@@ -35,6 +35,8 @@ export interface FuerzaArmada {
   dependencia: string | null;
   anio_fundacion: number | null;
   mision: string | null;
+  /** Reseña histórica de la institución; presente en el seed, opcional en DB */
+  historia?: string | null;
   efectivos_aprox: number | null;
   presupuesto_aprox: number | null;
   anio_presupuesto: number | null;
