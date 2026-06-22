@@ -64,9 +64,8 @@ const config: Config = {
         },
       },
       fontFamily: {
-        sans:    ["var(--font-sans)", "system-ui", "sans-serif"],
-        heading: ["var(--font-heading)", "system-ui", "sans-serif"],
-        mono:    ["var(--font-mono)", "monospace"],
+        sans: ["var(--font-sans)", "system-ui", "sans-serif"],
+        mono: ["var(--font-mono)", "monospace"],
       },
       backgroundImage: {
         "grid-pattern":

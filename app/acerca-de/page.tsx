@@ -206,8 +206,8 @@ export default function AcercaDePage() {
           <span className="text-text">TypeScript</span> +{" "}
           <span className="text-text">Tailwind CSS</span>. Base de datos:{" "}
           <span className="text-text">Supabase</span> (PostgreSQL). Mapa:{" "}
-          <span className="text-text">MapLibre GL JS</span> con tiles de
-          OpenStreetMap. Despliegue en{" "}
+          <span className="text-text">Cartograma SVG propio</span>, sin
+          dependencias externas. Despliegue en{" "}
           <span className="text-text">Vercel</span>. Sin dependencias de pago.
         </p>
       </section>

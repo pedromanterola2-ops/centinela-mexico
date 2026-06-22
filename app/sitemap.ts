@@ -6,7 +6,8 @@ import {
   getAllOperativos,
 } from "@/lib/queries";
 
-const BASE_URL = "https://centinelamex.com";
+const BASE_URL =
+  process.env.NEXT_PUBLIC_SITE_URL ?? "https://centinela-mexico.vercel.app";
 
 export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
   const [fuerzas, estados, equipamiento, operativos] = await Promise.all([
