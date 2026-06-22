@@ -190,13 +190,16 @@ export function PresenceMap({ estados, compact = false }: PresenceMapProps) {
         }
 
         // Página completa: el mosaico selecciona y muestra el panel.
+        // onClick siempre selecciona (no toggle) para que funcione bien en touch.
+        // onMouseEnter actualiza el panel al pasar el cursor en desktop.
         return (
           <button
             key={slug}
             type="button"
-            onClick={() => setSel((p) => (p?.slug === slug ? null : e ?? null))}
+            onClick={() => setSel(e ?? null)}
             onMouseEnter={() => setSel(e ?? null)}
             aria-label={e ? `${e.nombre}: ${score} elementos documentados` : slug}
+            aria-pressed={sel?.slug === slug}
             style={cellStyle}
             className="cursor-pointer focus:outline-none focus-visible:ring-1 focus-visible:ring-green-400"
           >

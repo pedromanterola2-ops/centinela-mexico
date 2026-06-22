@@ -190,6 +190,14 @@ export default async function ComparadorPage({ searchParams }: PageProps) {
       {listo ? (
         <>
           <CompareTable labelA={labelA} labelB={labelB} rows={rows} />
+
+          {/* Leyenda del resaltado */}
+          <p className="mt-3 text-xs text-text-muted/60">
+            <span className="text-green-400 font-semibold">▲</span>{" "}
+            indica el valor numérico mayor en esa métrica.
+            El resaltado es neutral: refleja magnitud, no superioridad cualitativa.
+          </p>
+
           <div className="mt-4 flex flex-wrap gap-3 text-sm">
             {tipo === "estados" ? (
               <>
