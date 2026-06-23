@@ -1,47 +1,296 @@
 [
-  { "termino": "Secretaría de la Defensa Nacional", "siglas": "SEDENA", "definicion": "Dependencia del Poder Ejecutivo Federal encargada de organizar, administrar, adiestrar, equipar y desarrollar al Ejército y a la Fuerza Aérea Mexicanos. Fundada el 1 de septiembre de 1937.", "categoria": "institucional" },
-  { "termino": "Secretaría de Marina — Armada de México", "siglas": "SEMAR", "definicion": "Dependencia federal responsable de la defensa del mar territorial, la Zona Económica Exclusiva y el apoyo a la población en emergencias marítimas y costeras mediante el Plan Marina.", "categoria": "institucional" },
-  { "termino": "Guardia Nacional", "siglas": "GN", "definicion": "Institución de seguridad pública federal de carácter civil y disciplina militar, creada por decreto publicado en el DOF el 27 de junio de 2019, en sustitución de la Policía Federal.", "categoria": "institucional" },
-  { "termino": "Secretaría de Seguridad y Protección Ciudadana", "siglas": "SSPC", "definicion": "Dependencia federal responsable de la política de seguridad pública interior, la coordinación con corporaciones policiales estatales y municipales, y la supervisión de la Guardia Nacional.", "categoria": "institucional" },
-  { "termino": "Fuerza Aérea Mexicana", "siglas": "FAM", "definicion": "Componente aeroespacial del Ejército Mexicano, reconocido formalmente el 10 de febrero de 1944. Dependiente de la SEDENA, es responsable de la defensa del espacio aéreo nacional y el apoyo aéreo a operaciones terrestres y humanitarias.", "categoria": "institucional" },
-  { "termino": "Grupo Aeromóvil de Fuerzas Especiales", "siglas": "GAFE", "definicion": "Unidad de fuerzas especiales del Ejército Mexicano especializada en operaciones de alta complejidad: contraterrorismo, rescate de rehenes, operaciones de interdicción y misiones especiales.", "categoria": "institucional" },
-  { "termino": "Fuerzas Especiales de la Armada de México", "siglas": "FEAM", "definicion": "Unidades de operaciones especiales de la Armada de México entrenadas para contraterrorismo marítimo, operaciones anfibias especiales, interdicción fluvial y rescate de rehenes en entornos navales.", "categoria": "institucional" },
-  { "termino": "Policía Federal", "siglas": "PF", "definicion": "Corporación de seguridad pública federal disuelta el 4 de octubre de 2019 y sustituida por la Guardia Nacional. Dependía de la entonces Secretaría de Seguridad Pública (SSP), hoy SSPC.", "categoria": "institucional" },
-  { "termino": "Procuraduría General de la República", "siglas": "PGR", "definicion": "Institución que hasta 2019 ejerció la función de Ministerio Público Federal. Transformada en Fiscalía General de la República (FGR) con plena autonomía constitucional.", "categoria": "institucional" },
-  { "termino": "Fiscalía General de la República", "siglas": "FGR", "definicion": "Órgano público autónomo, en sustitución de la PGR desde 2019, responsable de la investigación y persecución de delitos federales, incluidos delincuencia organizada, narcotráfico y corrupción.", "categoria": "institucional" },
-  { "termino": "Plan de Auxilio a la Población Civil en Casos de Desastre", "siglas": "Plan DN-III-E", "definicion": "Plan del Ejército y la Fuerza Aérea Mexicanos que establece la organización, procedimientos y recursos para proporcionar auxilio a la población ante desastres naturales o emergencias. Se activa por solicitud de la autoridad civil.", "categoria": "operativo" },
-  { "termino": "Plan Marina", "siglas": "Plan Marina", "definicion": "Equivalente naval del Plan DN-III-E. Define la participación de la Armada de México en apoyo a la población civil ante contingencias, desastres naturales y emergencias en zonas costeras, insulares y fluviales.", "categoria": "operativo" },
-  { "termino": "Centro de Control, Comando, Comunicación y Cómputo", "siglas": "C4", "definicion": "Infraestructura tecnológica operada por entidades de seguridad que integra videovigilancia, despacho de emergencias, radiocomunicación y análisis de información en tiempo real.", "categoria": "tecnico" },
-  { "termino": "Centro de Control, Comando, Comunicación, Cómputo y Calidad", "siglas": "C5", "definicion": "Versión ampliada del C4 que incorpora indicadores de calidad en la gestión de servicios de seguridad y emergencias. La Ciudad de México opera uno de los C5 más grandes de América Latina.", "categoria": "tecnico" },
-  { "termino": "Sistema Nacional de Seguridad Pública", "siglas": "SNSP", "definicion": "Marco institucional establecido en el artículo 21 constitucional que coordina la función de seguridad pública de la Federación, los estados, la Ciudad de México y los municipios bajo la rectoría del Consejo Nacional de Seguridad Pública.", "categoria": "institucional" },
-  { "termino": "Sistema Nacional de Protección Civil", "siglas": "SINAPROC", "definicion": "Conjunto de órganos, instrumentos, políticas y acciones establecido para proteger a la persona y a la sociedad ante la eventualidad de desastres o calamidades. Coordinado por la CNPC.", "categoria": "institucional" },
-  { "termino": "Centro Nacional de Prevención de Desastres", "siglas": "CENAPRED", "definicion": "Organismo del gobierno federal adscrito a la SSPC que investiga y monitorea fenómenos naturales peligrosos (sísmicos, volcánicos, hidrometeorológicos) y difunde alertas tempranas a la población.", "categoria": "institucional" },
-  { "termino": "Coordinación Nacional de Protección Civil", "siglas": "CNPC", "definicion": "Órgano desconcentrado de la SSPC que coordina el Sistema Nacional de Protección Civil, incluyendo la Red Nacional de Alerta Temprana, el Fondo de Desastres Naturales (FONDEN) y los programas de prevención.", "categoria": "institucional" },
-  { "termino": "Fondo de Desastres Naturales", "siglas": "FONDEN", "definicion": "Instrumento financiero del Gobierno Federal, operado por la CNPC, para atender los efectos de desastres naturales cuando la capacidad de respuesta de las entidades afectadas es rebasada. Restructurado en 2021.", "categoria": "institucional" },
-  { "termino": "Sistema de Alerta Sísmica Mexicano", "siglas": "SASMEX", "definicion": "Red de sensores sísmicos operada por el CIRES (Centro de Instrumentación y Registro Sísmico) que detecta sismos de magnitud significativa y emite alertas públicas con anticipación de hasta 60 segundos en zonas urbanas lejanas al epicentro.", "categoria": "tecnico" },
-  { "termino": "Zona Económica Exclusiva", "siglas": "ZEE", "definicion": "Franja marítima de 200 millas náuticas (370 km) medidas desde la línea de base del mar territorial, sobre la cual el Estado mexicano ejerce derechos soberanos de exploración, explotación y conservación de recursos naturales.", "categoria": "juridico" },
-  { "termino": "Zona Militar", "siglas": "ZM", "definicion": "Unidad territorial administrativa y operativa básica del Ejército Mexicano. Mexico está dividido en 46 zonas militares, al mando de un general brigadier o de brigada, que coordinan las operaciones en su ámbito territorial.", "categoria": "organico" },
-  { "termino": "Región Militar", "siglas": "RM", "definicion": "Unidad territorial de mando superior que agrupa varias zonas militares. Mexico cuenta con 12 regiones militares, al mando de un general de división, y constituyen el escalón de mando intermedio entre la SEDENA y las zonas militares.", "categoria": "organico" },
-  { "termino": "Zona Naval", "siglas": "ZN", "definicion": "Unidad territorial naval equivalente a la zona militar para el Ejército. La Armada de México organiza el Poder Naval en 16 zonas navales distribuidas en los litorales del Golfo de México y el Pacífico.", "categoria": "organico" },
-  { "termino": "Mando Naval Regional", "siglas": "MNR", "definicion": "Escalón de mando naval superior que agrupa varias zonas navales. La SEMAR cuenta con 10 mandos navales regionales y constituyen el enlace entre el Alto Mando Naval y las zonas navales subordinadas.", "categoria": "organico" },
-  { "termino": "Diario Oficial de la Federación", "siglas": "DOF", "definicion": "Órgano oficial de difusión del Gobierno de México en el que se publican decretos, leyes, reglamentos, acuerdos, circulares y demás actos del Ejecutivo Federal. Tiene carácter vinculante desde su publicación.", "categoria": "juridico" },
-  { "termino": "Instituto Nacional de Estadística y Geografía", "siglas": "INEGI", "definicion": "Organismo público autónomo (artículo 26 constitucional) responsable de producir y difundir información estadística y geográfica de México, incluyendo el Censo de Población y los mapas topográficos oficiales.", "categoria": "institucional" },
-  { "termino": "Plataforma Nacional de Transparencia", "siglas": "PNT", "definicion": "Sistema electrónico del Instituto Nacional de Transparencia (INAI) que permite presentar solicitudes de acceso a la información pública y recursos de revisión ante cualquier sujeto obligado federal, estatal o municipal.", "categoria": "juridico" },
-  { "termino": "Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública", "siglas": "SESNSP", "definicion": "Órgano administrativo del Consejo Nacional de Seguridad Pública que genera y publica estadísticas delictivas oficiales de México, incluyendo incidencia delictiva, víctimas y llamadas al 9-1-1.", "categoria": "institucional" },
-  { "termino": "Mando Único", "siglas": "MU", "definicion": "Modelo de coordinación policial en el que la corporación de policía estatal absorbe operacionalmente a las policías municipales de una entidad federativa, bajo un solo mando estatal, con el objetivo de mejorar la eficiencia y reducir la infiltración del crimen organizado.", "categoria": "operativo" },
-  { "termino": "Operativo Conjunto", "siglas": "OC", "definicion": "Modalidad de despliegue de fuerzas en la que el Ejército, la Marina, la Guardia Nacional y/o corporaciones policiales estatales actúan coordinadamente bajo un mando unificado en una zona específica.", "categoria": "operativo" },
-  { "termino": "Interdicción", "siglas": null, "definicion": "Conjunto de acciones militares, navales o policiales destinadas a detectar, interceptar y neutralizar el tráfico ilícito de drogas, armas o personas, ya sea en tierra, mar o aire.", "categoria": "tactico" },
-  { "termino": "Insurgencia", "siglas": null, "definicion": "Movimiento armado organizado que desafía la autoridad del Estado mediante el uso de la fuerza. Se distingue de la delincuencia organizada en que tiene motivaciones políticas y busca controlar territorio o cambiar el sistema de gobierno.", "categoria": "tactico" },
-  { "termino": "Apoyo Aéreo Cercano", "siglas": "AAC", "definicion": "Acción aérea contra objetivos hostiles en proximidad cercana a fuerzas propias. Requiere coordinación detallada con las tropas en tierra para evitar el fuego amigo. En México lo ejerce la Fuerza Aérea Mexicana con helicópteros MD 530F y aeronaves de ala fija.", "categoria": "tactico" },
-  { "termino": "Fuerzas Especiales", "siglas": "FE", "definicion": "Unidades militares o policiales que reciben entrenamiento especial para misiones de alto riesgo: rescate de rehenes, contraterrorismo, reconocimiento especial e infiltración. En México incluyen el GAFE, el FEAM y el Grupo Especial de la Guardia Nacional.", "categoria": "tactico" },
-  { "termino": "Vehículo Blindado de Transporte de Tropas", "siglas": "VBTT", "definicion": "Vehículo militar diseñado para transportar infantería en zonas de combate con protección frente a armas ligeras y fragmentos de munición. Puede ser de ruedas o de orugas.", "categoria": "tecnico" },
-  { "termino": "Patrulla Oceánica de Largo Alcance", "siglas": "POLA", "definicion": "Buque de la Armada de México diseñado para operar en alta mar en misiones de vigilancia de la ZEE, interdicción de narcotráfico marítimo y auxilio a embarcaciones en peligro. El primer POLA de diseño moderno es el ARM Reformador (2018).", "categoria": "tecnico" },
-  { "termino": "Índice de Paz México", "siglas": "IPM", "definicion": "Indicador elaborado anualmente por el Institute for Economics & Peace (IEP) que mide el nivel de paz en cada estado mexicano con base en homicidios, crimen organizado, crimen violento y presencia policial.", "categoria": "estadistico" },
-  { "termino": "Incidencia Delictiva", "siglas": null, "definicion": "Estadística oficial publicada mensualmente por el SESNSP que registra el número de carpetas de investigación abiertas por tipo de delito en cada entidad federativa. No equivale al número total de delitos cometidos, ya que incluye el subregistro.", "categoria": "estadistico" },
-  { "termino": "Narcotráfico", "siglas": null, "definicion": "Delito federal contemplado en la Ley General de Salud y el Código Penal Federal que comprende la producción, transporte, comercio y distribución de estupefacientes. Es el principal factor de violencia en varias regiones de México.", "categoria": "juridico" },
-  { "termino": "Crimen Organizado", "siglas": "CO", "definicion": "Organización permanente de tres o más personas que acuerdan organizarse para realizar conductas delictivas de manera continua, según el artículo 2 de la Ley Federal contra la Delincuencia Organizada (LFDO). En México, los principales grupos son cárteles de la droga.", "categoria": "juridico" },
-  { "termino": "Alerta de Violencia de Género contra las Mujeres", "siglas": "AVGM", "definicion": "Mecanismo gubernamental de protección a los derechos humanos de las mujeres que, ante la existencia de violencia generalizada, obliga a los estados a adoptar acciones de emergencia para garantizar su seguridad.", "categoria": "juridico" },
-  { "termino": "Número de Emergencias", "siglas": "9-1-1", "definicion": "Número telefónico único de emergencias en México, operativo desde 2017 en las 32 entidades federativas, que consolida las llamadas a policía, bomberos y servicios médicos de urgencia.", "categoria": "tecnico" },
-  { "termino": "Astillero de la Secretaría de Marina", "siglas": "ASTIMAR", "definicion": "Instalaciones de construcción y mantenimiento naval propiedad de la SEMAR, distribuidas en Veracruz, Salina Cruz y Manzanillo. Responsables de la construcción de buques de patrulla, lanchas y el POLA ARM Reformador.", "categoria": "institucional" },
-  { "termino": "Dirección General de Industria Militar", "siglas": "DGIM", "definicion": "Dependencia de la SEDENA responsable de producir armamento, municiones, equipo y uniformes para las fuerzas armadas mexicanas. Fabrica bajo licencia el G3 y diseñó el fusil nacional FX-05 Xiuhcóatl.", "categoria": "institucional" }
+  {
+    "termino": "Secretaría de la Defensa Nacional",
+    "siglas": "SEDENA",
+    "definicion": "Dependencia del Poder Ejecutivo Federal encargada de organizar, administrar, adiestrar, equipar y desarrollar al Ejército y a la Fuerza Aérea Mexicanos. Fundada el 1 de septiembre de 1937.",
+    "categoria": "institucional",
+    "fuente_url": "https://www.gob.mx/sedena"
+  },
+  {
+    "termino": "Secretaría de Marina — Armada de México",
+    "siglas": "SEMAR",
+    "definicion": "Dependencia federal responsable de la defensa del mar territorial, la Zona Económica Exclusiva y el apoyo a la población en emergencias marítimas y costeras mediante el Plan Marina.",
+    "categoria": "institucional",
+    "fuente_url": "https://www.gob.mx/semar"
+  },
+  {
+    "termino": "Guardia Nacional",
+    "siglas": "GN",
+    "definicion": "Institución de seguridad pública federal de carácter civil y disciplina militar, creada por decreto publicado en el DOF el 27 de junio de 2019, en sustitución de la Policía Federal.",
+    "categoria": "institucional",
+    "fuente_url": "https://www.dof.gob.mx/nota_detalle.php?codigo=5563178&fecha=27/06/2019"
+  },
+  {
+    "termino": "Secretaría de Seguridad y Protección Ciudadana",
+    "siglas": "SSPC",
+    "definicion": "Dependencia federal responsable de la política de seguridad pública interior, la coordinación con corporaciones policiales estatales y municipales, y la supervisión de la Guardia Nacional.",
+    "categoria": "institucional",
+    "fuente_url": "https://www.gob.mx/sspc"
+  },
+  {
+    "termino": "Fuerza Aérea Mexicana",
+    "siglas": "FAM",
+    "definicion": "Componente aeroespacial del Ejército Mexicano, reconocido formalmente el 10 de febrero de 1944. Dependiente de la SEDENA, es responsable de la defensa del espacio aéreo nacional y el apoyo aéreo a operaciones terrestres y humanitarias.",
+    "categoria": "institucional",
+    "fuente_url": "https://www.gob.mx/sedena"
+  },
+  {
+    "termino": "Grupo Aeromóvil de Fuerzas Especiales",
+    "siglas": "GAFE",
+    "definicion": "Unidad de fuerzas especiales del Ejército Mexicano especializada en operaciones de alta complejidad: contraterrorismo, rescate de rehenes, operaciones de interdicción y misiones especiales.",
+    "categoria": "institucional",
+    "fuente_url": "https://www.gob.mx/sedena"
+  },
+  {
+    "termino": "Fuerzas Especiales de la Armada de México",
+    "siglas": "FEAM",
+    "definicion": "Unidades de operaciones especiales de la Armada de México entrenadas para contraterrorismo marítimo, operaciones anfibias especiales, interdicción fluvial y rescate de rehenes en entornos navales.",
+    "categoria": "institucional",
+    "fuente_url": "https://www.gob.mx/semar"
+  },
+  {
+    "termino": "Policía Federal",
+    "siglas": "PF",
+    "definicion": "Corporación de seguridad pública federal disuelta el 4 de octubre de 2019 y sustituida por la Guardia Nacional. Dependía de la entonces Secretaría de Seguridad Pública (SSP), hoy SSPC.",
+    "categoria": "institucional"
+  },
+  {
+    "termino": "Procuraduría General de la República",
+    "siglas": "PGR",
+    "definicion": "Institución que hasta 2019 ejerció la función de Ministerio Público Federal. Transformada en Fiscalía General de la República (FGR) con plena autonomía constitucional.",
+    "categoria": "institucional",
+    "fuente_url": "https://www.dof.gob.mx/nota_detalle.php?codigo=5547785&fecha=14/12/2018"
+  },
+  {
+    "termino": "Fiscalía General de la República",
+    "siglas": "FGR",
+    "definicion": "Órgano público autónomo, en sustitución de la PGR desde 2019, responsable de la investigación y persecución de delitos federales, incluidos delincuencia organizada, narcotráfico y corrupción.",
+    "categoria": "institucional",
+    "fuente_url": "https://www.gob.mx/fgr"
+  },
+  {
+    "termino": "Plan de Auxilio a la Población Civil en Casos de Desastre",
+    "siglas": "Plan DN-III-E",
+    "definicion": "Plan del Ejército y la Fuerza Aérea Mexicanos que establece la organización, procedimientos y recursos para proporcionar auxilio a la población ante desastres naturales o emergencias. Se activa por solicitud de la autoridad civil.",
+    "categoria": "operativo"
+  },
+  {
+    "termino": "Plan Marina",
+    "siglas": "Plan Marina",
+    "definicion": "Equivalente naval del Plan DN-III-E. Define la participación de la Armada de México en apoyo a la población civil ante contingencias, desastres naturales y emergencias en zonas costeras, insulares y fluviales.",
+    "categoria": "operativo",
+    "fuente_url": "https://www.gob.mx/semar"
+  },
+  {
+    "termino": "Centro de Control, Comando, Comunicación y Cómputo",
+    "siglas": "C4",
+    "definicion": "Infraestructura tecnológica operada por entidades de seguridad que integra videovigilancia, despacho de emergencias, radiocomunicación y análisis de información en tiempo real.",
+    "categoria": "tecnico"
+  },
+  {
+    "termino": "Centro de Control, Comando, Comunicación, Cómputo y Calidad",
+    "siglas": "C5",
+    "definicion": "Versión ampliada del C4 que incorpora indicadores de calidad en la gestión de servicios de seguridad y emergencias. La Ciudad de México opera uno de los C5 más grandes de América Latina.",
+    "categoria": "tecnico"
+  },
+  {
+    "termino": "Sistema Nacional de Seguridad Pública",
+    "siglas": "SNSP",
+    "definicion": "Marco institucional establecido en el artículo 21 constitucional que coordina la función de seguridad pública de la Federación, los estados, la Ciudad de México y los municipios bajo la rectoría del Consejo Nacional de Seguridad Pública.",
+    "categoria": "institucional",
+    "fuente_url": "https://www.gob.mx/sesnsp/acciones-y-programas/sistema-nacional-de-seguridad-publica"
+  },
+  {
+    "termino": "Sistema Nacional de Protección Civil",
+    "siglas": "SINAPROC",
+    "definicion": "Conjunto de órganos, instrumentos, políticas y acciones establecido para proteger a la persona y a la sociedad ante la eventualidad de desastres o calamidades. Coordinado por la CNPC.",
+    "categoria": "institucional",
+    "fuente_url": "https://www.gob.mx/cnpc/acciones-y-programas/sistema-nacional-de-proteccion-civil-197228"
+  },
+  {
+    "termino": "Centro Nacional de Prevención de Desastres",
+    "siglas": "CENAPRED",
+    "definicion": "Organismo del gobierno federal adscrito a la SSPC que investiga y monitorea fenómenos naturales peligrosos (sísmicos, volcánicos, hidrometeorológicos) y difunde alertas tempranas a la población.",
+    "categoria": "institucional",
+    "fuente_url": "https://www.cenapred.unam.mx"
+  },
+  {
+    "termino": "Coordinación Nacional de Protección Civil",
+    "siglas": "CNPC",
+    "definicion": "Órgano desconcentrado de la SSPC que coordina el Sistema Nacional de Protección Civil, incluyendo la Red Nacional de Alerta Temprana, el Fondo de Desastres Naturales (FONDEN) y los programas de prevención.",
+    "categoria": "institucional",
+    "fuente_url": "https://www.gob.mx/cnpc"
+  },
+  {
+    "termino": "Fondo de Desastres Naturales",
+    "siglas": "FONDEN",
+    "definicion": "Instrumento financiero del Gobierno Federal, operado por la CNPC, para atender los efectos de desastres naturales cuando la capacidad de respuesta de las entidades afectadas es rebasada. Restructurado en 2021.",
+    "categoria": "institucional"
+  },
+  {
+    "termino": "Sistema de Alerta Sísmica Mexicano",
+    "siglas": "SASMEX",
+    "definicion": "Red de sensores sísmicos operada por el CIRES (Centro de Instrumentación y Registro Sísmico) que detecta sismos de magnitud significativa y emite alertas públicas con anticipación de hasta 60 segundos en zonas urbanas lejanas al epicentro.",
+    "categoria": "tecnico",
+    "fuente_url": "https://www.cires-ac.mx/sasmex.php"
+  },
+  {
+    "termino": "Zona Económica Exclusiva",
+    "siglas": "ZEE",
+    "definicion": "Franja marítima de 200 millas náuticas (370 km) medidas desde la línea de base del mar territorial, sobre la cual el Estado mexicano ejerce derechos soberanos de exploración, explotación y conservación de recursos naturales.",
+    "categoria": "juridico"
+  },
+  {
+    "termino": "Zona Militar",
+    "siglas": "ZM",
+    "definicion": "Unidad territorial administrativa y operativa básica del Ejército Mexicano. Mexico está dividido en 46 zonas militares, al mando de un general brigadier o de brigada, que coordinan las operaciones en su ámbito territorial.",
+    "categoria": "organico"
+  },
+  {
+    "termino": "Región Militar",
+    "siglas": "RM",
+    "definicion": "Unidad territorial de mando superior que agrupa varias zonas militares. Mexico cuenta con 12 regiones militares, al mando de un general de división, y constituyen el escalón de mando intermedio entre la SEDENA y las zonas militares.",
+    "categoria": "organico"
+  },
+  {
+    "termino": "Zona Naval",
+    "siglas": "ZN",
+    "definicion": "Unidad territorial naval equivalente a la zona militar para el Ejército. La Armada de México organiza el Poder Naval en 16 zonas navales distribuidas en los litorales del Golfo de México y el Pacífico.",
+    "categoria": "organico"
+  },
+  {
+    "termino": "Mando Naval Regional",
+    "siglas": "MNR",
+    "definicion": "Escalón de mando naval superior que agrupa varias zonas navales. La SEMAR cuenta con 10 mandos navales regionales y constituyen el enlace entre el Alto Mando Naval y las zonas navales subordinadas.",
+    "categoria": "organico"
+  },
+  {
+    "termino": "Diario Oficial de la Federación",
+    "siglas": "DOF",
+    "definicion": "Órgano oficial de difusión del Gobierno de México en el que se publican decretos, leyes, reglamentos, acuerdos, circulares y demás actos del Ejecutivo Federal. Tiene carácter vinculante desde su publicación.",
+    "categoria": "juridico",
+    "fuente_url": "https://www.dof.gob.mx"
+  },
+  {
+    "termino": "Instituto Nacional de Estadística y Geografía",
+    "siglas": "INEGI",
+    "definicion": "Organismo público autónomo (artículo 26 constitucional) responsable de producir y difundir información estadística y geográfica de México, incluyendo el Censo de Población y los mapas topográficos oficiales.",
+    "categoria": "institucional",
+    "fuente_url": "https://www.inegi.org.mx"
+  },
+  {
+    "termino": "Plataforma Nacional de Transparencia",
+    "siglas": "PNT",
+    "definicion": "Sistema electrónico del Instituto Nacional de Transparencia (INAI) que permite presentar solicitudes de acceso a la información pública y recursos de revisión ante cualquier sujeto obligado federal, estatal o municipal.",
+    "categoria": "juridico",
+    "fuente_url": "https://www.plataformadetransparencia.org.mx"
+  },
+  {
+    "termino": "Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública",
+    "siglas": "SESNSP",
+    "definicion": "Órgano administrativo del Consejo Nacional de Seguridad Pública que genera y publica estadísticas delictivas oficiales de México, incluyendo incidencia delictiva, víctimas y llamadas al 9-1-1.",
+    "categoria": "institucional",
+    "fuente_url": "https://www.gob.mx/sesnsp"
+  },
+  {
+    "termino": "Mando Único",
+    "siglas": "MU",
+    "definicion": "Modelo de coordinación policial en el que la corporación de policía estatal absorbe operacionalmente a las policías municipales de una entidad federativa, bajo un solo mando estatal, con el objetivo de mejorar la eficiencia y reducir la infiltración del crimen organizado.",
+    "categoria": "operativo"
+  },
+  {
+    "termino": "Operativo Conjunto",
+    "siglas": "OC",
+    "definicion": "Modalidad de despliegue de fuerzas en la que el Ejército, la Marina, la Guardia Nacional y/o corporaciones policiales estatales actúan coordinadamente bajo un mando unificado en una zona específica.",
+    "categoria": "operativo"
+  },
+  {
+    "termino": "Interdicción",
+    "siglas": null,
+    "definicion": "Conjunto de acciones militares, navales o policiales destinadas a detectar, interceptar y neutralizar el tráfico ilícito de drogas, armas o personas, ya sea en tierra, mar o aire.",
+    "categoria": "tactico"
+  },
+  {
+    "termino": "Insurgencia",
+    "siglas": null,
+    "definicion": "Movimiento armado organizado que desafía la autoridad del Estado mediante el uso de la fuerza. Se distingue de la delincuencia organizada en que tiene motivaciones políticas y busca controlar territorio o cambiar el sistema de gobierno.",
+    "categoria": "tactico"
+  },
+  {
+    "termino": "Apoyo Aéreo Cercano",
+    "siglas": "AAC",
+    "definicion": "Acción aérea contra objetivos hostiles en proximidad cercana a fuerzas propias. Requiere coordinación detallada con las tropas en tierra para evitar el fuego amigo. En México lo ejerce la Fuerza Aérea Mexicana con helicópteros MD 530F y aeronaves de ala fija.",
+    "categoria": "tactico"
+  },
+  {
+    "termino": "Fuerzas Especiales",
+    "siglas": "FE",
+    "definicion": "Unidades militares o policiales que reciben entrenamiento especial para misiones de alto riesgo: rescate de rehenes, contraterrorismo, reconocimiento especial e infiltración. En México incluyen el GAFE, el FEAM y el Grupo Especial de la Guardia Nacional.",
+    "categoria": "tactico"
+  },
+  {
+    "termino": "Vehículo Blindado de Transporte de Tropas",
+    "siglas": "VBTT",
+    "definicion": "Vehículo militar diseñado para transportar infantería en zonas de combate con protección frente a armas ligeras y fragmentos de munición. Puede ser de ruedas o de orugas.",
+    "categoria": "tecnico"
+  },
+  {
+    "termino": "Patrulla Oceánica de Largo Alcance",
+    "siglas": "POLA",
+    "definicion": "Buque de la Armada de México diseñado para operar en alta mar en misiones de vigilancia de la ZEE, interdicción de narcotráfico marítimo y auxilio a embarcaciones en peligro. El primer POLA de diseño moderno es el ARM Reformador (2018).",
+    "categoria": "tecnico"
+  },
+  {
+    "termino": "Índice de Paz México",
+    "siglas": "IPM",
+    "definicion": "Indicador elaborado anualmente por el Institute for Economics & Peace (IEP) que mide el nivel de paz en cada estado mexicano con base en homicidios, crimen organizado, crimen violento y presencia policial.",
+    "categoria": "estadistico",
+    "fuente_url": "https://www.indicedepazmexico.org"
+  },
+  {
+    "termino": "Incidencia Delictiva",
+    "siglas": null,
+    "definicion": "Estadística oficial publicada mensualmente por el SESNSP que registra el número de carpetas de investigación abiertas por tipo de delito en cada entidad federativa. No equivale al número total de delitos cometidos, ya que incluye el subregistro.",
+    "categoria": "estadistico"
+  },
+  {
+    "termino": "Narcotráfico",
+    "siglas": null,
+    "definicion": "Delito federal contemplado en la Ley General de Salud y el Código Penal Federal que comprende la producción, transporte, comercio y distribución de estupefacientes. Es el principal factor de violencia en varias regiones de México.",
+    "categoria": "juridico"
+  },
+  {
+    "termino": "Crimen Organizado",
+    "siglas": "CO",
+    "definicion": "Organización permanente de tres o más personas que acuerdan organizarse para realizar conductas delictivas de manera continua, según el artículo 2 de la Ley Federal contra la Delincuencia Organizada (LFDO). En México, los principales grupos son cárteles de la droga.",
+    "categoria": "juridico"
+  },
+  {
+    "termino": "Alerta de Violencia de Género contra las Mujeres",
+    "siglas": "AVGM",
+    "definicion": "Mecanismo gubernamental de protección a los derechos humanos de las mujeres que, ante la existencia de violencia generalizada, obliga a los estados a adoptar acciones de emergencia para garantizar su seguridad.",
+    "categoria": "juridico",
+    "fuente_url": "https://www.gob.mx/inmujeres/acciones-y-programas/alerta-de-violencia-de-genero-contra-las-mujeres"
+  },
+  {
+    "termino": "Número de Emergencias",
+    "siglas": "9-1-1",
+    "definicion": "Número telefónico único de emergencias en México, operativo desde 2017 en las 32 entidades federativas, que consolida las llamadas a policía, bomberos y servicios médicos de urgencia.",
+    "categoria": "tecnico",
+    "fuente_url": "https://www.gob.mx/911"
+  },
+  {
+    "termino": "Astillero de la Secretaría de Marina",
+    "siglas": "ASTIMAR",
+    "definicion": "Instalaciones de construcción y mantenimiento naval propiedad de la SEMAR, distribuidas en Veracruz, Salina Cruz y Manzanillo. Responsables de la construcción de buques de patrulla, lanchas y el POLA ARM Reformador.",
+    "categoria": "institucional",
+    "fuente_url": "https://www.gob.mx/semar"
+  },
+  {
+    "termino": "Dirección General de Industria Militar",
+    "siglas": "DGIM",
+    "definicion": "Dependencia de la SEDENA responsable de producir armamento, municiones, equipo y uniformes para las fuerzas armadas mexicanas. Fabrica bajo licencia el G3 y diseñó el fusil nacional FX-05 Xiuhcóatl.",
+    "categoria": "institucional",
+    "fuente_url": "https://www.gob.mx/sedena"
+  }
 ]

@@ -44,6 +44,17 @@ function EntradaGlosario({ entrada }: { entrada: GlosarioEntry }) {
               {entrada.definicion}
             </p>
           )}
+          {entrada.fuente_url && (
+            <a
+              href={entrada.fuente_url}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="mt-1.5 inline-flex items-center gap-1 font-mono text-[11px] text-text-muted/50 hover:text-green-400 transition-colors"
+            >
+              <span aria-hidden="true">↗</span>
+              Fuente oficial
+            </a>
+          )}
         </div>
       </div>
     </div>

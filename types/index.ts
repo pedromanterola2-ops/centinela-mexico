@@ -164,6 +164,8 @@ export interface GlosarioEntry {
   definicion: string | null;
   siglas: string | null;
   categoria: string | null;
+  /** URL de la fuente oficial donde se puede verificar el término */
+  fuente_url?: string | null;
   created_at: string;
 }
 
