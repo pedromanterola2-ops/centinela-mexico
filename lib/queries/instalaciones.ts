@@ -67,6 +67,27 @@ export async function getInstalacionesByCategoria(
   return (data ?? []) as Instalacion[];
 }
 
+/** Instalación por id (slug) */
+export async function getInstalacionById(
+  id: string
+): Promise<Instalacion | null> {
+  const sb = getSupabaseClient();
+  // Sin Supabase configurado → buscamos en el seed.
+  if (!sb) return seedInstalaciones.find((i) => i.id === id) ?? null;
+
+  const { data, error } = await sb
+    .from(TABLE)
+    .select("*")
+    .eq("id", id)
+    .single();
+
+  if (error) {
+    console.error("[instalaciones] getInstalacionById:", error.message);
+    return seedInstalaciones.find((i) => i.id === id) ?? null;
+  }
+  return (data ?? null) as Instalacion | null;
+}
+
 /** Instalaciones por estado */
 export async function getInstalacionesByEstado(
   estado: string

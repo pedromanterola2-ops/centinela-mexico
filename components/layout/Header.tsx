@@ -12,6 +12,7 @@ const NAV_ITEMS = [
   { href: "/equipamiento", label: "Equipamiento" },
   { href: "/operativos", label: "Operativos" },
   { href: "/proteccion-civil", label: "Protección Civil" },
+  { href: "/instalaciones", label: "Instalaciones" },
   { href: "/actualidad", label: "Actualidad" },
   { href: "/mapa", label: "Mapa" },
 ];
