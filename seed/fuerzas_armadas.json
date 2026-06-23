@@ -8,8 +8,8 @@
     "anio_fundacion": 1937,
     "mision": "Organizar, administrar, adiestrar, equipar y desarrollar a las Fuerzas Armadas de tierra y aire para la defensa exterior y seguridad interior del país.",
     "efectivos_aprox": 220000,
-    "presupuesto_aprox": null,
-    "anio_presupuesto": null,
+    "presupuesto_aprox": 259433804766,
+    "anio_presupuesto": 2024,
     "estructura": {
       "ramas": ["Ejército Mexicano", "Fuerza Aérea Mexicana"],
       "regiones_militares": 12,
@@ -36,7 +36,7 @@
     "descripcion": "Principal institución armada de México, encargada de la defensa nacional y el apoyo a la seguridad interior. Creada por decreto el 1 de septiembre de 1937, agrupa al Ejército Mexicano y a la Fuerza Aérea Mexicana, y se organiza territorialmente en 12 regiones y 46 zonas militares. Cuenta con la Dirección General de Industria Militar (DGIM), que fabrica el fusil FX-05 Xiuhcóatl y municiones de uso exclusivo. Su instrumento de auxilio a la población en desastres es el Plan DN-III-E, activado en todos los desastres naturales mayores del país desde 1985.",
     "historia": "El Ejército Mexicano tiene sus raíces en el Ejército Trigarante que consumó la Independencia en 1821. El Ministerio de Guerra y Marina, creado ese mismo año, fue la primera dependencia responsable de la defensa nacional. Durante el siglo XIX las fuerzas armadas fueron protagonistas de múltiples conflictos: la Guerra de Texas (1836), la Primera y Segunda Intervenciones Francesas (1838–1839 y 1861–1867) y la Guerra de Reforma (1857–1860). En 1937, durante la presidencia de Lázaro Cárdenas, el Ministerio de Guerra se reestructuró en dos dependencias independientes: la Secretaría de la Defensa Nacional (SEDENA) para el Ejército y la Aviación, y la nueva Secretaría de Marina para la Armada. Ese mismo gobierno expropió la industria petrolera (1938), operación que el Ejército protegió. Durante la Segunda Guerra Mundial, México participó activamente: tras el hundimiento de buques tanqueros mexicanos por submarinos del Eje en 1942, el país declaró la guerra a las Potencias del Eje y desplegó el Escuadrón 201 'Águilas Aztecas' en el Pacífico (Filipinas y Formosa, 1945), único caso de participación de fuerzas mexicanas en un conflicto bélico internacional en el siglo XX. En 1940, el Congreso aprobó la Ley del Servicio Militar Nacional, que instituyó el SMN obligatorio para varones al cumplir 18 años. El Plan DN-III-E —instrumento de auxilio a la población en desastres naturales— fue formalizado en 1966 y activado a gran escala por primera vez durante los devastadores sismos de septiembre de 1985 en la Ciudad de México, que dejaron más de 10,000 muertos. Desde la década de los noventa, ante el crecimiento del crimen organizado, la SEDENA asumió un papel progresivamente más amplio en operaciones de seguridad interior, participando en Operativos Conjuntos en Chihuahua (2008), Michoacán (2006), Tamaulipas (2010) y otros estados. En 2022, el Aeropuerto Internacional Felipe Ángeles (AIFA) fue inaugurado en la Base Aérea Militar No. 1 de Santa Lucía, bajo administración directa de la SEDENA.",
     "fuente_url": "https://www.gob.mx/sedena",
-    "pendiente_verificacion": true
+    "pendiente_verificacion": false
   },
   {
     "slug": "armada-de-mexico",
@@ -47,8 +47,8 @@
     "anio_fundacion": 1940,
     "mision": "Emplear el Poder Naval de la Federación para la defensa exterior y coadyuvar en la seguridad interior del país, con énfasis en la vigilancia de la Zona Económica Exclusiva.",
     "efectivos_aprox": 60000,
-    "presupuesto_aprox": null,
-    "anio_presupuesto": null,
+    "presupuesto_aprox": 71902000000,
+    "anio_presupuesto": 2024,
     "estructura": {
       "mandos_navales_regionales": 10,
       "zonas_navales": 16,
@@ -80,7 +80,7 @@
     "nombre": "Guardia Nacional",
     "siglas": "GN",
     "tipo": "fuerza_seguridad",
-    "dependencia": "Secretaría de Seguridad y Protección Ciudadana",
+    "dependencia": "Secretaría de la Defensa Nacional (SEDENA) desde dic. 2022; coordina con SSPC en política de seguridad pública",
     "anio_fundacion": 2019,
     "mision": "Realizar la función de seguridad pública a cargo de la Federación y salvaguardar la vida, las libertades, la integridad y el patrimonio de las personas.",
     "efectivos_aprox": 100000,

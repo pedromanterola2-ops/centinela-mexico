@@ -21,7 +21,8 @@
     ],
     "descripcion": "Estado del centro-occidente con fuerte base industrial automotriz y manufactura de exportación. Una de las entidades más pequeñas en superficie pero con alta densidad de actividad económica. Pertenece a la II Región Militar con sede en Guadalajara. Su zona militar cubre las funciones del Plan DN-III-E para sismos y sequías crónicas que afectan la entidad. La Policía Estatal opera bajo la Secretaría de Seguridad Pública local. Presenta relativamente bajos índices de violencia respecto al promedio nacional, aunque en años recientes se han registrado incidencias vinculadas al tráfico de drogas en corredores carreteros. Población según el Censo 2020 (INEGI).",
     "fuente_url": "https://www.inegi.org.mx/programas/ccpv/2020/",
-    "pendiente_verificacion": true
+    "pendiente_verificacion": true,
+    "historia": "La Policía Estatal de Aguascalientes fue reorganizada en el siglo XX conforme a las reformas del Sistema Nacional de Seguridad Pública. En 2008, el estado adoptó el Modelo Policial Único impulsado por el SESNSP, que estandarizó protocolos de formación y operación. La entidad mantuvo históricamente índices de violencia moderados, aunque a partir de 2019 registró un incremento en homicidios vinculados a la disputa territorial entre el Cártel de Jalisco Nueva Generación y el Cártel de Santa Rosa de Lima por corredores de distribución de drogas."
   },
   {
     "slug": "baja-california",
@@ -47,7 +48,8 @@
     ],
     "descripcion": "Estado fronterizo del noroeste con 225 km de frontera terrestre con California, EUA. Mayor zona metropolitana fronteriza del país (Tijuana–San Diego). Importante industria maquiladora. Zona sísmica activa por la falla de San Andrés. Principales cruces fronterizos: Tijuana (el más transitado del mundo), Tecate, Mexicali y Otay. Cuenta con la 2ª Zona Militar en Tijuana y la 28ª en Mexicali, así como la 2ª Zona Naval en Ensenada para vigilancia del litoral pacífico y la Zona Económica Exclusiva. La disputa territorial entre el Cártel de Tijuana y el Cártel de Sinaloa marcó la seguridad de Baja California en los años 2000; en años recientes el Cártel Jalisco Nueva Generación también ha buscado presencia en la entidad. Población según el Censo 2020 (INEGI).",
     "fuente_url": "https://www.inegi.org.mx/programas/ccpv/2020/",
-    "pendiente_verificacion": true
+    "pendiente_verificacion": true,
+    "historia": "La Policía Estatal de Baja California surge con el territorio convertido en estado en 1952. Tijuana fue históricamente el principal escenario del Cártel de los Arellano Félix (Cártel de Tijuana), que dominó la plaza desde los años ochenta hasta mediados de los dos mil. En 2008, Tijuana registró más de 1,000 homicidios, siendo entonces la ciudad más violenta del país. La Policía Estatal fue reestructurada con apoyo federal en 2009; desde 2019, la Guardia Nacional desplegó coordinaciones a lo largo del corredor fronterizo Tijuana-Mexicali."
   },
   {
     "slug": "baja-california-sur",
@@ -73,7 +75,8 @@
     ],
     "descripcion": "Entidad menos poblada del noroeste peninsular, rodeada por el Golfo de California y el Océano Pacífico. Principal destino turístico de naturaleza (Los Cabos). Altamente expuesta a huracanes del Pacífico durante junio–noviembre. La Paz es la capital y el mayor puerto de la península. La 3ª Zona Militar y una Zona Naval en La Paz ejercen vigilancia de los extensos litorales y de la actividad pesquera en el Golfo de California. La pesca ilegal y el tráfico de drogas por vía marítima representan los principales retos de seguridad en la entidad. Población según el Censo 2020 (INEGI).",
     "fuente_url": "https://www.inegi.org.mx/programas/ccpv/2020/",
-    "pendiente_verificacion": true
+    "pendiente_verificacion": true,
+    "historia": "La Policía Estatal de Baja California Sur se estableció formalmente tras la conversión del territorio en estado en 1974. Históricamente considerada una de las entidades más pacíficas de México, la situación cambió desde 2012 con la llegada del Cártel de Sinaloa al corredor de Los Cabos, que pasó de tasas de homicidio casi nulas a encabezar rankings mundiales en 2017-2018. La Secretaría de Seguridad Pública del Estado emprendió desde 2019 un proceso de refuerzo institucional en coordinación con la SEMAR y la Guardia Nacional."
   },
   {
     "slug": "campeche",
@@ -98,7 +101,8 @@
     ],
     "descripcion": "Estado del sureste en la Península de Yucatán, con costas sobre el Golfo de México. Estratégico para la protección de la Sonda de Campeche, donde se concentran los yacimientos petroleros marinos de Pemex que históricamente han aportado más del 60% de la producción nacional de crudo. La Zona Naval en Lerma–Campeche tiene como misión primaria la seguridad de las plataformas y el espacio marítimo en la Sonda. La capital fue declarada Patrimonio Mundial de la UNESCO. Frontera terrestre con Guatemala. Presenta bajo volumen de violencia respecto al promedio nacional, con riesgos principalmente asociados a huracanes e inundaciones costeras. Población según el Censo 2020 (INEGI).",
     "fuente_url": "https://www.inegi.org.mx/programas/ccpv/2020/",
-    "pendiente_verificacion": true
+    "pendiente_verificacion": true,
+    "historia": "La Policía Estatal de Campeche tiene raíces en los cuerpos de seguridad coloniales del siglo XVII, dado que la ciudad de Campeche fue una de las primeras amuralladas del continente americano. El estado ha mantenido bajos índices de violencia gracias a una estructura económica centrada en la industria petrolera. La Secretaría de Seguridad Pública adoptó el Nuevo Sistema de Justicia Penal (NSJP) en 2016. El principal reto de seguridad en la entidad es la vigilancia marítima frente a la Sonda de Campeche, responsabilidad compartida entre la SEMAR y la Policía Federal Marítima."
   },
   {
     "slug": "coahuila",
@@ -123,7 +127,8 @@
     ],
     "descripcion": "Estado más extenso del noreste, con 512 km de frontera con Texas (EUA) en los cruces de Piedras Negras, Acuña y Ciudad Acuña. Importante industria siderúrgica (AHMSA en Monclova), automotriz (Saltillo) y minera (Torreón–Monclova). Zona desértica con altas temperaturas en verano y heladas en invierno. La 9ª Región Militar con sede en Monterrey coordina las zonas militares del estado. Coahuila fue escenario de una intensa presencia de Los Zetas entre 2010 y 2015, con episodios documentados de desapariciones forzadas en municipios como Allende (2011). La Fuerza Coahuila es el cuerpo policial estatal de élite creado para hacer frente a estas amenazas. Población según el Censo 2020 (INEGI).",
     "fuente_url": "https://www.inegi.org.mx/programas/ccpv/2020/",
-    "pendiente_verificacion": true
+    "pendiente_verificacion": true,
+    "historia": "La Policía Estatal de Coahuila fue reorganizada durante el siglo XX conforme a las leyes de seguridad pública estatales. La entidad vivió uno de los episodios más graves de violencia criminal entre 2010 y 2013, cuando Los Zetas controlaron amplias zonas fronterizas, perpetrando la masacre de Allende (2011), donde decenas de personas fueron asesinadas con complicidad policial. En respuesta, el gobierno estatal creó la Fuerza Coahuila en 2011 con riguroso proceso de selección y vetting, modelo que logró reducir significativamente los homicidios hacia 2015."
   },
   {
     "slug": "colima",
@@ -149,7 +154,8 @@
     ],
     "descripcion": "Estado más pequeño de México en superficie, con litoral en el Pacífico y presencia del Volcán de Fuego de Colima, uno de los más activos del país. Alberga el puerto de Manzanillo, principal puerto de contenedores del Pacífico mexicano y punto estratégico de importaciones. Alta sismicidad y riesgo volcánico permanente. Afectado por el sismo del 19-S-2022 (magnitud 7.6). La 3ª Zona Naval en Manzanillo tiene como misión prioritaria la vigilancia del tráfico marítimo de contenedores y la detección del ingreso ilícito de drogas por vía marítima, siendo Manzanillo uno de los puertos con mayor incautación de precursores químicos en México. Población según el Censo 2020 (INEGI).",
     "fuente_url": "https://www.inegi.org.mx/programas/ccpv/2020/",
-    "pendiente_verificacion": true
+    "pendiente_verificacion": true,
+    "historia": "La Policía Estatal de Colima fue establecida en el siglo XX y reorganizada periódicamente. Pese a ser el estado más pequeño de México en superficie, Colima registró a partir de 2015 una de las tasas de homicidio más altas del mundo por disputa entre el Cártel de Sinaloa y el Cártel Jalisco Nueva Generación por el control del puerto de Manzanillo, principal entrada de contenedores del Pacífico. La Secretaría de Seguridad Pública del Estado opera en estrecha coordinación con la 3ª Zona Naval de la SEMAR en materia de vigilancia portuaria."
   },
   {
     "slug": "chiapas",
@@ -176,7 +182,8 @@
     ],
     "descripcion": "Estado del sureste con 654 km de frontera con Guatemala y Belice, la más extensa del sur. Alta diversidad étnica y cultural (tzotziles, tzeltales, tojolabales, entre otros 12 pueblos indígenas). Importante corredor migratorio internacional. Alta sismicidad: afectado por el terremoto del 7-S-2017 (8.2 Mw) y el huracán Stan (2005). El volcán Tacaná se ubica en la frontera con Guatemala. La 39ª Zona Militar en San Cristóbal y las instalaciones militares en Tuxtla Gutiérrez coordinan operaciones de vigilancia fronteriza, apoyo a migración y seguridad. En 2023–2024 se documentó un incremento de la violencia en Chiapas vinculado a la expansión del CJNG y disputas con grupos locales como 'Los Chapitos', afectando municipios de la región Altos y frontera. Población según el Censo 2020 (INEGI).",
     "fuente_url": "https://www.inegi.org.mx/programas/ccpv/2020/",
-    "pendiente_verificacion": true
+    "pendiente_verificacion": true,
+    "historia": "La Policía Estatal de Chiapas tiene antecedentes en los cuerpos de seguridad coloniales de la Alcaldía Mayor de Chiapas. El estado fue escenario del levantamiento armado del Ejército Zapatista de Liberación Nacional (EZLN) el 1 de enero de 1994 en San Cristóbal de las Casas, que modificó la estructura de seguridad regional. La SEDENA mantiene una presencia territorial intensa en la entidad con múltiples zonas militares. En años recientes, el tráfico de migrantes y el crimen organizado transnacional han intensificado las operaciones en la frontera sur con Guatemala."
   },
   {
     "slug": "chihuahua",
@@ -201,7 +208,8 @@
     ],
     "descripcion": "Estado más grande de México, con 904 km de frontera con Texas y Nuevo México (EUA), incluyendo el cruce Ciudad Juárez–El Paso, el más transitado del mundo en términos de comercio legal. Escenario del Operativo Conjunto Chihuahua (2008), uno de los primeros despliegues masivos de fuerzas federales en el país. Corredor clave del Cártel de Sinaloa y el Cártel de Juárez, cuya guerra por el control de la plaza (2008–2012) dejó miles de muertos y convirtió a Ciudad Juárez en una de las ciudades más violentas del mundo. Forma parte del 'Triángulo Dorado' de producción de drogas junto con Sinaloa y Durango. La 5ª Zona Militar en Chihuahua y la 42ª en Ciudad Juárez coordinan operaciones de seguridad. Población según el Censo 2020 (INEGI).",
     "fuente_url": "https://www.inegi.org.mx/programas/ccpv/2020/",
-    "pendiente_verificacion": true
+    "pendiente_verificacion": true,
+    "historia": "La Policía Estatal de Chihuahua fue pionera en la implementación del sistema acusatorio de justicia penal en México. Ciudad Juárez se convirtió entre 2008 y 2012 en el epicentro de la crisis de violencia más intensa del país, con más de 3,000 homicidios solo en 2010, resultado de la guerra entre el Cártel de Juárez y el Cártel de Sinaloa por el corredor fronterizo. El Operativo Conjunto Chihuahua (2008), primer gran despliegue federal (SEDENA, SEMAR, PF) en México contra el crimen organizado, fue lanzado desde esta entidad. La violencia fue disminuyendo tras la consolidación del Cártel de Sinaloa en 2011-2012."
   },
   {
     "slug": "ciudad-de-mexico",
@@ -226,7 +234,8 @@
     ],
     "descripcion": "Capital federal y principal metrópoli del país (ZMVM con ~22 millones). Sede del gobierno federal y de la mayoría de instituciones nacionales de seguridad. Asentada sobre el antiguo lago de Texcoco, con alta vulnerabilidad sísmica por amplificación de ondas en suelo blando. Devastada por los sismos de 1985 y 2017. Bajo la 1ª Zona Militar, coordina con el Estado Mayor de la Defensa Nacional y la I Región Militar. La SSC-CDMX opera más de 16,000 cámaras a través del C5-CDMX. La entidad alberga el Campo Militar No. 1, instalación de la SEDENA de máxima importancia histórica, así como el CEFERESO del Altiplano (Estado de México) y el Centro de Readaptación Social Varonil Oriente. Sede de las principales instancias de coordinación del Sistema Nacional de Seguridad Pública. Población según el Censo 2020 (INEGI).",
     "fuente_url": "https://www.inegi.org.mx/programas/ccpv/2020/",
-    "pendiente_verificacion": true
+    "pendiente_verificacion": true,
+    "historia": "La Policía del Gobierno de la Ciudad de México tiene antecedentes en los primeros cuerpos de vigilancia virreinal establecidos en Tenochtitlan tras la Conquista. La Policía Preventiva del Distrito Federal fue creada formalmente en el siglo XIX. En 2019, el gobierno de Claudia Sheinbaum creó la Secretaría de Seguridad Ciudadana (SSC) de la CDMX, integrando funciones antes dispersas. La CDMX cuenta con la mayor fuerza policial del país, con aproximadamente 90,000 elementos entre policía preventiva, auxiliar y bancaria-industrial."
   },
   {
     "slug": "durango",
@@ -251,7 +260,8 @@
     ],
     "descripcion": "Estado del noroeste con vasta cobertura forestal en la Sierra Madre Occidental. Históricamente zona de producción de amapola y tráfico de drogas: junto con Sinaloa y Chihuahua conforma el llamado 'Triángulo Dorado', la principal región de cultivo de enervantes en México. La zona serrana de Durango fue escenario de operativos de erradicación de cultivos ilícitos de la SEDENA desde los años setenta (Operación Cóndor). Alta incidencia de incendios forestales en época de estiaje. El Operativo Conjunto Chihuahua (2008) incluyó despliegue en Durango. Capital con notable arquitectura colonial declarada Pueblo Mágico. Población según el Censo 2020 (INEGI).",
     "fuente_url": "https://www.inegi.org.mx/programas/ccpv/2020/",
-    "pendiente_verificacion": true
+    "pendiente_verificacion": true,
+    "historia": "La Policía Estatal de Durango fue establecida formalmente en el siglo XX. El estado, junto con Sinaloa y Chihuahua, conforma el 'Triángulo Dorado' de producción histórica de amapola y mariguana en la Sierra Madre Occidental, controlado durante décadas por el Cártel de Sinaloa. Las primeras operaciones militares de erradicación de cultivos ilícitos en la Sierra Durango-Sinaloa-Chihuahua datan de la Operación Cóndor (1977). El estado vivió una escalada de violencia entre 2010 y 2013 por facciones disidentes del Cártel de Sinaloa, reducida mediante operativos conjuntos SEDENA-SSP."
   },
   {
     "slug": "guanajuato",
@@ -276,7 +286,8 @@
     ],
     "descripcion": "Estado del Bajío con alta densidad industrial (Corredor automotriz Silao–León–Salamanca, refinería Pemex en Salamanca). En años recientes ha tenido la tasa de homicidios más alta del país en varios períodos, resultado de la disputa violenta entre el Cártel Jalisco Nueva Generación (CJNG) y el Cártel de Santa Rosa de Lima (CSRL) por el control del corredor Guanajuato–Irapuato–Salamanca. Esta disputa también ha involucrado robo de combustible (huachicol) en los ductos de Pemex de la región. La 16ª Zona Militar en Irapuato y la XII Región Militar coordinan operaciones de seguridad en la entidad. Capital declarada Patrimonio Mundial de la UNESCO. Población según el Censo 2020 (INEGI).",
     "fuente_url": "https://www.inegi.org.mx/programas/ccpv/2020/",
-    "pendiente_verificacion": true
+    "pendiente_verificacion": true,
+    "historia": "La Policía Estatal de Guanajuato fue organizada modernamente en la segunda mitad del siglo XX. En 2017, el Cártel de Santa Rosa de Lima (CSRL), de origen local, irrumpió en la entidad en conflicto con el Cártel Jalisco Nueva Generación (CJNG) por el control del robo de combustible (huachicol) y rutas de drogas. Guanajuato encabezó las estadísticas nacionales de homicidio entre 2019 y 2023, con municipios como Celaya, Irapuato y León como los más afectados. La Secretaría de Seguridad Pública del Estado creó el Centro Estatal de Inteligencia (CEI) como respuesta institucional."
   },
   {
     "slug": "guerrero",
@@ -302,7 +313,8 @@
     ],
     "descripcion": "Estado del sur con el principal puerto turístico del Pacífico (Acapulco), devastado por el huracán Otis en octubre de 2023 (categoría 5, el más intenso registrado en el Pacífico mexicano al tocar tierra). La 27ª Zona Militar en Acapulco y la 35ª en Chilpancingo, junto con la 7ª Zona Naval, coordinan operaciones de seguridad en una entidad con alta complejidad: Guerrero ha sido escenario de disputas entre los Guerreros Unidos, la Familia Michoacana y el CJNG. La desaparición forzada de 43 estudiantes normalistas de Ayotzinapa en Iguala (26 de septiembre de 2014) se convirtió en el caso de derechos humanos más emblemático de la historia reciente del país. Activo corredor de producción y tráfico de heroína. Población según el Censo 2020 (INEGI).",
     "fuente_url": "https://www.inegi.org.mx/programas/ccpv/2020/",
-    "pendiente_verificacion": true
+    "pendiente_verificacion": true,
+    "historia": "La Policía Estatal de Guerrero fue reorganizada en múltiples ocasiones ante la complejidad orográfica y socioeconómica de la entidad. El estado fue escenario del movimiento armado de la guerrilla rural en los años setenta (Partido de los Pobres, Liga 23 de Septiembre) y de operaciones contrainsurgentes conocidas como la 'guerra sucia'. La desaparición forzada de 43 normalistas de Ayotzinapa el 26 de septiembre de 2014 en Iguala es el caso más emblemático de colusión entre corporaciones policiales y el crimen organizado en México, con alcance internacional."
   },
   {
     "slug": "hidalgo",
@@ -327,7 +339,8 @@
     ],
     "descripcion": "Estado del centro-norte con fuerte presencia de comunidades indígenas (otomíes, nahuas, tepehuas). Alberga la refinería Miguel Hidalgo de Pemex en Tula —la más grande del país— y el corredor industrial Pachuca–Tula. El AIFA (Aeropuerto Internacional Felipe Ángeles) colinda al suroeste con el estado. La 18ª Zona Militar en Pachuca y la I Región Militar coordinan las operaciones en la entidad. El corredor Pachuca–Tula–Ixmiquilpan ha registrado alta incidencia de robo de hidrocarburo (huachicol) vinculado a tomas clandestinas en ductos de Pemex, problema que derivó en el 'Operativo Hidalgo' de la SEDENA en 2019. Zona afectada por inundaciones del río Tula. Población según el Censo 2020 (INEGI).",
     "fuente_url": "https://www.inegi.org.mx/programas/ccpv/2020/",
-    "pendiente_verificacion": true
+    "pendiente_verificacion": true,
+    "historia": "La Policía Estatal de Hidalgo fue creada en el siglo XX sobre la base de los primeros cuerpos de seguridad territorial del Porfiriato. El estado, limítrofe con la Ciudad de México, ha experimentado en años recientes la expansión de grupos criminales procedentes de estados vecinos, particularmente en la región de la Huasteca Hidalguense y el corredor industrial Pachuca-Ciudad Sahagún. La Secretaría de Seguridad Pública del Estado adoptó el NSJP en 2016 y amplió desde 2019 la coordinación con la Guardia Nacional en ejes carreteros estratégicos."
   },
   {
     "slug": "jalisco",
@@ -353,7 +366,8 @@
     ],
     "descripcion": "Segundo estado más poblado del occidente, sede de la II Región Militar (Guadalajara) y del Colegio del Aire. La ZM de Guadalajara es la segunda más grande del país. Sede histórica y cuartel general del Cártel Jalisco Nueva Generación (CJNG), considerado por la DEA una de las organizaciones criminales más poderosas del mundo. En mayo de 2015, el CJNG emboscó un convoy de la Fuerza Rural y derribó un helicóptero Bell 412 de la SEDENA en Jalisco. Sede de la 5ª Zona Militar en Guadalajara y de un Sector Naval en Puerto Vallarta. Puerto Vallarta en el Pacífico norte. Alta actividad sísmica en la región Barca–Chapala. Corredor tecnológico (Silicon Valley mexicano). Población según el Censo 2020 (INEGI).",
     "fuente_url": "https://www.inegi.org.mx/programas/ccpv/2020/",
-    "pendiente_verificacion": true
+    "pendiente_verificacion": true,
+    "historia": "La Policía Estatal de Jalisco tiene antecedentes en la Policía Rural del Porfiriato. El estado es la cuna del Cártel Jalisco Nueva Generación (CJNG), surgido entre 2009 y 2010 como escisión de la Familia Michoacana, que se convirtió en la organización criminal más expansiva del país. En abril de 2015, el CJNG perpetró una emboscada en La Barca que dejó 15 elementos de la Fuerza Rural muertos y derribó un helicóptero de la SEDENA. La Secretaría de Seguridad del Estado opera desde 2017 bajo el esquema de Mando Coordinado con la Guardia Nacional y el Ejército."
   },
   {
     "slug": "mexico",
@@ -379,7 +393,8 @@
     ],
     "descripcion": "Estado más poblado de México, que rodea a la Ciudad de México en tres lados. Sede de la Base Aérea Militar No. 1 (Santa Lucía/AIFA), bajo administración de la SEDENA. La 22ª Zona Militar en Toluca y la I Región Militar coordinan las operaciones en la entidad. Alta densidad industrial en el corredor Toluca–Lerma. La ZM de Neza–Chalco–Ecatepec tiene alta incidencia delictiva: robo de vehículos, secuestro y extorsión. Alta exposición sísmica. El Penal de Santiaguito, el Penal de Barrientos y varios CEFERESOS se ubican en la entidad. Segundo presupuesto de seguridad pública más alto del país; la Policía del Estado de México es una de las corporaciones estatales más grandes. Población según el Censo 2020 (INEGI).",
     "fuente_url": "https://www.inegi.org.mx/programas/ccpv/2020/",
-    "pendiente_verificacion": true
+    "pendiente_verificacion": true,
+    "historia": "La Policía Estatal del Estado de México fue creada en el siglo XX y es de las más numerosas del país dada la alta densidad de población. La entidad metropolitana adyacente a la Ciudad de México ha registrado históricamente altos índices de homicidio, secuestro y extorsión. En 2020, la Secretaría de Seguridad del Gobierno del Estado de México integró el Sistema de Inteligencia Mexiquense (SIM) para coordinar información de los 125 municipios. La Zona Metropolitana del Valle de Toluca concentra gran parte de la actividad delictiva."
   },
   {
     "slug": "michoacan",
@@ -405,7 +420,8 @@
     ],
     "descripcion": "Estado escenario del primer Operativo Conjunto federal en México (diciembre 2006, contra La Familia Michoacana), con despliegue de más de 5,000 efectivos de SEDENA, SEMAR y PFP. El puerto de Lázaro Cárdenas es el segundo mayor del Pacífico mexicano y punto documentado de ingreso de precursores químicos para la producción de metanfetaminas. Alta presencia del CJNG y grupos denominados 'Cárteles Unidos' en la Tierra Caliente; las autodefensas surgidas en 2013 en respuesta al control cartelero de esa región fueron un fenómeno documentado por el gobierno federal. La 21ª Zona Militar en Morelia y la 43ª en Apatzingán refuerzan el despliegue. Afectado por el sismo 19-S-2022. Corredor aguacatero de exportación internacional (primer lugar mundial). Población según el Censo 2020 (INEGI).",
     "fuente_url": "https://www.inegi.org.mx/programas/ccpv/2020/",
-    "pendiente_verificacion": true
+    "pendiente_verificacion": true,
+    "historia": "La Policía Estatal de Michoacán tiene antecedentes en los cuerpos de seguridad del siglo XIX. El estado fue el primero en el que operó el cartel de La Familia Michoacana, cuya actividad motivó el Operativo Conjunto Michoacán en diciembre de 2006, primer gran despliegue federal de la administración Calderón. El surgimiento de Autodefensas Comunitarias en la Tierra Caliente en 2013 fue reconocido parcialmente por el Estado con la creación de la Fuerza Rural en 2014. La disputa entre el CJNG y Los Viagras por Tierra Caliente continúa siendo una de las zonas de mayor violencia en México."
   },
   {
     "slug": "morelos",
@@ -430,7 +446,8 @@
     ],
     "descripcion": "Estado del centro gravemente afectado por el sismo del 19-S-2017, especialmente en Jojutla, Cuautla y Cuernavaca, donde fallecieron 74 personas. Zona de influencia del radio de exclusión del Volcán Popocatépetl (zona de alerta permanente en municipios del norte). La 24ª Zona Militar en Cuernavaca coordina las operaciones en la entidad. Históricamente relevante en seguridad: en diciembre de 2009, la SEMAR abatió a Arturo Beltrán Leyva 'El Barbas' en un departamento de Cuernavaca, uno de los operativos más significativos del sexenio de Calderón. En años recientes se ha documentado presencia del CJNG y grupos locales en el corredor Cuautla–Jojutla. Población según el Censo 2020 (INEGI).",
     "fuente_url": "https://www.inegi.org.mx/programas/ccpv/2020/",
-    "pendiente_verificacion": true
+    "pendiente_verificacion": true,
+    "historia": "La Policía Estatal de Morelos fue reorganizada en el siglo XX como institución de seguridad pública civil. El estado es reconocido por ser la tierra natal de Emiliano Zapata (Anenecuilco) y cuna del Ejército Libertador del Sur durante la Revolución Mexicana (1910-1919). En términos de seguridad contemporánea, Morelos fue escenario del operativo de la SEMAR contra Arturo Beltrán Leyva en Cuernavaca (diciembre 2009). En años recientes, el CJNG y grupos locales como Los Rojos han disputado el control de corredores en la entidad."
   },
   {
     "slug": "nayarit",
@@ -456,7 +473,8 @@
     ],
     "descripcion": "Estado del occidente con litoral en el Pacífico norte. Corredor turístico Riviera Nayarit (Nuevo Vallarta, Bucerías, Sayulita). Alta exposición a ciclones del Pacífico durante la temporada junio–noviembre. El río San Pedro–Mezquital es el principal del estado. Comunidades indígenas huicholes (wixaritari) en la sierra. La Zona Militar en Tepic y la II Región Militar coordinan las operaciones locales. Un Sector Naval en San Blas ejerce vigilancia del litoral nayarita. La entidad ha registrado presencia del Cártel de Sinaloa y disputas territoriales con el CJNG en el corredor serrano que conecta con Jalisco y Durango. La gobernadora Roberto Sandoval Castañeda fue señalada en 2017 por vínculos con el crimen organizado, siendo un caso documentado públicamente. Población según el Censo 2020 (INEGI).",
     "fuente_url": "https://www.inegi.org.mx/programas/ccpv/2020/",
-    "pendiente_verificacion": true
+    "pendiente_verificacion": true,
+    "historia": "La Policía Estatal de Nayarit fue establecida formalmente en el siglo XX. El estado ha sido históricamente un corredor de tráfico de drogas hacia el norte, con presencia del Cártel del Golfo y del Cártel de Sinaloa. La detención del exgobernador Roberto Sandoval Castañeda en 2017 (condenado por vínculos con el narco) reveló la profunda infiltración del crimen organizado en las instituciones estatales. La Secretaría de Seguridad Pública de Nayarit fue reestructurada con vetting y certificaciones reforzadas tras este caso."
   },
   {
     "slug": "nuevo-leon",
@@ -481,7 +499,8 @@
     ],
     "descripcion": "Estado industrial del noreste, sede de la IX Región Militar en Monterrey. La ZM de Monterrey es el segundo polo industrial del país. La Fuerza Civil fue creada en 2011 como modelo de corporación policial profesional de alto desempeño, con reclutamiento universitario y entrenamiento avanzado. El río Santa Catarina atraviesa la ZM de Monterrey y causó inundaciones históricas en 2010 (huracán Alex). Nuevo León fue escenario de la disputa entre el Cártel del Golfo y Los Zetas durante los años 2010–2012, con impacto directo en la seguridad metropolitana. La entidad no tiene frontera directa con EUA (Nuevo Laredo está en Tamaulipas), pero el corredor carretero Monterrey–Laredo es uno de los más importantes del continente para el comercio bilateral. Población según el Censo 2020 (INEGI).",
     "fuente_url": "https://www.inegi.org.mx/programas/ccpv/2020/",
-    "pendiente_verificacion": true
+    "pendiente_verificacion": true,
+    "historia": "La Policía Estatal de Nuevo León tiene antecedentes en el siglo XIX como entidad fronteriza activa. El estado industrial de Monterrey fue escenario de la guerra entre Los Zetas y el Cártel del Golfo (2010-2012), que dejó cientos de muertos en la zona metropolitana. En respuesta, el gobierno creó Fuerza Civil en 2011: un cuerpo policial de élite con proceso de selección riguroso, sueldos competitivos y evaluaciones periódicas, considerado el mejor modelo de reforma policial estatal de México. La entidad recuperó índices de seguridad relativos hacia 2015-2016."
   },
   {
     "slug": "oaxaca",
@@ -507,7 +526,8 @@
     ],
     "descripcion": "Estado del sur con la mayor diversidad lingüística y étnica del país (16 grupos étnicos y 174 variantes lingüísticas reconocidas). Alta sismicidad: gravemente afectado por el sismo del 7-S-2017 (8.2 Mw) —el más intenso registrado en México en el siglo XXI— y por el sismo de junio de 2020 (7.4 Mw). La 11ª Zona Naval en Salina Cruz alberga el ASTIMAR-2, astillero donde la SEMAR fabrica embarcaciones de patrulla de diseño nacional. El Istmo de Tehuantepec concentra los parques eólicos más grandes de México. La 28ª Zona Militar en Oaxaca y una zona adicional en Ixtepec coordinan las operaciones de seguridad. El corredor costero de la Costa Grande ha registrado disputas entre grupos del crimen organizado. Capital declarada Patrimonio Mundial de la UNESCO. Población según el Censo 2020 (INEGI).",
     "fuente_url": "https://www.inegi.org.mx/programas/ccpv/2020/",
-    "pendiente_verificacion": true
+    "pendiente_verificacion": true,
+    "historia": "La Policía Estatal de Oaxaca fue creada en el siglo XX sobre la base de los cuerpos rurales del Porfiriato. El estado, con 570 municipios de los cuales más de 400 se rigen por sistemas normativos indígenas (usos y costumbres), cuenta con un modelo de seguridad comunitaria de larga tradición. En 2006, el movimiento de la Asamblea Popular de los Pueblos de Oaxaca (APPO) y el conflicto magisterial generaron una crisis de gobernabilidad que desbordó a la Policía Estatal. El Istmo de Tehuantepec y la Sierra Sur presentan retos contemporáneos vinculados al tráfico de migrantes y el crimen organizado."
   },
   {
     "slug": "puebla",
@@ -533,7 +553,8 @@
     ],
     "descripcion": "Estado del centro-oriente cuyo territorio fue el epicentro del sismo del 19-S-2017 (magnitud 7.1), que causó 370 muertes en todo el país y daños estructurales masivos en la ciudad de Puebla. En el radio de influencia permanente del Volcán Popocatépetl: municipios como San Nicolás de los Ranchos y Santiago Xalizintla se ubican dentro de la zona de exclusión de 12 km. Importante corredor industrial (Volkswagen en Cuautlancingo, Audi en San José Chiapa). La 25ª Zona Militar en Puebla y la I Región Militar coordinan las operaciones. La entidad es corredor de tráfico de personas y mercancías ilícitas entre el centro del país, Oaxaca y Veracruz. La Nueva Autopista Puebla–Oaxaca ha reconfigurado la logística de esa ruta. Población según el Censo 2020 (INEGI).",
     "fuente_url": "https://www.inegi.org.mx/programas/ccpv/2020/",
-    "pendiente_verificacion": true
+    "pendiente_verificacion": true,
+    "historia": "La Policía Estatal de Puebla tiene antecedentes en los cuerpos de seguridad coloniales, siendo Puebla de los Ángeles uno de los centros virreinales más importantes. La ciudad fue escenario de la batalla del 5 de mayo de 1862, en que el Ejército mexicano bajo Ignacio Zaragoza derrotó a fuerzas francesas. En términos contemporáneos, el estado enfrenta el robo de hidrocarburo (huachicol) en el corredor Tuxpan-México de PEMEX y presencia del CJNG en la Sierra Norte y Mixteca. La Secretaría de Seguridad Pública del Estado opera en coordinación con fuerzas federales."
   },
   {
     "slug": "queretaro",
@@ -557,7 +578,8 @@
     ],
     "descripcion": "Estado del centro-occidente con uno de los menores índices de violencia del país y fuerte crecimiento económico. Importante parque aeroespacial (Bombardier, Safran, Honeywell) y corredor automotriz en el Bajío. La 19ª Zona Militar en Querétaro y la XII Región Militar coordinan las operaciones. Centro histórico declarado Patrimonio Mundial de la UNESCO. Paso estratégico en la carretera federal 57 (México–Laredo), la arteria carretera más importante del norte del país. Relativamente baja incidencia delictiva, aunque en años recientes se ha documentado la expansión del CJNG en el corredor Irapuato–Querétaro. Sede de importantes instalaciones logísticas de distribución nacional. Población según el Censo 2020 (INEGI).",
     "fuente_url": "https://www.inegi.org.mx/programas/ccpv/2020/",
-    "pendiente_verificacion": true
+    "pendiente_verificacion": true,
+    "historia": "La Policía Estatal de Querétaro fue establecida en el siglo XX. La ciudad de Querétaro fue sede del Congreso Constituyente de 1917 que redactó la Constitución Política vigente. El estado ha mantenido históricamente uno de los menores índices de violencia del país, en parte gracias a su sólido desarrollo industrial. A partir de 2019, la Secretaría de Seguridad Pública implementó protocolos de inteligencia para monitorear el avance del CJNG en corredores carreteros de la entidad."
   },
   {
     "slug": "quintana-roo",
@@ -582,7 +604,8 @@
     ],
     "descripcion": "Estado del sureste con el corredor turístico Cancún–Riviera Maya–Tulum, el principal destino turístico internacional de México. Devastado por el huracán Wilma (2005, categoría 4) y afectado periódicamente por tormentas tropicales del Caribe. Frontera con Belice. La 32ª Zona Militar en Chetumal y una Zona Militar en Cancún, junto con las Zonas Navales en Cancún y Cozumel, vigilan el litoral caribeño. El Caribe mexicano es corredor documentado de tráfico de drogas y personas hacia el territorio continental; la SEMAR realiza patrullajes marítimos permanentes en la zona. La alta afluencia turística internacional y la industria hotelera conviven con una creciente presencia del crimen organizado en actividades de extorsión. Población según el Censo 2020 (INEGI).",
     "fuente_url": "https://www.inegi.org.mx/programas/ccpv/2020/",
-    "pendiente_verificacion": true
+    "pendiente_verificacion": true,
+    "historia": "La Policía Estatal de Quintana Roo fue creada a partir de la conversión del territorio en estado en 1974. El explosivo desarrollo turístico de Cancún y la Riviera Maya a partir de los años ochenta trajo consigo economía informal y tráfico de drogas. El estado experimentó desde 2018 un incremento notable en hechos violentos vinculados a disputas criminales por el control del mercado turístico de Cancún, Playa del Carmen y Tulum. La SEMAR mantiene presencia naval en Cozumel y el litoral del Mar Caribe."
   },
   {
     "slug": "san-luis-potosi",
@@ -607,7 +630,8 @@
     ],
     "descripcion": "Estado del noreste-occidente con gran diversidad de ecosistemas: desierto en el altiplano, montañas en la sierra y selva húmeda en la Huasteca potosina. Importante minería (plata, zinc, fluorita) y sector automotriz (GM en San Luis Potosí). La 12ª Zona Militar en San Luis Potosí y la IX Región Militar coordinan las operaciones. La Huasteca Potosina es zona ecoturística emergente. El corredor carretero San Luis Potosí–Monterrey–Laredo es un eje clave del comercio exterior: el estado actúa como nodo logístico entre el Bajío y la frontera norte, siendo también una ruta de tráfico de drogas documentada. Presencia del Cártel del Noreste y disputas territoriales con el CJNG en municipios de la Huasteca. Población según el Censo 2020 (INEGI).",
     "fuente_url": "https://www.inegi.org.mx/programas/ccpv/2020/",
-    "pendiente_verificacion": true
+    "pendiente_verificacion": true,
+    "historia": "La Policía Estatal de San Luis Potosí tiene antecedentes en los cuerpos de seguridad del siglo XIX. La región de la Huasteca Potosina ha sido históricamente un corredor de tráfico de estupefacientes. Entre 2010 y 2013, el estado fue escenario de disputas violentas entre Los Zetas y el Cártel del Golfo en la zona Huasteca. La Secretaría de Seguridad Pública implementó el NSJP en 2016 y coordina desde 2019 con la Guardia Nacional el patrullaje de los principales ejes carreteros."
   },
   {
     "slug": "sinaloa",
@@ -633,7 +657,8 @@
     ],
     "descripcion": "Estado noroestense con litoral sobre el Pacífico y el Golfo de California. Sede histórica del Cártel de Sinaloa, considerado por la DEA uno de los cárteles más poderosos del mundo, cuyas figuras más notorias son Joaquín 'El Chapo' Guzmán (capturado y extraditado en 2017) e Ismael 'El Mayo' Zambada. El 'Triángulo Dorado' (Sinaloa–Durango–Chihuahua) es zona histórica de producción de amapola y marihuana. La 9ª Zona Militar en Culiacán y la 10ª en Mazatlán, junto con la 6ª Zona Naval en Mazatlán, coordinan las operaciones. Culiacán fue escenario del 'Culiacanazo' (17 de octubre de 2019) y del operativo de captura de Ovidio Guzmán (enero 2023). Alta productividad agrícola (primer lugar nacional en tomate y garbanzo). Población según el Censo 2020 (INEGI).",
     "fuente_url": "https://www.inegi.org.mx/programas/ccpv/2020/",
-    "pendiente_verificacion": true
+    "pendiente_verificacion": true,
+    "historia": "La Policía Estatal de Sinaloa tiene antecedentes en el siglo XIX, en la región serrana de la que emergió históricamente el narcotráfico en México. El estado es la tierra natal del Cártel de Sinaloa, fundado por Joaquín 'El Chapo' Guzmán Loera, Ismael 'El Mayo' Zambada y otros en los años ochenta, organización que se convirtió en la más poderosa del mundo en las décadas siguientes. La captura del 'Chapo' en Mazatlán (2014) y Los Mochis (2016) fue ejecutada por la SEMAR. La Secretaría de Seguridad Pública ha operado históricamente en condiciones de alta infiltración criminal documentada."
   },
   {
     "slug": "sonora",
@@ -659,7 +684,8 @@
     ],
     "descripcion": "Segundo estado más extenso de México, con 600 km de frontera con Arizona (EUA) en los cruces de Nogales, Agua Prieta y Sonoyta. Importante industria minera (cobre en Cananea y Nacozari, oro en Hermosillo). La 8ª Zona Militar en Hermosillo y zonas adicionales en Nogales y Agua Prieta refuerzan la vigilancia fronteriza. La Zona Naval en Guaymas patrulla el Golfo de California. El derrame de la mina Buenavista del Cobre (Grupo México, 2014) en el río Sonora fue el mayor desastre ambiental minero de la historia de México. El corredor de cruces fronterizos de Sonora es clave tanto para el comercio legal (maquiladoras en Hermosillo y Nogales) como para el tráfico ilícito documentado por la DEA. La masacre de la familia LeBarón en Bavispe (noviembre 2019) visibilizó la violencia en la sierra sonorense. Población según el Censo 2020 (INEGI).",
     "fuente_url": "https://www.inegi.org.mx/programas/ccpv/2020/",
-    "pendiente_verificacion": true
+    "pendiente_verificacion": true,
+    "historia": "La Policía Estatal de Sonora fue creada en el siglo XX sobre la base de los cuerpos rurales porfianos. El estado tiene 588 km de frontera con Arizona (EE.UU.) y es un corredor histórico de tráfico de drogas y personas. La masacre de la familia LeBarón el 4 de noviembre de 2019 en la sierra de Bavispe, Sonora, que dejó 9 civiles muertos incluyendo mujeres y niños a manos de un grupo criminal, atrajo atención internacional. La 9ª Zona Militar (con sede en Hermosillo) y la SEMAR mantienen operaciones en el Golfo de California."
   },
   {
     "slug": "tabasco",
@@ -685,7 +711,8 @@
     ],
     "descripcion": "Estado del sureste con la mayor densidad hídrica del país (ríos Grijalva y Usumacinta). Devastado por las inundaciones históricas de 2007 —más del 70% del territorio bajo el agua, afectando a más de un millón de personas— y por inundaciones recurrentes en 2010, 2020 y 2023. Alta producción petrolera histórica (Pemex tiene presencia desde la década de 1950): la Región Sur concentra campos de gas y petróleo en declive. La SEMAR realiza operaciones fluviales en los ríos del estado. La VI Región Militar con sede en Villahermosa coordina las operaciones del sureste. El municipio de Cunduacán es sede de instalaciones educativas y logísticas de Pemex. Villahermosa concentra la actividad institucional y gubernamental del estado. Población según el Censo 2020 (INEGI).",
     "fuente_url": "https://www.inegi.org.mx/programas/ccpv/2020/",
-    "pendiente_verificacion": true
+    "pendiente_verificacion": true,
+    "historia": "La Policía Estatal de Tabasco fue establecida formalmente en el siglo XX. La entidad concentra infraestructura petrolera estratégica de PEMEX en el corredor Villahermosa-Comalcalco. En años recientes ha experimentado un incremento en violencia vinculada a cárteles que disputan corredores de movilidad hacia Centroamérica. La Secretaría de Seguridad Pública del Estado coordina con la SEMAR, que tiene presencia en el Golfo de México y la desembocadura del Río Grijalva."
   },
   {
     "slug": "tamaulipas",
@@ -711,7 +738,8 @@
     ],
     "descripcion": "Estado fronterizo del noreste con la mayor extensión de frontera con Texas (EUA): cruces de Nuevo Laredo, Reynosa, Matamoros y Ciudad Acuña. Zona históricamente disputada entre el Cártel del Golfo y Los Zetas, cuya escisión violenta en 2010 desató una ola de violencia que convirtió a varios municipios de Tamaulipas en las zonas más peligrosas del país durante varios años. El Operativo Conjunto Tamaulipas (2010) fue uno de los más prolongados del sexenio calderonista. El Puerto de Tampico tiene importante actividad petroquímica y pesquera. El Golfo de México provee litoral para la pesca y la explotación de gas natural offshore. La 8ª Zona Naval en Tampico y zonas adicionales vigilan el litoral. En 2022–2023, el Cártel del Noreste (facción Zetas) continuaba disputando plazas con facciones del Cártel del Golfo. Población según el Censo 2020 (INEGI).",
     "fuente_url": "https://www.inegi.org.mx/programas/ccpv/2020/",
-    "pendiente_verificacion": true
+    "pendiente_verificacion": true,
+    "historia": "La Policía Estatal de Tamaulipas fue una de las más infiltradas por el crimen organizado en la primera década del siglo XXI. El estado, con 380 km de frontera con Texas, fue dominado históricamente por el Cártel del Golfo (CDG), del que en 2010 se escindieron Los Zetas, desatando una guerra fratricida que generó la masacre de 72 migrantes en San Fernando (agosto 2010). Tras múltiples operativos federales, la Secretaría de Seguridad Pública fue reorganizada en 2016 con vetting intensivo y apoyo del SESNSP. La entidad continúa siendo uno de los estados más peligrosos del país."
   },
   {
     "slug": "tlaxcala",
@@ -736,7 +764,8 @@
     ],
     "descripcion": "Estado más pequeño de México por superficie, completamente mediterráneo (sin litoral ni frontera exterior). El Parque Nacional La Malinche y el volcán homónimo (4,461 msnm) se ubican en su territorio. En el radio de influencia del Volcán Popocatépetl, cuya actividad afecta municipios del sur del estado. La Zona Militar en Tlaxcala y la I Región Militar coordinan las operaciones. En años recientes se ha documentado un aumento en el tráfico de personas (trata) vinculado a redes del crimen organizado en el corredor Tlaxcala–Puebla, siendo uno de los estados con mayor registro histórico de este delito según la CNDH. Relativamente baja incidencia de homicidios dolosos respecto al promedio nacional. Economía basada en manufactura textil y de autopartes. Población según el Censo 2020 (INEGI).",
     "fuente_url": "https://www.inegi.org.mx/programas/ccpv/2020/",
-    "pendiente_verificacion": true
+    "pendiente_verificacion": true,
+    "historia": "La Policía Estatal de Tlaxcala fue creada en el siglo XX como cuerpo policial formal. La entidad, la más pequeña del país en superficie, es reconocida históricamente como la sede de los señoríos tlaxcaltecas que aliaron con Hernán Cortés en 1519. En términos de seguridad contemporánea, Tlaxcala ha sido señalada por organizaciones de derechos humanos como uno de los estados con mayor incidencia de trata de personas, particularmente en el corredor Tenancingo-Ciudad de México. La Secretaría de Seguridad del Estado trabaja en coordinación con la FGR en la persecución de este delito."
   },
   {
     "slug": "veracruz",
@@ -763,7 +792,8 @@
     ],
     "descripcion": "Estado del golfo con la mayor tradición portuaria de México (Puerto de Veracruz, fundado en 1519, primer puerto de América). Sede de la 1ª Zona Naval —Fuerza Naval del Golfo— y de la Heroica Escuela Naval Militar en Antón Lizardo, la más antigua del país. La SEMAR tiene en Veracruz su principal base del Golfo. Afectado por el huracán Grace (2021) y por inundaciones periódicas. Alta producción de caña de azúcar, cítricos y petróleo en las cuencas del sur (Poza Rica, Coatzacoalcos). Entre 2011 y 2016 el estado vivió una de las crisis de seguridad más graves del país, con disputas entre Los Zetas y el CJNG que resultaron en altos índices de homicidio y desaparición forzada. La 26ª Zona Militar en Veracruz y la VI Región Militar coordinan las operaciones terrestres. Población según el Censo 2020 (INEGI).",
     "fuente_url": "https://www.inegi.org.mx/programas/ccpv/2020/",
-    "pendiente_verificacion": true
+    "pendiente_verificacion": true,
+    "historia": "La Policía Estatal de Veracruz tiene antecedentes en los cuerpos de seguridad portuarios del período virreinal, dado que el Puerto de Veracruz fue el primer punto de entrada de la Nueva España. El estado vivió la ocupación norteamericana de 1914 cuando la Armada de EE.UU. bombardeó y tomó el puerto. Entre 2011 y 2017, Veracruz vivió una de las peores crisis de seguridad del país, con Los Zetas imponiendo control territorial en amplias zonas. El gobierno estatal creó la Fuerza Veracruz en 2011. La transición gubernamental de 2018 reveló la existencia de decenas de fosas clandestinas."
   },
   {
     "slug": "yucatan",
@@ -788,7 +818,8 @@
     ],
     "descripcion": "Estado del sureste con los menores índices de violencia del país; Mérida figura consistentemente entre las ciudades más seguras de México y Latinoamérica. Sede de la X Región Militar, que cubre toda la Península de Yucatán. El Puerto de Progreso es el principal del estado y recibe cruceros internacionales. La costa peninsular es baja y muy vulnerable a mareas de tormenta y nortes invernales. Economía basada en turismo arqueológico (Chichén Itzá y Uxmal, Patrimonios de la Humanidad UNESCO), henequén (sisal) y manufactura ligera. La baja incidencia delictiva se atribuye a factores históricos y geográficos: la península yucateca ha sido relativamente periférica a los corredores del crimen organizado. Sin embargo, el crecimiento del Tren Maya y la actividad turística han atraído mayor atención de organizaciones criminales en años recientes. Población según el Censo 2020 (INEGI).",
     "fuente_url": "https://www.inegi.org.mx/programas/ccpv/2020/",
-    "pendiente_verificacion": true
+    "pendiente_verificacion": true,
+    "historia": "La Policía Estatal de Yucatán tiene raíces en los cuerpos de seguridad coloniales de Mérida, fundada en 1542. El estado es considerado históricamente uno de los más seguros de México, condición que ha mantenido en las últimas décadas con bajas tasas de homicidio. La Secretaría de Seguridad Pública implementó en 2015 un sistema de videovigilancia urbana C4 en Mérida. El principal reto de seguridad actual es el tráfico de personas proveniente de Centroamérica a través del Golfo de México y el avance gradual del crimen organizado en la Riviera Maya yucateca."
   },
   {
     "slug": "zacatecas",
@@ -813,6 +844,7 @@
     ],
     "descripcion": "Estado del occidente con importante tradición minera (primer productor de plata en el mundo colonial). Capital declarada Patrimonio Mundial de la UNESCO (1993). Alta tasa de migración histórica hacia Estados Unidos; la diáspora zacatecana es una de las más importantes en EUA. En años recientes ha registrado un aumento drástico de la violencia vinculada a la disputa entre el Cártel de Sinaloa, el CJNG y el Cártel del Noreste por el control de corredores carreteros estratégicos, con tasas de homicidio entre las más altas del país desde 2020. La 11ª Zona Militar en Zacatecas y la XII Región Militar coordinan las operaciones. El corredor carretero Zacatecas–Fresnillo–Jerez ha sido el principal escenario de la disputa territorial entre estos grupos. Población según el Censo 2020 (INEGI).",
     "fuente_url": "https://www.inegi.org.mx/programas/ccpv/2020/",
-    "pendiente_verificacion": true
+    "pendiente_verificacion": true,
+    "historia": "La Policía Estatal de Zacatecas fue creada formalmente en el siglo XX. El estado fue históricamente relevante durante la Revolución Mexicana: la batalla de Zacatecas del 23 de junio de 1914, comandada por Francisco Villa, fue decisiva para las fuerzas constitucionalistas de Venustiano Carranza. En términos de seguridad contemporánea, Zacatecas se convirtió desde 2020 en uno de los estados con mayor escalada de violencia del país, resultado de la disputa entre el CJNG y el Cártel de Sinaloa por su posición geográfica en el cruce de corredores de tráfico hacia el norte. La SEDENA reforzó su presencia con despliegues adicionales."
   }
 ]

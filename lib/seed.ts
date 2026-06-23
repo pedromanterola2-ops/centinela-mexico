@@ -44,6 +44,7 @@ interface RawFuerza {
   dependencia?: string | null;
   anio_fundacion?: number | null;
   mision?: string | null;
+  historia?: string | null;
   efectivos_aprox?: number | null;
   presupuesto_aprox?: number | null;
   anio_presupuesto?: number | null;
@@ -63,6 +64,7 @@ function normalizeFuerza(raw: RawFuerza): FuerzaArmada {
     dependencia: raw.dependencia ?? null,
     anio_fundacion: raw.anio_fundacion ?? null,
     mision: raw.mision ?? null,
+    historia: raw.historia ?? null,
     efectivos_aprox: raw.efectivos_aprox ?? null,
     presupuesto_aprox: raw.presupuesto_aprox ?? null,
     anio_presupuesto: raw.anio_presupuesto ?? null,
@@ -101,6 +103,7 @@ interface RawEstado {
   presupuesto_seguridad?: number | null;
   estructura?: Json;
   descripcion?: string | null;
+  historia?: string | null;
   fuente_url?: string | null;
   pendiente_verificacion?: boolean;
   // campos migración 003
@@ -127,6 +130,7 @@ function normalizeEstado(raw: RawEstado): Estado {
     presupuesto_seguridad: raw.presupuesto_seguridad ?? null,
     estructura: raw.estructura ?? null,
     descripcion: raw.descripcion ?? null,
+    historia: raw.historia ?? null,
     fuente_url: raw.fuente_url ?? null,
     pendiente_verificacion: raw.pendiente_verificacion ?? false,
     litoral: raw.litoral ?? null,
@@ -387,6 +391,7 @@ interface RawGlosario {
   siglas?: string | null;
   definicion?: string | null;
   categoria?: string | null;
+  fuente_url?: string | null;
 }
 
 function normalizeGlosario(raw: RawGlosario, idx: number): GlosarioEntry {
@@ -398,6 +403,7 @@ function normalizeGlosario(raw: RawGlosario, idx: number): GlosarioEntry {
     siglas: raw.siglas ?? null,
     definicion: raw.definicion ?? null,
     categoria: raw.categoria ?? null,
+    fuente_url: raw.fuente_url ?? null,
     created_at: "",
   };
 }

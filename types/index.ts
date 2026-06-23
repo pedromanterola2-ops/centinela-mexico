@@ -61,6 +61,8 @@ export interface Estado {
   presupuesto_seguridad: number | null;
   estructura: Json;
   descripcion: string | null;
+  /** Reseña histórica de la fuerza estatal; presente en el seed, opcional en DB */
+  historia?: string | null;
   fuente_url: string | null;
   pendiente_verificacion: boolean;
   // campos añadidos en migración 003

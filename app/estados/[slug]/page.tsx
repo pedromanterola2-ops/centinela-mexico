@@ -299,6 +299,18 @@ export default async function EstadoDetallePage({ params }: PageProps) {
         </section>
       )}
 
+      {/* Historia de la fuerza estatal */}
+      {estado.historia && (
+        <section className="mb-8">
+          <h2 className="text-sm font-semibold text-text-muted uppercase tracking-widest mb-3">
+            Historia
+          </h2>
+          <p className="text-base text-text-muted leading-relaxed max-w-3xl">
+            {estado.historia}
+          </p>
+        </section>
+      )}
+
       {/* Fuente oficial */}
       {estado.fuente_url && (
         <section className="mb-2">

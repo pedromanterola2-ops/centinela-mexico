@@ -218,13 +218,13 @@ export default async function FuerzaArmadaDetallePage({ params }: PageProps) {
       )}
 
       {/* Historia */}
-      {(fuerza as { historia?: string }).historia && (
+      {fuerza.historia && (
         <section className="mb-8">
           <h2 className="text-sm font-semibold text-text-muted uppercase tracking-widest mb-3">
             Historia
           </h2>
           <p className="text-base text-text-muted leading-relaxed max-w-3xl">
-            {(fuerza as { historia?: string }).historia}
+            {fuerza.historia}
           </p>
         </section>
       )}
