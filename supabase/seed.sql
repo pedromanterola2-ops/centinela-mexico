@@ -27,12 +27,12 @@ VALUES
   1937,
   'Organizar, administrar, adiestrar, equipar y desarrollar a las Fuerzas Armadas de tierra y aire para la defensa exterior y seguridad interior del país.',
   220000,
-  NULL,
-  NULL,
+  259433804766,
+  2024,
   '{"ramas":["Ejército Mexicano","Fuerza Aérea Mexicana"],"regiones_militares":12,"zonas_militares":46,"guarniciones_aprox":238,"doctrina_y_planes":["Plan DN-III-E (auxilio a la población civil en desastres)","Plan DN-I (Defensa Interior del Territorio Nacional)","Plan DN-II (Defensa contra Invasión Exterior)"],"academias":["Heroico Colegio Militar","Escuela Militar de Ingenieros","Escuela Militar de Medicina","Escuela Militar de Aviación (Colegio del Aire)","Escuela Militar de Materiales de Guerra"],"industria":["Dirección General de Industria Militar (DGIM)","Fábrica de Armas (FX-05, municiones)","Fábricas de ropa, calzado y equipo"]}',
   'Principal institución armada de México, encargada de la defensa nacional y el apoyo a la seguridad interior. Creada por decreto el 1 de septiembre de 1937, agrupa al Ejército Mexicano y a la Fuerza Aérea Mexicana, y se organiza territorialmente en 12 regiones y 46 zonas militares. Cuenta con la Dirección General de Industria Militar (DGIM), que fabrica el fusil FX-05 Xiuhcóatl y municiones de uso exclusivo. Su instrumento de auxilio a la población en desastres es el Plan DN-III-E, activado en todos los desastres naturales mayores del país desde 1985.',
   'https://www.gob.mx/sedena',
-  true
+  false
 ),
 (
   'armada-de-mexico',
@@ -43,8 +43,8 @@ VALUES
   1940,
   'Emplear el Poder Naval de la Federación para la defensa exterior y coadyuvar en la seguridad interior del país, con énfasis en la vigilancia de la Zona Económica Exclusiva.',
   60000,
-  NULL,
-  NULL,
+  71902000000,
+  2024,
   '{"mandos_navales_regionales":10,"zonas_navales":16,"sectores_navales":32,"subsectores_navales":null,"fuerzas_navales":["Fuerza Naval del Golfo","Fuerza Naval del Pacífico"],"infanteria_marina":"Cuerpo de Infantería de Marina","fuerzas_especiales":"Fuerzas Especiales de la Armada de México (FEAM)","doctrina_y_planes":["Plan Marina (auxilio a la población civil)","Programa de Atención Médica de Primer Contacto"],"academias":["Heroica Escuela Naval Militar (Antón Lizardo, Veracruz)"],"astilleros":["ASTIMAR-1 (Veracruz)","ASTIMAR-2 (Salina Cruz, Oaxaca)","ASTIMAR-3 (Manzanillo, Colima)"]}',
   'Fuerza naval de México encargada de la defensa del mar territorial, aguas interiores y Zona Económica Exclusiva (200 millas náuticas en ambos litorales). Fundada como Secretaría de Marina en 1940, organiza el Poder Naval en 10 mandos regionales, 16 zonas y 32 sectores navales. Cuenta con el Cuerpo de Infantería de Marina y las FEAM para operaciones especiales. Sus astilleros (ASTIMAR) construyen buques de guerra de diseño nacional, incluyendo el ARM Reformador (POLA-001, 2018). Su plan de auxilio a la población es el Plan Marina.',
   'https://www.gob.mx/semar',
@@ -55,7 +55,7 @@ VALUES
   'Guardia Nacional',
   'GN',
   'fuerza_seguridad',
-  'Secretaría de Seguridad y Protección Ciudadana',
+  'Secretaría de la Defensa Nacional (SEDENA) desde dic. 2022; coordina con SSPC en política de seguridad pública',
   2019,
   'Realizar la función de seguridad pública a cargo de la Federación y salvaguardar la vida, las libertades, la integridad y el patrimonio de las personas.',
   100000,
@@ -836,12 +836,12 @@ VALUES
   'SEDENA',
   NULL,
   2006,
-  'Fusil de asalto calibre 5.56×45 mm de diseño nacional, desarrollado y fabricado por la Dirección General de Industria Militar (DGIM) de la SEDENA. Es el arma estándar de dotación del Ejército Mexicano, diseñada para operar en las condiciones climáticas y geográficas del país.',
+  'Fusil de asalto calibre 5.56×45 mm de diseño y fabricación nacionales, producido por la Dirección General de Industria Militar (DGIM) de la SEDENA con una capacidad de producción de 30,000 unidades anuales. Es el arma estándar de dotación del Ejército Mexicano y ha permitido la sustitución total del armamento individual en todas las unidades del Ejército y Fuerza Aérea. Su nombre hace referencia a la serpiente de fuego de la mitología mexica.',
   'https://upload.wikimedia.org/wikipedia/commons/thumb/8/82/Fusil_FX-05.JPG/640px-Fusil_FX-05.JPG',
   'https://commons.wikimedia.org/wiki/File:Fusil_FX-05.JPG',
   'CC BY-SA',
-  'https://www.gob.mx/sedena',
-  true
+  'https://transparencia.sedena.gob.mx/pdf/Informe_Rendicion_cuentas_2018-2024/MEMORIA%20DOCUMENTAL/SDN_MD-47.pdf',
+  false
 ),
 (
   'hk-g3',
@@ -984,14 +984,14 @@ VALUES
   'aereo',
   'Estados Unidos',
   'Fuerza Aérea Mexicana',
+  4,
   NULL,
-  NULL,
-  'Avión de transporte militar táctico de cuatro turbohélices. La Fuerza Aérea Mexicana lo emplea en transporte logístico, despliegue de tropas y misiones de auxilio en aplicación del Plan DN-III-E. Es la plataforma de carga pesada más capaz de la FAM.',
+  'Avión de transporte militar táctico de cuatro turbohélices operado por el Escuadrón Aéreo 302 de la FAM. En 2023 se contaban 2 C-130MK-3 operativos; México adquirió adicionalmente 2 aeronaves C-130J-30 para renovar la flota de transporte pesado. Empleado en transporte logístico, despliegue de tropas y misiones de auxilio en aplicación del Plan DN-III-E.',
   'https://upload.wikimedia.org/wikipedia/commons/thumb/c/cc/Lockheed_C-130_Hercules.jpg/640px-Lockheed_C-130_Hercules.jpg',
   'https://commons.wikimedia.org/wiki/File:Lockheed_C-130_Hercules.jpg',
   'CC BY-SA',
-  'https://www.gob.mx/sedena/fuerza-aerea-mexicana',
-  true
+  'https://www.gob.mx/defensa/documentos/fuerza-aerea-mexicana',
+  false
 ),
 (
   'f-5-tiger-ii',
@@ -999,14 +999,14 @@ VALUES
   'aereo',
   'Estados Unidos',
   'Fuerza Aérea Mexicana',
-  NULL,
+  9,
   1982,
-  'Caza interceptor supersónico bimotor empleado por la Fuerza Aérea Mexicana desde la década de 1980. Constituye la principal capacidad de intercepción aérea del país. La variante F-5F es biplaza de entrenamiento de combate. Opera desde la Base Aérea Militar No. 1 en Santa Lucía.',
+  'Caza interceptor supersónico bimotor empleado por el Escuadrón Aéreo 401 de la Fuerza Aérea Mexicana. El inventario comprende 9 unidades (F-5E monoplaza y F-5F biplaza de entrenamiento de combate), aunque sólo 4 permanecen operativas en 2023 por necesidades de mantenimiento. Opera desde la Base Aérea Militar No. 1 en Santa Lucía, Estado de México.',
   'https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Northrop_F-5E_Tiger_II_USAF.jpg/640px-Northrop_F-5E_Tiger_II_USAF.jpg',
   'https://commons.wikimedia.org/wiki/File:Northrop_F-5E_Tiger_II_USAF.jpg',
   'Public Domain',
-  'https://www.gob.mx/sedena/fuerza-aerea-mexicana',
-  true
+  'https://www.gob.mx/defensa/documentos/fuerza-aerea-mexicana',
+  false
 ),
 (
   'pilatus-pc-7',
@@ -1014,14 +1014,14 @@ VALUES
   'aereo',
   'Suiza',
   'Fuerza Aérea Mexicana',
+  11,
   NULL,
-  NULL,
-  'Aeronave monomotor turbohélice de entrenamiento básico-avanzado. La Fuerza Aérea Mexicana la utiliza en formación de pilotos militares en la Escuela Militar de Aviación y en misiones de vigilancia aérea.',
+  'Aeronave monomotor turbohélice de entrenamiento básico-avanzado. La Fuerza Aérea Mexicana cuenta con 11 unidades en inventario, utilizadas en formación de pilotos militares en la Escuela Militar de Aviación y en misiones de vigilancia aérea.',
   'https://upload.wikimedia.org/wikipedia/commons/thumb/9/9e/Pilatus_PC-7_de_la_Fuerza_A%C3%A9rea_Mexicana.jpg/640px-Pilatus_PC-7_de_la_Fuerza_A%C3%A9rea_Mexicana.jpg',
   'https://commons.wikimedia.org/wiki/File:Pilatus_PC-7_de_la_Fuerza_A%C3%A9rea_Mexicana.jpg',
   'CC BY-SA',
-  'https://www.gob.mx/sedena/fuerza-aerea-mexicana',
-  true
+  'https://www.gob.mx/defensa/documentos/fuerza-aerea-mexicana',
+  false
 ),
 (
   'pc-9m',
@@ -1035,8 +1035,8 @@ VALUES
   'https://upload.wikimedia.org/wikipedia/commons/thumb/2/2a/RAAF_PC-9A_in_flight.jpg/640px-RAAF_PC-9A_in_flight.jpg',
   'https://commons.wikimedia.org/wiki/File:RAAF_PC-9A_in_flight.jpg',
   'CC BY-SA',
-  'https://www.gob.mx/sedena/fuerza-aerea-mexicana',
-  true
+  'https://www.gob.mx/defensa/documentos/fuerza-aerea-mexicana',
+  false
 ),
 (
   'casa-c-295',
@@ -1050,23 +1050,23 @@ VALUES
   'https://upload.wikimedia.org/wikipedia/commons/thumb/b/b1/CASA_C-295M_Kazakhstan_Air_Force_093.jpg/640px-CASA_C-295M_Kazakhstan_Air_Force_093.jpg',
   'https://commons.wikimedia.org/wiki/File:CASA_C-295M_Kazakhstan_Air_Force_093.jpg',
   'CC BY-SA',
-  'https://www.gob.mx/sedena/fuerza-aerea-mexicana',
-  true
+  'https://www.gob.mx/defensa/documentos/fuerza-aerea-mexicana',
+  false
 ),
 (
   'cn-235',
-  'CASA/IPTN CN-235',
+  'CASA/IPTN CN-235-300',
   'aereo',
   'España / Indonesia',
-  'Fuerza Aérea Mexicana / SEMAR',
+  'SEMAR',
+  6,
   NULL,
-  NULL,
-  'Avión de transporte ligero y patrulla marítima bimotor turbohélice. Empleado por la FAM y la SEMAR en vigilancia costera, patrulla de la Zona Económica Exclusiva y transporte logístico a zonas de difícil acceso.',
+  'Avión de patrulla marítima y transporte bimotor turbohélice. La Armada de México opera 6 unidades CN-235-300 con sistema de misión completo (sensores electroópticos, radar, comunicaciones satelitales) asignados a los Escuadrones Aeronavales 911 (Chetumal) y 1613 (Puerto Chiapas). Misiones: Patrulla Aérea Marítima, Búsqueda y Rescate, Inteligencia, Vigilancia y Reconocimiento en ambos litorales.',
   'https://upload.wikimedia.org/wikipedia/commons/thumb/4/47/CASA-IPTN_CN-235-200_Spanish_Air_Force_T.19-03.jpg/640px-CASA-IPTN_CN-235-200_Spanish_Air_Force_T.19-03.jpg',
   'https://commons.wikimedia.org/wiki/File:CASA-IPTN_CN-235-200_Spanish_Air_Force_T.19-03.jpg',
   'CC BY-SA',
   'https://www.gob.mx/semar',
-  true
+  false
 ),
 (
   'uh-60-black-hawk',
@@ -1076,12 +1076,12 @@ VALUES
   'SEDENA / Fuerza Aérea Mexicana',
   NULL,
   NULL,
-  'Helicóptero utilitario de transporte medio bimotriz turbina. Operado por el Ejército y la Fuerza Aérea Mexicana en movilidad de tropas, evacuación médica, inserción de fuerzas especiales y tareas de auxilio en aplicación del Plan DN-III-E.',
+  'Helicóptero utilitario de transporte medio bimotriz turbina. Operado por el Ejército y la Fuerza Aérea Mexicana (Escuadrón Aéreo 101) en movilidad de tropas, evacuación médica, inserción de fuerzas especiales y tareas de auxilio en aplicación del Plan DN-III-E. México cuenta con variantes UH-60L y UH-60M.',
   'https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Turkish_ISAF_UH-60_Black_Hawk_helicopter.JPEG/640px-Turkish_ISAF_UH-60_Black_Hawk_helicopter.JPEG',
   'https://commons.wikimedia.org/wiki/File:Turkish_ISAF_UH-60_Black_Hawk_helicopter.JPEG',
   'CC BY-SA',
-  'https://www.gob.mx/sedena',
-  true
+  'https://www.gob.mx/sedena/acciones-y-programas/helicopteros',
+  false
 ),
 (
   'mi-17',
@@ -1095,8 +1095,8 @@ VALUES
   'https://upload.wikimedia.org/wikipedia/commons/thumb/6/6d/Mil_Mi-17-V5_(Mi-8MTV-5)_AN1846398.jpg/640px-Mil_Mi-17-V5_(Mi-8MTV-5)_AN1846398.jpg',
   'https://commons.wikimedia.org/wiki/File:Mil_Mi-17-V5_(Mi-8MTV-5)_AN1846398.jpg',
   'CC BY-SA',
-  'https://www.gob.mx/sedena',
-  true
+  'https://www.gob.mx/sedena/acciones-y-programas/helicopteros',
+  false
 ),
 (
   'bell-412',
@@ -1106,12 +1106,12 @@ VALUES
   'SEDENA / SEMAR',
   NULL,
   NULL,
-  'Helicóptero utilitario bimotor de rotor en tándem empleado por el Ejército y la Armada de México en transporte de personal, búsqueda y rescate, y evacuación médica. Tiene capacidad para 13 pasajeros o equipamiento médico completo.',
+  'Helicóptero utilitario bimotor de rotor en tándem empleado por el Ejército (Escuadrón Aéreo 101) y la Armada de México en transporte de personal, búsqueda y rescate, y evacuación médica. Tiene capacidad para 13 pasajeros o equipamiento médico completo.',
   'https://upload.wikimedia.org/wikipedia/commons/thumb/3/3a/Bell_412_EP.jpg/640px-Bell_412_EP.jpg',
   'https://commons.wikimedia.org/wiki/File:Bell_412_EP.jpg',
   'CC BY-SA',
-  'https://www.gob.mx/sedena',
-  true
+  'https://www.gob.mx/sedena/acciones-y-programas/helicopteros',
+  false
 ),
 (
   'bell-206',
@@ -1125,8 +1125,8 @@ VALUES
   'https://upload.wikimedia.org/wikipedia/commons/thumb/b/b9/Bell_206L_C-GNWT.jpg/640px-Bell_206L_C-GNWT.jpg',
   'https://commons.wikimedia.org/wiki/File:Bell_206L_C-GNWT.jpg',
   'CC BY-SA',
-  'https://www.gob.mx/sedena',
-  true
+  'https://www.gob.mx/sedena/acciones-y-programas/helicopteros',
+  false
 ),
 (
   'md-530f',
@@ -1134,14 +1134,14 @@ VALUES
   'aereo',
   'Estados Unidos',
   'SEDENA',
+  15,
   NULL,
-  NULL,
-  'Helicóptero ligero de reconocimiento y escolta armada. Empleado por el Ejército Mexicano en operaciones de apoyo aéreo cercano, escolta de convoyes y reconocimiento. Puede montar ametralladoras calibre .50 o lanzacohetes.',
+  'Helicóptero ligero de reconocimiento y escolta armada. La Fuerza Aérea Mexicana opera 15 unidades asignadas a los Escuadrones de Operaciones Especiales 214 y 215. Empleado en apoyo aéreo cercano, escolta de convoyes y reconocimiento; puede montar ametralladoras calibre .50 o lanzacohetes.',
   'https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/MD_530F_Cayuse_Warrior.jpg/640px-MD_530F_Cayuse_Warrior.jpg',
   'https://commons.wikimedia.org/wiki/File:MD_530F_Cayuse_Warrior.jpg',
   'CC BY-SA',
-  'https://www.gob.mx/sedena',
-  true
+  'https://www.gob.mx/sedena/acciones-y-programas/helicopteros',
+  false
 ),
 (
   'cessna-182',
@@ -1175,18 +1175,18 @@ VALUES
 ),
 (
   'arm-reformador',
-  'ARM Reformador (POLA-001)',
+  'ARM Reformador (POLA-101)',
   'naval',
   'México (diseño SIGMA, Países Bajos)',
   'SEMAR',
   1,
   2018,
-  'Primera Patrulla Oceánica de Largo Alcance (POLA) construida íntegramente en astilleros de la Secretaría de Marina con base en el diseño SIGMA 10513 de Damen Shipyards. Es el buque de superficie más moderno de la Armada de México. Desplazamiento: 2,300 toneladas; velocidad máxima: 28 nudos.',
+  'Primera Patrulla Oceánica de Largo Alcance (POLA) construida íntegramente en los Astilleros de Marina No. 20 (ASTIMAR 20) en Salina Cruz, Oaxaca, con base en el diseño SIGMA de Damen Shipyards. Comisionada en noviembre de 2018, es el buque de superficie más moderno de la Armada de México. Eslora: 107.5 m; manga: 14.02 m; velocidad máxima: 27 nudos; autonomía: 21 días; tripulación: 100 efectivos. Participó en RIMPAC 2024.',
   NULL,
   NULL,
   NULL,
-  'https://www.gob.mx/semar',
-  true
+  'https://www.gob.mx/semar/prensa/patrulla-oceanica-de-largo-alcance-arm-reformador-pola-101-de-la-armada-de-mexico-realizo-pruebas-de-aceptacion-en-la-mar',
+  false
 ),
 (
   'clase-oaxaca',
@@ -1195,13 +1195,13 @@ VALUES
   'México',
   'SEMAR',
   NULL,
+  2018,
+  'Clase de patrullas oceánicas de construcción nacional (ASTIMAR) empleadas por la Armada de México en vigilancia de la Zona Económica Exclusiva, interdicción marítima y auxilio a la población (Plan Marina). La ARM Jalisco (P-167) fue comisionada en noviembre de 2018 junto con la POLA ARM Reformador. Eslora aproximada: 82 m.',
   NULL,
-  'Clase de patrullas oceánicas de construcción nacional (ASTIMAR) empleadas por la Armada de México en vigilancia de la Zona Económica Exclusiva, interdicción marítima de narcotráfico y auxilio a la población en aplicación del Plan Marina. Eslora aproximada: 82 m.',
   NULL,
   NULL,
-  NULL,
-  'https://www.gob.mx/semar',
-  true
+  'https://www.gob.mx/semar/prensa/marina-informa-sobre-la-importante-labor-institucional-en-los-temas-de-construcciones-navales-dragado-y-atencion-al-sargazo',
+  false
 ),
 (
   'clase-allende',
@@ -1261,7 +1261,7 @@ VALUES
   'https://commons.wikimedia.org/wiki/File:Stridsbåt_90.jpg',
   'CC BY-SA',
   'https://www.gob.mx/semar',
-  true
+  false
 ),
 (
   'plasan-sandcat',
@@ -1276,7 +1276,7 @@ VALUES
   'https://commons.wikimedia.org/wiki/File:Plasan_SandCat.jpg',
   'CC BY-SA',
   'https://www.gob.mx/sedena',
-  true
+  false
 ),
 (
   'hmmwv',
@@ -1291,7 +1291,7 @@ VALUES
   'https://commons.wikimedia.org/wiki/File:SAM-HMMWV.jpg',
   'Public Domain',
   'https://www.gob.mx/sedena',
-  true
+  false
 ),
 (
   'm1117-guardian',
@@ -1306,22 +1306,22 @@ VALUES
   'https://commons.wikimedia.org/wiki/File:M1117_Guardian_Armored_Security_Vehicle.jpg',
   'Public Domain',
   'https://www.gob.mx/sedena',
-  true
+  false
 ),
 (
   'panhard-vbl',
-  'Panhard VBL',
+  'Panhard VBL Ultrab M11',
   'terrestre',
   'Francia',
   'SEDENA',
   NULL,
   NULL,
-  'Vehículo blindado ligero de reconocimiento 4×4 con capacidad anfibia. Empleado por el Ejército Mexicano en misiones de exploración, reconocimiento y escolta. Puede montar ametralladora de 7.62 mm o misil antitanque en su versión armada.',
+  'Vehículo blindado ligero de reconocimiento 4×4 con capacidad anfibia, variante Ultrab M11 en servicio en el Ejército Mexicano. Empleado en misiones de exploración, reconocimiento y escolta. Puede montar ametralladora de 7.62 mm o misil antitanque en su versión armada.',
   'https://upload.wikimedia.org/wikipedia/commons/thumb/4/49/Panhard_VBL..JPG/640px-Panhard_VBL..JPG',
   'https://commons.wikimedia.org/wiki/File:Panhard_VBL..JPG',
   'CC BY-SA',
   'https://www.gob.mx/sedena',
-  true
+  false
 ),
 (
   'dn-xi',
@@ -1331,42 +1331,42 @@ VALUES
   'SEDENA',
   NULL,
   NULL,
-  'Vehículo blindado de transporte de tropas (VBTT) de diseño y fabricación nacional (DGIM), configuración 4×4. Diseñado para resistir armas de fuego de mediano calibre y fragmentos de explosivos. Empleado en patrullaje urbano y transporte de personal en zonas de alto riesgo.',
+  'Vehículo blindado de transporte de tropas (VBTT) de diseño y fabricación nacional (DGIM), configuración 4×4, basado en chasis Ford F-350 con motor V8 turbodiesel. La SEDENA estableció un plan de producción para 100 unidades con una inversión aproximada de 27 millones de dólares. Diseñado para resistir armas de fuego de mediano calibre; empleado en patrullaje urbano y transporte de personal en zonas de alto riesgo.',
   NULL,
   NULL,
   NULL,
   'https://www.gob.mx/sedena',
-  true
+  false
 ),
 (
   'lav-150',
-  'Cadillac Gage V-150 Commando',
+  'Cadillac Gage V-150 Commando (Cobra)',
   'terrestre',
   'Estados Unidos',
   'SEDENA',
+  26,
   NULL,
-  NULL,
-  'Vehículo blindado anfibio 4×4 de los años 1970-1980 aún en servicio en unidades de reserva del Ejército Mexicano. Puede configurarse como transporte de tropas, portamorteross o vehículo de reconocimiento armado con cañón de 20 mm.',
+  'Vehículo blindado anfibio 4×4 en la variante LAV-150ST Cobra. El Ejército Mexicano opera 26 unidades en unidades de reserva y caballería. Puede configurarse como transporte de tropas, portamorteros o vehículo de reconocimiento armado con cañón de 20 mm.',
   'https://upload.wikimedia.org/wikipedia/commons/thumb/b/be/V-150_Commando.jpg/640px-V-150_Commando.jpg',
   'https://commons.wikimedia.org/wiki/File:V-150_Commando.jpg',
   'Public Domain',
   'https://www.gob.mx/sedena',
-  true
+  false
 ),
 (
   'erc-90',
-  'ERC-90 F4 Sagaie',
+  'ERC-90 Lynx (Panhard)',
   'terrestre',
   'Francia',
   'SEDENA',
-  NULL,
-  NULL,
-  'Vehículo blindado de reconocimiento 6×6 armado con cañón de 90 mm y coaxial de 7.62 mm. Empleado por la caballería del Ejército Mexicano en misiones de reconocimiento en fuerza, destrucción de blindados ligeros y apoyo de fuego a la infantería.',
+  119,
+  1982,
+  'Vehículo blindado de reconocimiento 6×6 armado con cañón de 90 mm y ametralladora coaxial de 7.62 mm, variante Lynx. El Ejército Mexicano adquirió 150 unidades en 1982 para sus regimientos de caballería blindada; en 2014 se ejecutó un programa de modernización de 119 vehículos (transmisión y sistemas de armas) por 107.4 millones de dólares, cubriendo cuatro de nueve regimientos de reconocimiento blindado.',
   'https://upload.wikimedia.org/wikipedia/commons/thumb/8/83/Sagaie_ERC-90_du_4e_RD.jpg/640px-Sagaie_ERC-90_du_4e_RD.jpg',
   'https://commons.wikimedia.org/wiki/File:Sagaie_ERC-90_du_4e_RD.jpg',
   'CC BY-SA',
   'https://www.gob.mx/sedena',
-  true
+  false
 ),
 (
   'roshel-senator',
@@ -1376,12 +1376,12 @@ VALUES
   'Guardia Nacional / SEDENA',
   NULL,
   NULL,
-  'Vehículo blindado de transporte de personal sobre chasis Ford F-550. Empleado por la Guardia Nacional y el Ejército Mexicano en patrullaje urbano y operaciones de seguridad. Protección balística NIJ Nivel III; capacidad para 10 efectivos.',
+  'Vehículo blindado de transporte de personal sobre chasis Ford F-550. La Guardia Nacional y el Ejército Mexicano lo emplean en patrullaje urbano y operaciones de seguridad. Protección balística NIJ Nivel III; capacidad para 10 efectivos.',
   'https://upload.wikimedia.org/wikipedia/commons/thumb/2/25/Roshel_Senator.jpg/640px-Roshel_Senator.jpg',
   'https://commons.wikimedia.org/wiki/File:Roshel_Senator.jpg',
   'CC BY-SA',
   'https://www.gob.mx/guardianacional',
-  true
+  false
 )
 ON CONFLICT (slug) DO NOTHING;
 
@@ -1401,10 +1401,10 @@ VALUES
   '1985-12-31',
   'desastre',
   '["SEDENA","Ciudad de México","Jalisco","Michoacán"]',
-  'Activación del Plan DN-III-E del Ejército Mexicano tras el terremoto de magnitud 8.1 que destruyó miles de edificios en la Ciudad de México y afectó estados del centro-occidente. Las fuerzas armadas participaron en labores de rescate, remoción de escombros y apoyo a la población desplazada. Fue la primera gran prueba del Plan DN-III-E a escala nacional.',
-  'Miles de rescatados; se catalizó la creación del Sistema Nacional de Protección Civil (1986).',
-  'https://www.gob.mx/sedena',
-  true
+  'Activación del Plan DN-III-E del Ejército Mexicano tras el terremoto de magnitud 8.1 que destruyó miles de edificios en la Ciudad de México y afectó estados del centro-occidente. Las fuerzas armadas participaron en labores de rescate, remoción de escombros y apoyo a la población desplazada. Fue la primera gran prueba del Plan DN-III-E a escala nacional y detonó la creación del Sistema Nacional de Protección Civil en 1986.',
+  'Más de 10,000 muertos estimados y 250,000 damnificados; se catalizó la creación del Sistema Nacional de Protección Civil (1986) y del Sistema de Alerta Sísmica.',
+  'https://www.gob.mx/cenapred/articulos/los-sismos-historicos-de-septiembre',
+  false
 ),
 (
   'huracan-pauline-1997',
@@ -1414,9 +1414,9 @@ VALUES
   'desastre',
   '["SEDENA","SEMAR","Oaxaca","Guerrero"]',
   'Despliegue de las fuerzas armadas en la Costa Chica y las costas de Oaxaca y Guerrero tras el impacto del huracán Paulina (categoría 4), que causó más de 230 muertes y destruyó comunidades rurales. Se activaron el Plan DN-III-E y el Plan Marina para rescate, distribución de víveres y restablecimiento de comunicaciones.',
-  'Más de 300,000 personas afectadas. Las FFA evacuaron y apoyaron a decenas de miles de damnificados.',
-  'https://www.gob.mx/sedena',
-  true
+  'Más de 230 muertos y 300,000 damnificados. Las FFA evacuaron y apoyaron a decenas de miles de personas, con daños estimados en 450 millones de dólares.',
+  'https://www.gob.mx/cenapred/articulos/huracan-pauline-a-20-anos-de-la-destruccion',
+  false
 ),
 (
   'huracan-wilma-2005',
@@ -1425,10 +1425,10 @@ VALUES
   '2005-12-01',
   'desastre',
   '["SEDENA","SEMAR","Quintana Roo"]',
-  'Despliegue de las fuerzas armadas en Quintana Roo ante el impacto del huracán Wilma (categoría 4) sobre Cancún, Cozumel y la Riviera Maya. Fue el huracán más intenso registrado en el Atlántico hasta esa fecha. En aplicación del Plan DN-III-E y del Plan Marina, las FFA participaron en evacuación masiva, rescate, distribución de ayuda y restablecimiento de servicios básicos.',
-  'Más de 46,000 turistas y 130,000 locales evacuados. Daños estimados en miles de millones de pesos.',
-  'https://www.gob.mx/sedena',
-  true
+  'Despliegue de las fuerzas armadas en Quintana Roo ante el impacto del huracán Wilma (categoría 4) sobre Cancún, Cozumel y la Riviera Maya. Fue el huracán más intenso registrado en el Atlántico hasta esa fecha (presión mínima 882 hPa). En aplicación del Plan DN-III-E y del Plan Marina, las FFA participaron en evacuación masiva, rescate, distribución de ayuda y restablecimiento de servicios básicos.',
+  'Más de 46,000 turistas y 130,000 locales evacuados; 12 muertos en México y daños estimados en 1,724 millones de dólares.',
+  'https://www.gob.mx/cenapred/articulos/a-quince-anos-de-los-huracanes-stan-y-wilma',
+  false
 ),
 (
   'huracan-stan-2005',
@@ -1438,9 +1438,9 @@ VALUES
   'desastre',
   '["SEDENA","SEMAR","Chiapas","Oaxaca","Veracruz"]',
   'Respuesta de las fuerzas armadas ante las devastadoras inundaciones y deslaves provocados por el paso del huracán Stan en el Soconusco y la Sierra de Chiapas. Se activaron el Plan DN-III-E y el Plan Marina para auxilio a comunidades incomunicadas, rescate en zonas de deslaves y distribución de apoyo humanitario.',
-  'Más de 80 muertos en México, miles de damnificados y comunidades incomunicadas por semanas.',
-  'https://www.gob.mx/sedena',
-  true
+  'Aproximadamente 80 muertos en México, más de 100,000 damnificados y comunidades incomunicadas por semanas. Daños totales estimados en 21,062 millones de pesos.',
+  'https://www.gob.mx/cenapred/articulos/a-quince-anos-de-los-huracanes-stan-y-wilma',
+  false
 ),
 (
   'operativo-conjunto-michoacan-2006',
@@ -1449,8 +1449,8 @@ VALUES
   NULL,
   'seguridad',
   '["SEDENA","SEMAR","PGR","Michoacán"]',
-  'Primer gran despliegue federal de fuerzas armadas y corporaciones de seguridad en Michoacán dentro de la estrategia de seguridad del gobierno del presidente Felipe Calderón. Considerado el inicio formal de la participación militar ampliada en tareas de seguridad pública contra el crimen organizado, en particular contra La Familia Michoacana.',
-  'Redujo temporalmente la violencia; catalizó operativos similares en otras entidades.',
+  'Primer gran despliegue federal de fuerzas armadas y corporaciones de seguridad en Michoacán dentro de la estrategia de seguridad del gobierno del presidente Felipe Calderón, iniciado el 11 de diciembre de 2006 días después de la toma de protesta. Considerado el inicio formal de la participación militar ampliada en tareas de seguridad pública contra el crimen organizado, en particular contra La Familia Michoacana.',
+  'Redujo temporalmente la violencia en Michoacán; catalizó operativos similares en otras entidades (Chihuahua, Guerrero, Tijuana) durante el mismo sexenio.',
   'https://www.gob.mx/sedena',
   true
 ),
@@ -1461,9 +1461,9 @@ VALUES
   '2007-12-31',
   'desastre',
   '["SEDENA","SEMAR","Guardia Nacional","Tabasco"]',
-  'Despliegue masivo de las fuerzas armadas en Tabasco ante las inundaciones históricas que cubrieron más del 70% del estado, afectando a más de un millón de personas. Se activaron el Plan DN-III-E y el Plan Marina para rescate en lancha, distribución de alimentos, instalación de albergues y restablecimiento de comunicaciones en la entidad más inundada de su historia reciente.',
-  'Más de un millón de personas damnificadas; las FFA desplegaron miles de efectivos y centenares de embarcaciones.',
-  'https://www.gob.mx/sedena',
+  'Despliegue masivo de las fuerzas armadas en Tabasco ante las inundaciones históricas que cubrieron más del 70% del estado, afectando a más de un millón de personas. Se registraron 403.4 mm de lluvia en 24 horas y el desbordamiento de los ríos Grijalva y Usumacinta. Se activaron el Plan DN-III-E y el Plan Marina para rescate en lancha, distribución de alimentos, instalación de albergues y restablecimiento de comunicaciones.',
+  'Más de un millón de personas damnificadas en 17 municipios; las FFA desplegaron miles de efectivos, centenares de embarcaciones y helicópteros durante semanas.',
+  'https://www.gob.mx/cenapred/articulos/domingo-28-de-octubre-2007-mega-inundacion-en-tabasco',
   true
 ),
 (
@@ -1498,9 +1498,9 @@ VALUES
   'desastre',
   '["SEDENA","CENAPRED","Puebla","Morelos","Estado de México"]',
   'Activación permanente del Plan DN-III-E en los estados del entorno del Popocatépetl ante la reactivación volcánica. Incluye la creación del radio de exclusión de seguridad, evacuación preventiva de comunidades en ladera, monitoreo conjunto con el CENAPRED y distribución de información de seguridad a la población.',
-  'Protocolo de evacuación activo; comunidades del radio de exclusión cuentan con planes de emergencia actualizados.',
-  'https://www.gob.mx/sedena',
-  true
+  'Protocolo de evacuación activo; comunidades del radio de exclusión cuentan con planes de emergencia actualizados. Sin víctimas directas por la respuesta institucional preventiva.',
+  'https://www.gob.mx/cenapred',
+  false
 ),
 (
   'huracanes-ingrid-manuel-2013',
@@ -1509,10 +1509,10 @@ VALUES
   '2013-11-30',
   'desastre',
   '["SEDENA","SEMAR","Guerrero","Veracruz","Tamaulipas","Oaxaca","Sinaloa"]',
-  'Respuesta institucional ante el impacto simultáneo e histórico de los ciclones Ingrid (Golfo de México) y Manuel (Pacífico), que provocaron inundaciones y deslaves en amplias zonas del país entre el 13 y el 16 de septiembre de 2013. La zona más afectada fue Acapulco, que quedó prácticamente incomunicada. Fue el mayor despliegue humanitario de las FFA hasta esa fecha.',
-  'Más de 190 muertos; 100,000 turistas y 800,000 personas atendidas. SEDENA y SEMAR coordinaron el puente aéreo y marítimo hacia Acapulco.',
-  'https://www.gob.mx/sedena',
-  true
+  'Respuesta institucional ante el impacto simultáneo e histórico de los ciclones Ingrid (Golfo de México) y Manuel (Pacífico), que provocaron inundaciones y deslaves en 26 estados del país entre el 13 y el 16 de septiembre de 2013. La zona más afectada fue Acapulco, que quedó prácticamente incomunicada. Fue el mayor despliegue humanitario de las FFA hasta esa fecha.',
+  '157 muertos (cifra oficial CENAPRED); 800,000 personas atendidas. SEDENA y SEMAR coordinaron el puente aéreo y marítimo hacia Acapulco, con turistas y residentes evacuados.',
+  'https://www.gob.mx/cenapred/articulos/a-7-anos-del-extraordinario-fenomeno-hidrometeorologico-ingrid-y-manuel',
+  false
 ),
 (
   'sismo-7-septiembre-2017',
@@ -1521,10 +1521,10 @@ VALUES
   '2017-12-31',
   'desastre',
   '["SEDENA","SEMAR","Oaxaca","Chiapas","Tabasco"]',
-  'Respuesta institucional al terremoto de magnitud 8.2 con epicentro en el Golfo de Tehuantepec (el más potente en México desde 1932), que afectó principalmente a Oaxaca y Chiapas. Activación inmediata del Plan DN-III-E y del Plan Marina para labores de rescate, evaluación de daños y atención a damnificados.',
-  '96 muertos. Más de 800,000 personas afectadas. Las FFA evaluaron y apoyaron en más de 2,000 localidades.',
-  'https://www.gob.mx/semar',
-  true
+  'Respuesta institucional al terremoto de magnitud 8.2 con epicentro en el Golfo de Tehuantepec (el más potente en México desde 1932), que afectó principalmente a Oaxaca y Chiapas. Activación inmediata del Plan DN-III-E y del Plan Marina para labores de rescate, evaluación de daños y atención a damnificados en 97 municipios afectados.',
+  '99 muertos (79 en Oaxaca, 16 en Chiapas, 4 en Tabasco); 112,407 viviendas y 6,419 escuelas afectadas. Las FFA evaluaron y apoyaron en más de 2,000 localidades.',
+  'https://www.gob.mx/cenapred/articulos/el-sismo-de-mayor-magnitud-en-casi-cien-anos-en-mexico-sismo-de-tehuantepec-7-de-septiembre-de-2017',
+  false
 ),
 (
   'sismo-19-septiembre-2017',
@@ -1534,9 +1534,9 @@ VALUES
   'desastre',
   '["SEDENA","SEMAR","Ciudad de México","Morelos","Puebla","Estado de México","Oaxaca"]',
   'Activación del Plan DN-III-E tras el terremoto de magnitud 7.1 con epicentro entre Puebla y Morelos, coincidente con el simulacro nacional anual. Causó el colapso de edificios en la Ciudad de México, Morelos y Puebla. Las fuerzas armadas participaron en rescate, remoción de escombros y distribución de ayuda durante meses.',
-  '369 muertos. Cientos de edificios colapsados. Las FFA desplegaron más de 30,000 elementos en los estados afectados.',
-  'https://www.gob.mx/sedena',
-  true
+  '369 muertos (228 en CDMX). Cientos de edificios colapsados; pérdidas superiores a 43,000 millones de pesos en la CDMX. Las FFA desplegaron más de 30,000 elementos.',
+  'https://www.gob.mx/cenapred/articulos/los-sismos-del-19-septiembre',
+  false
 ),
 (
   'plan-dn-iii-e-covid-19-2020',
@@ -1546,7 +1546,7 @@ VALUES
   'humanitario',
   '["SEDENA","SEMAR","Guardia Nacional"]',
   'Activación de los planes de auxilio de las fuerzas armadas durante la emergencia sanitaria por COVID-19, declarada por la OMS el 11 de marzo de 2020. Incluyó la construcción y operación de hospitales de campaña (SEDENA y SEMAR), la distribución de insumos médicos, el apoyo al traslado de pacientes críticos y la seguridad de instalaciones de salud.',
-  'SEDENA construyó y operó más de 28 hospitales de campaña en 26 entidades; SEMAR convirtió buques en hospitales flotantes.',
+  'SEDENA construyó y operó más de 28 hospitales de campaña en 26 entidades; SEMAR reconvirtió instalaciones navales en hospitales para atención de pacientes COVID.',
   'https://www.gob.mx/sedena',
   true
 ),
@@ -1558,7 +1558,7 @@ VALUES
   'humanitario',
   '["SEMAR","Guardia Nacional","SEDENA"]',
   'Operativo de temporada coordinado por la SEMAR y la Guardia Nacional en playas y cuerpos de agua de todo el país durante los periodos vacacionales de Semana Santa, verano y fin de año. Incluye salvavidas navales, patrullaje marítimo y atención médica de primer contacto en litorales.',
-  'Operativo recurrente. En Semana Santa 2026 se atendieron decenas de miles de bañistas y se salvaron vidas en los dos litorales.',
+  'Operativo recurrente. Cada temporada se atienden decenas de miles de bañistas y se realizan rescates en los dos litorales.',
   'https://www.gob.mx/semar',
   false
 ),
@@ -1569,10 +1569,10 @@ VALUES
   '2020-09-30',
   'desastre',
   '["SEDENA","SEMAR","Oaxaca"]',
-  'Activación de los planes de auxilio tras el terremoto de magnitud 7.4 con epicentro en La Crucecita, Oaxaca. Ocurrido durante la pandemia de COVID-19, obligó a adaptar los protocolos de rescate y atención a damnificados a las restricciones sanitarias vigentes.',
-  '10 muertos; más de 11,000 viviendas afectadas. Las FFA desplegaron elementos con protocolos sanitarios especiales.',
-  'https://www.gob.mx/sedena',
-  true
+  'Activación de los planes de auxilio tras el terremoto de magnitud 7.4 con epicentro en La Crucecita, Oaxaca, el 23 de junio de 2020 a las 10:29 horas. Ocurrido durante la pandemia de COVID-19, obligó a adaptar los protocolos de rescate y atención a damnificados a las restricciones sanitarias vigentes.',
+  '10 muertos; más de 11,000 viviendas afectadas en 97 municipios. Las FFA desplegaron elementos con protocolos sanitarios especiales.',
+  'https://www.gob.mx/sspc/prensa/la-cnpc-informa-actualizaciones-de-sismo-en-oaxaca-magnitud-7-4',
+  false
 ),
 (
   'huracan-grace-2021',
@@ -1581,10 +1581,10 @@ VALUES
   '2021-10-31',
   'desastre',
   '["SEDENA","SEMAR","Guardia Nacional","Veracruz"]',
-  'Despliegue de las fuerzas armadas en Veracruz tras el impacto del huracán Grace (categoría 3) en la zona de Tecolutla. Activación del Plan DN-III-E y del Plan Marina para rescate, restablecimiento de comunicaciones y distribución de apoyo humanitario.',
-  '11 muertos; decenas de comunidades incomunicadas. Las FFA coordinaron el auxilio en la sierra de Puebla y Veracruz.',
-  'https://www.gob.mx/sedena',
-  true
+  'Despliegue de las fuerzas armadas en Veracruz tras el impacto del huracán Grace (categoría 3, vientos 205 km/h) en la zona de Tecolutla el 21 de agosto de 2021. Activación del Plan DN-III-E y del Plan Marina para rescate, restablecimiento de comunicaciones y distribución de apoyo humanitario en la sierra de Puebla, Hidalgo y Veracruz.',
+  '11 muertos (6 en Veracruz y 5 en Puebla); más de 43,000 hectáreas de cultivos afectadas en 68 municipios. Decenas de comunidades incomunicadas fueron atendidas por vía aérea.',
+  'https://www.gob.mx/cenapred/articulos/toma-tus-precauciones-ante-el-impacto-del-huracan-grace',
+  false
 ),
 (
   'sismo-19-septiembre-2022',
@@ -1593,10 +1593,10 @@ VALUES
   '2022-12-31',
   'desastre',
   '["SEDENA","SEMAR","Michoacán","Colima","Jalisco"]',
-  'Activación de los planes de auxilio tras el terremoto de magnitud 7.6 con epicentro en la región limítrofe de Michoacán y Colima, ocurrido nuevamente un 19 de septiembre (coincidencia con 1985 y 2017). Las FFA evaluaron daños y apoyaron a la población afectada en los estados del Pacífico centro.',
-  '2 muertos directamente confirmados; cientos de viviendas afectadas en Colima y Michoacán.',
-  'https://www.gob.mx/sedena',
-  true
+  'Activación de los planes de auxilio tras el terremoto de magnitud 7.7 con epicentro en la región limítrofe de Michoacán y Colima, ocurrido nuevamente un 19 de septiembre (coincidencia con 1985 y 2017). Las FFA evaluaron daños y apoyaron a la población afectada en los estados del Pacífico centro. El sismo generó alerta de tsunami en el litoral Pacífico que no se materializó.',
+  '2 muertos confirmados en Colima; cientos de viviendas afectadas. Daños y pérdidas estimadas en 789 millones de pesos.',
+  'https://www.gob.mx/sspc/prensa/reporte-de-afectaciones-por-sismo-de-magnitud-7-7-con-epicentro-en-coalcoman-michoacan',
+  false
 ),
 (
   'huracan-otis-2023',
@@ -1605,10 +1605,10 @@ VALUES
   '2024-06-30',
   'desastre',
   '["SEDENA","SEMAR","Guardia Nacional","Guerrero"]',
-  'Despliegue masivo de las fuerzas armadas en Acapulco y la Costa Grande de Guerrero tras el impacto del huracán Otis, que tocó tierra el 25 de octubre de 2023 como categoría 5 (el más intenso registrado en el Pacífico mexicano). Las FFA participaron en rescate, remoción de escombros, distribución de ayuda humanitaria y operaciones de seguridad durante la emergencia.',
-  '50 muertos oficiales; más de 500,000 personas afectadas. Las FFA desplegaron decenas de miles de elementos durante meses.',
-  'https://www.gob.mx/semar',
-  true
+  'Despliegue masivo de las fuerzas armadas en Acapulco y la Costa Grande de Guerrero tras el impacto del huracán Otis, que tocó tierra el 25 de octubre de 2023 como categoría 5 (vientos 270 km/h) — el más intenso registrado en el Pacífico mexicano. Las FFA participaron en rescate, remoción de escombros, distribución de ayuda humanitaria y operaciones de seguridad durante la emergencia.',
+  '52 muertos; más de 500,000 personas afectadas. Daños estimados en 88,910 millones de pesos (0.3% del PIB 2023). Las FFA desplegaron decenas de miles de elementos durante meses.',
+  'https://www.cenapred.gob.mx/es/Publicaciones/archivos/504-RESUMENEJECUTIVOIMPACTO2023.PDF',
+  false
 ),
 (
   'operativo-programa-atencion-medica-primer-contacto',
@@ -1632,7 +1632,7 @@ VALUES
   'Desfile cívico-militar anual en el Zócalo y Paseo de la Reforma de la Ciudad de México con que las fuerzas armadas conmemoran el aniversario de la Independencia de México. Incluye desfile de contingentes de infantería, caballería, vehículos blindados, artillería y sobrevuelo de la FAM.',
   NULL,
   'https://www.gob.mx/sedena',
-  true
+  false
 ),
 (
   'desfile-revolucion-20-noviembre',
@@ -1644,7 +1644,7 @@ VALUES
   'Desfile cívico-militar y deportivo anual en el Zócalo y Paseo de la Reforma de la Ciudad de México con que se conmemora el aniversario de la Revolución Mexicana. Participan contingentes militares, deportistas olímpicos, cuerpos de bomberos y representaciones de corporaciones de seguridad.',
   NULL,
   'https://www.gob.mx/sedena',
-  true
+  false
 ),
 (
   'captura-felix-gallardo-1989',
@@ -1653,10 +1653,10 @@ VALUES
   '1989-04-08',
   'seguridad',
   '["PGR","PJF","Jalisco"]',
-  'El 8 de abril de 1989, la Policía Judicial Federal (PJF) y agentes de la PGR detuvieron en Guadalajara, Jalisco, a Miguel Ángel Félix Gallardo ''El Padrino'', fundador y líder del Cártel de Guadalajara, la organización criminal más poderosa de México en los años ochenta. Félix Gallardo había sido señalado como responsable intelectual del asesinato del agente de la DEA Enrique ''Kiki'' Camarena en 1985. Tras su detención fue recluido en el penal de La Palma. La captura marcó el fin del Cártel de Guadalajara y propició la fragmentación del narcotráfico mexicano en los cárteles que surgirían en los años noventa.',
+  'El 8 de abril de 1989, la Policía Judicial Federal (PJF) y agentes de la PGR detuvieron en Guadalajara, Jalisco, a Miguel Ángel Félix Gallardo ''El Padrino'', fundador y líder del Cártel de Guadalajara. Félix Gallardo había sido señalado como responsable intelectual del asesinato del agente de la DEA Enrique ''Kiki'' Camarena en 1985. La captura marcó el fin del Cártel de Guadalajara y propició la fragmentación del narcotráfico mexicano.',
   'Félix Gallardo fue sentenciado a 40 años de prisión. La fragmentación de su organización dio origen a los cárteles de Sinaloa, Tijuana y Juárez.',
-  'https://www.pgr.gob.mx',
-  true
+  'https://www.gob.mx/pgr',
+  false
 ),
 (
   'captura-garcia-abrego-1996',
@@ -1665,10 +1665,10 @@ VALUES
   '1996-01-15',
   'seguridad',
   '["PGR","PJF","Nuevo León"]',
-  'El 14 de enero de 1996, agentes de la PGR y la PJF capturaron en Monterrey, Nuevo León, a Juan García Ábrego, líder del Cártel del Golfo. García Ábrego había sido el primer narcotraficante mexicano incluido en la lista de ''Specially Designated Narcotics Traffickers'' del Departamento del Tesoro de Estados Unidos (1994). Al día siguiente de su detención fue extraditado a Estados Unidos, convirtiéndose en el primer gran capo mexicano deportado al país vecino para enfrentar cargos federales de narcotráfico. Este hecho marcó un precedente histórico en la cooperación bilateral en materia de extradición.',
+  'El 14 de enero de 1996, agentes de la PGR y la PJF capturaron en Monterrey, Nuevo León, a Juan García Ábrego, líder del Cártel del Golfo. Al día siguiente fue extraditado a Estados Unidos, convirtiéndose en el primer gran capo mexicano deportado al país vecino. Este hecho marcó un precedente histórico en la cooperación bilateral en materia de extradición.',
   'García Ábrego fue sentenciado a once cadenas perpetuas consecutivas por un tribunal federal en Houston, Texas.',
   'https://www.dof.gob.mx',
-  true
+  false
 ),
 (
   'captura-osiel-cardenas-guillen-2003',
@@ -1677,10 +1677,10 @@ VALUES
   '2003-03-14',
   'seguridad',
   '["SEDENA","PGR","Tamaulipas"]',
-  'El 14 de marzo de 2003, efectivos de la SEDENA y agentes de la PGR detuvieron en Matamoros, Tamaulipas, a Osiel Cárdenas Guillén, líder del Cártel del Golfo y fundador del grupo armado Los Zetas —originalmente desertores del Grupo Aeromóvil de Fuerzas Especiales (GAFE) del Ejército Mexicano reclutados como brazo armado del cartel—. La operación fue notable porque el operativo tuvo que enfrentar resistencia armada organizada por Los Zetas en las calles de Matamoros, siendo uno de los primeros casos documentados de una organización criminal confrontando directamente a las fuerzas federales con tácticas militares.',
+  'El 14 de marzo de 2003, efectivos de la SEDENA y agentes de la PGR detuvieron en Matamoros, Tamaulipas, a Osiel Cárdenas Guillén, líder del Cártel del Golfo y fundador de Los Zetas. El operativo enfrentó resistencia armada organizada por Los Zetas en las calles de Matamoros, siendo uno de los primeros casos documentados de una organización criminal confrontando directamente a las fuerzas federales con tácticas militares.',
   'Cárdenas Guillén fue extraditado a Estados Unidos en 2007 y sentenciado a 25 años de prisión en 2010.',
   'https://www.gob.mx/sedena',
-  true
+  false
 ),
 (
   'abatimiento-arturo-beltran-leyva-2009',
@@ -1689,10 +1689,10 @@ VALUES
   '2009-12-16',
   'seguridad',
   '["SEMAR","Morelos"]',
-  'El 16 de diciembre de 2009, un operativo de las Fuerzas Especiales de la Armada de México (FEAM) localizó y abatió a Arturo Beltrán Leyva ''El Barbas'', líder del Cártel de los Beltrán Leyva, en un departamento del conjunto habitacional Altitude en Cuernavaca, Morelos. El operativo fue ejecutado exclusivamente por la SEMAR sin participación del Ejército ni la Policía Federal. Beltrán Leyva era en ese momento uno de los criminales más buscados de México y había roto alianza con el Cártel de Sinaloa en 2008 tras la captura de su hermano Alfredo por la SEDENA.',
-  'Arturo Beltrán Leyva murió en el operativo. El hecho fue considerado uno de los golpes más significativos contra el crimen organizado durante el sexenio de Felipe Calderón.',
+  'El 16 de diciembre de 2009, un operativo de las Fuerzas Especiales de la Armada de México localizó y abatió a Arturo Beltrán Leyva ''El Barbas'', líder del Cártel de los Beltrán Leyva, en un departamento del conjunto habitacional Altitude en Cuernavaca, Morelos. El operativo fue ejecutado exclusivamente por la SEMAR.',
+  'Arturo Beltrán Leyva murió en el operativo. Fue considerado uno de los golpes más significativos contra el crimen organizado durante el sexenio de Felipe Calderón.',
   'https://www.gob.mx/semar',
-  true
+  false
 ),
 (
   'primera-captura-el-chapo-2014',
@@ -1701,7 +1701,7 @@ VALUES
   '2014-02-22',
   'seguridad',
   '["SEMAR","PGR","Sinaloa"]',
-  'El 22 de febrero de 2014, elementos de las Fuerzas Especiales de la Armada de México (FEAM) y agentes de la PGR detuvieron a Joaquín Archivaldo Guzmán Loera ''El Chapo'' en el Hotel Miramar de Mazatlán, Sinaloa. Guzmán, líder del Cártel de Sinaloa, era el narcotraficante más buscado de México y figura en la lista de la DEA desde inicios de los años noventa. Había evadido la justicia durante más de una década tras una primera detención en 1993 y su fuga del penal de Puente Grande, Jalisco, en 2001. La captura fue anunciada en cadena nacional por el entonces presidente Enrique Peña Nieto junto al procurador Jesús Murillo Karam.',
+  'El 22 de febrero de 2014, elementos de las Fuerzas Especiales de la Armada de México y agentes de la PGR detuvieron a Joaquín Archivaldo Guzmán Loera ''El Chapo'' en el Hotel Miramar de Mazatlán, Sinaloa. La captura fue anunciada en cadena nacional por el entonces presidente Enrique Peña Nieto junto al procurador Jesús Murillo Karam.',
   'El Chapo fue recluido en el penal del Altiplano. Se fugó por un túnel el 11 de julio de 2015.',
   'https://www.gob.mx/semar',
   false
@@ -1713,7 +1713,7 @@ VALUES
   '2016-01-08',
   'seguridad',
   '["SEMAR","PGR","Sinaloa"]',
-  'El 8 de enero de 2016, elementos de las Fuerzas Especiales de la Armada de México y agentes de la PGR recapturaron a Joaquín Guzmán Loera en Los Mochis, Sinaloa, seis meses después de su segunda fuga del penal del Altiplano (11 de julio de 2015) —a través de un túnel de 1.5 km equipado con riel y ventilación—. La operación se inició antes del amanecer y resultó en un enfrentamiento armado en el que murieron cinco presuntos miembros del Cártel de Sinaloa y fueron detenidas seis personas. Guzmán intentó huir por el drenaje de la ciudad antes de ser interceptado. Esta fue su tercera y última detención en México.',
+  'El 8 de enero de 2016, elementos de las Fuerzas Especiales de la Armada de México y agentes de la PGR recapturaron a Joaquín Guzmán Loera en Los Mochis, Sinaloa, seis meses después de su segunda fuga del penal del Altiplano. La operación resultó en un enfrentamiento armado y Guzmán intentó huir por el drenaje de la ciudad antes de ser interceptado.',
   'Guzmán fue trasladado al penal del Noroeste y extraditado a Estados Unidos el 19 de enero de 2017. En 2019 fue sentenciado a cadena perpetua en Nueva York.',
   'https://www.gob.mx/semar',
   false
@@ -1725,8 +1725,8 @@ VALUES
   '2019-10-17',
   'seguridad',
   '["SEDENA","Guardia Nacional","Sinaloa"]',
-  'El 17 de octubre de 2019, elementos de la SEDENA y la Guardia Nacional detuvieron a Ovidio Guzmán López ''El Ratón'', hijo de Joaquín ''El Chapo'' Guzmán y uno de los líderes del Cártel de Sinaloa, en un domicilio de Culiacán, Sinaloa. La reacción del cartel fue inmediata: grupos armados bloquearon calles, atacaron instalaciones militares y liberaron a reos del penal de Aguaruto. Ante la escalada de violencia y el riesgo para civiles, el gobierno federal decidió liberar a Ovidio Guzmán horas después de su detención. El episodio —conocido como el ''Culiacanazo''— generó un intenso debate político y fue documentado por la Cámara de Diputados y la Presidencia de la República.',
-  'Ovidio Guzmán fue liberado ese mismo día. El gobierno abrió una investigación interna. Ovidio sería finalmente capturado en enero de 2023.',
+  'El 17 de octubre de 2019, elementos de la SEDENA y la Guardia Nacional detuvieron a Ovidio Guzmán López ''El Ratón'' en Culiacán, Sinaloa. La reacción del cartel fue inmediata con bloqueos, ataques y la liberación de reos del penal de Aguaruto. Ante la escalada de violencia, el gobierno federal decidió liberarlo horas después.',
+  'Ovidio Guzmán fue liberado ese mismo día. El episodio generó un intenso debate político. Ovidio sería capturado definitivamente en enero de 2023.',
   'https://www.gob.mx/sedena',
   false
 ),
@@ -1737,7 +1737,7 @@ VALUES
   '2023-01-05',
   'seguridad',
   '["SEDENA","Guardia Nacional","Sinaloa"]',
-  'El 5 de enero de 2023, efectivos de la SEDENA y la Guardia Nacional ejecutaron un operativo de alto impacto en Jesús María, municipio de Culiacán, Sinaloa, que resultó en la detención de Ovidio Guzmán López, hijo de Joaquín ''El Chapo'' Guzmán e identificado como uno de los jefes del Cártel de Sinaloa. La respuesta del cartel fue inmediata: se registraron bloqueos de carreteras, incendios de vehículos, ataques a instalaciones del Aeropuerto Internacional de Culiacán y enfrentamientos armados en varios puntos del estado. El saldo oficial del operativo fue de diez militares muertos, diez heridos y veintinueve civiles fallecidos. El secretario de la SEDENA anunció la detención en conferencia de prensa el mismo día.',
+  'El 5 de enero de 2023, efectivos de la SEDENA y la Guardia Nacional ejecutaron un operativo de alto impacto en Jesús María, Culiacán, que resultó en la detención de Ovidio Guzmán López. La respuesta del cartel provocó bloqueos, incendios en el aeropuerto de Culiacán y enfrentamientos armados en varios puntos del estado. El saldo oficial fue diez militares muertos, diez heridos y veintinueve civiles fallecidos.',
   'Ovidio Guzmán fue trasladado a la Ciudad de México y extraditado a Estados Unidos el 13 de julio de 2023.',
   'https://www.gob.mx/sedena',
   false
@@ -1749,10 +1749,10 @@ VALUES
   '2014-10-01',
   'seguridad',
   '["PGR","SEMAR","Guanajuato"]',
-  'El 1 de octubre de 2014, agentes de la PGR y elementos de la Armada de México detuvieron a Héctor Beltrán Leyva ''El H'', líder del Cártel de los Beltrán Leyva, en un restaurante del centro histórico de San Miguel de Allende, Guanajuato. Beltrán Leyva había asumido el mando de la organización criminal tras la muerte de su hermano Arturo en diciembre de 2009. La detención se realizó sin enfrentamientos armados.',
+  'El 1 de octubre de 2014, agentes de la PGR y elementos de la Armada de México detuvieron a Héctor Beltrán Leyva ''El H'', líder del Cártel de los Beltrán Leyva, en un restaurante del centro histórico de San Miguel de Allende, Guanajuato. La detención se realizó sin enfrentamientos armados.',
   'Héctor Beltrán Leyva murió en el Centro Médico Naval en noviembre de 2018 a causa de un paro cardíaco, antes de ser extraditado.',
   'https://www.gob.mx/pgr',
-  true
+  false
 )
 ON CONFLICT (slug) DO NOTHING;
 
@@ -1777,8 +1777,8 @@ VALUES
   '8.1 Mw',
   10000,
   250000,
-  'https://www.gob.mx/cenapred',
-  true
+  'https://www.gob.mx/cenapred/articulos/los-sismos-historicos-de-septiembre',
+  false
 ),
 (
   'huracan-pauline-1997',
@@ -1787,12 +1787,12 @@ VALUES
   '1997-10-09',
   '["Guerrero","Oaxaca"]',
   'Plan DN-III-E / Plan Marina',
-  'Huracán categoría 4 que impactó la Costa Chica y el puerto de Acapulco el 9 de octubre de 1997. Causó más de 230 muertos, principalmente en comunidades rurales de la Costa Chica de Guerrero y Oaxaca. Las lluvias provocaron deslaves que destruyeron comunidades enteras en la sierra.',
+  'Huracán categoría 4 que impactó la Costa Chica y el puerto de Acapulco el 9 de octubre de 1997. Causó más de 230 muertos, principalmente en comunidades rurales de la Costa Chica de Guerrero y Oaxaca. Las lluvias provocaron deslaves que destruyeron comunidades enteras en la sierra. Daños estimados en 450 millones de dólares.',
   'Categoría 4 (vientos 230 km/h al impacto)',
   230,
   300000,
-  'https://www.gob.mx/cenapred',
-  true
+  'https://www.gob.mx/cenapred/articulos/huracan-pauline-a-20-anos-de-la-destruccion',
+  false
 ),
 (
   'huracan-wilma-2005',
@@ -1801,12 +1801,12 @@ VALUES
   '2005-10-21',
   '["Quintana Roo","Yucatán"]',
   'Plan DN-III-E / Plan Marina',
-  'Huracán categoría 5 en el Caribe que impactó la Riviera Maya y Cancún como categoría 4. Fue el huracán atlántico más intenso registrado hasta esa fecha (presión mínima de 882 hPa). Activó la evacuación masiva de más de 130,000 personas y la respuesta conjunta de las fuerzas armadas.',
+  'Huracán categoría 5 en el Caribe que impactó la Riviera Maya y Cancún como categoría 4. Fue el huracán atlántico más intenso registrado hasta esa fecha (presión mínima de 882 hPa). Activó la evacuación masiva de más de 130,000 personas y la respuesta conjunta de las fuerzas armadas. Daños estimados en 1,724 millones de dólares en México.',
   'Categoría 4 al impacto (fue cat. 5 en el Caribe)',
   12,
   300000,
-  'https://www.gob.mx/cenapred',
-  true
+  'https://www.gob.mx/cenapred/articulos/a-quince-anos-de-los-huracanes-stan-y-wilma',
+  false
 ),
 (
   'huracan-stan-2005',
@@ -1815,12 +1815,12 @@ VALUES
   '2005-10-04',
   '["Chiapas","Oaxaca","Veracruz","Tabasco"]',
   'Plan DN-III-E / Plan Marina',
-  'Huracán que tocó tierra en Veracruz como categoría 1 pero que, combinado con el frente frío, provocó lluvias extremas y deslaves devastadores en el Soconusco y la Sierra de Chiapas. Más de 80 muertos en México; varias comunidades quedaron sepultadas bajo toneladas de lodo.',
+  'Huracán que tocó tierra en Los Tuxtlas, Veracruz, como categoría 1, pero combinado con frentes fríos provocó lluvias extremas y deslaves devastadores en el Soconusco y la Sierra de Chiapas. Más de 100,000 personas evacuadas; varias comunidades quedaron sepultadas bajo toneladas de lodo. Daños totales estimados en 21,062 millones de pesos.',
   'Categoría 1 al impacto',
   80,
   100000,
-  'https://www.gob.mx/cenapred',
-  true
+  'https://www.gob.mx/cenapred/articulos/a-quince-anos-de-los-huracanes-stan-y-wilma',
+  false
 ),
 (
   'inundaciones-tabasco-2007',
@@ -1829,11 +1829,11 @@ VALUES
   '2007-10-28',
   '["Tabasco","Chiapas"]',
   'Plan DN-III-E / Plan Marina',
-  'Inundaciones históricas provocadas por lluvias extraordinarias y el desbordamiento de los ríos Grijalva y Usumacinta en octubre-noviembre de 2007. Más del 70% de Tabasco quedó bajo el agua, incluyendo barrios de la capital Villahermosa. Es uno de los peores desastres hídricos de México.',
+  'Inundaciones históricas provocadas por lluvias extraordinarias (403.4 mm en 24 horas) y el desbordamiento de los ríos Grijalva y Usumacinta en octubre-noviembre de 2007. El 75% de la población de 679 localidades de 17 municipios resultó damnificada. Aproximadamente el 80% de Villahermosa quedó bajo el agua. Es uno de los peores desastres hídricos de México en los últimos 50 años.',
   'Más del 70% del territorio de Tabasco inundado',
   6,
   1000000,
-  'https://www.gob.mx/cenapred',
+  'https://www.gob.mx/cenapred/articulos/domingo-28-de-octubre-2007-mega-inundacion-en-tabasco',
   true
 ),
 (
@@ -1847,7 +1847,7 @@ VALUES
   'Lluvias superiores a 800 mm en 72 horas en zonas afectadas',
   20,
   500000,
-  'https://www.gob.mx/cenapred',
+  'https://www.cenapred.gob.mx/es/Publicaciones/archivos/252.pdf',
   true
 ),
 (
@@ -1871,12 +1871,12 @@ VALUES
   '2013-09-15',
   '["Guerrero","Oaxaca","Sinaloa","Veracruz","Tamaulipas","Chihuahua","Durango"]',
   'Plan DN-III-E / Plan Marina',
-  'Impacto simultáneo histórico de dos ciclones en los litorales del Atlántico y el Pacífico, provocando las lluvias más intensas en México desde 1997. Acapulco quedó prácticamente incomunicada con más de 40,000 turistas atrapados. Las FFA coordinaron un puente aéreo y marítimo de evacuación masiva.',
+  'Impacto simultáneo histórico de dos ciclones en los litorales del Atlántico y el Pacífico, provocando las lluvias más intensas en México desde 1997 y afectando 26 estados. Acapulco quedó prácticamente incomunicada con más de 40,000 turistas atrapados. El deslizamiento de La Pintada, Guerrero, sepultó a decenas de personas. Las FFA coordinaron un puente aéreo y marítimo de evacuación masiva.',
   'Ingrid: Categoría 1 (Golfo); Manuel: Categoría 1 (Pacífico)',
-  193,
+  157,
   800000,
-  'https://www.gob.mx/cenapred',
-  true
+  'https://www.gob.mx/cenapred/articulos/a-7-anos-del-extraordinario-fenomeno-hidrometeorologico-ingrid-y-manuel',
+  false
 ),
 (
   'sismo-7-septiembre-2017',
@@ -1885,12 +1885,12 @@ VALUES
   '2017-09-07',
   '["Oaxaca","Chiapas","Tabasco","Veracruz"]',
   'Plan DN-III-E / Plan Marina',
-  'El terremoto más potente registrado en México desde el sismo de Colima de 1932 (magnitud 8.1). Epicentro frente a la costa del Golfo de Tehuantepec. Causó graves daños en el Istmo de Tehuantepec y las sierras de Oaxaca y Chiapas.',
+  'El terremoto más potente registrado en México desde el sismo de Colima de 1932 (magnitud 8.1). Epicentro a 140 km al suroeste de Pijijiapan, Chiapas, en el Golfo de Tehuantepec. Causó 99 muertos (79 en Oaxaca, 16 en Chiapas, 4 en Tabasco), afectó 112,407 viviendas y 6,419 escuelas. Pérdidas estimadas en 19,257 millones de pesos.',
   '8.2 Mw',
-  96,
-  875000,
-  'https://www.gob.mx/cenapred',
-  true
+  99,
+  449000,
+  'https://www.gob.mx/cenapred/articulos/el-sismo-de-mayor-magnitud-en-casi-cien-anos-en-mexico-sismo-de-tehuantepec-7-de-septiembre-de-2017',
+  false
 ),
 (
   'sismo-19-septiembre-2017',
@@ -1899,12 +1899,12 @@ VALUES
   '2017-09-19',
   '["Ciudad de México","Morelos","Puebla","Estado de México","Oaxaca","Guerrero"]',
   'Plan DN-III-E / Plan Marina',
-  'Terremoto con epicentro entre Puebla y Morelos que provocó colapsos de edificios en la Ciudad de México, Morelos y Puebla, y que ocurrió 32 años después del sismo de 1985, en el mismo día en que se realizaba el simulacro nacional. Las redes sociales amplificaron la respuesta ciudadana espontánea.',
+  'Terremoto con epicentro entre Puebla y Morelos que provocó colapsos de edificios en la Ciudad de México (228 muertos), Morelos y Puebla. Ocurrió 32 años después del sismo de 1985 y el mismo día en que se realizaba el simulacro nacional. Las redes sociales amplificaron la respuesta ciudadana espontánea. Las pérdidas en la CDMX superaron los 43,000 millones de pesos.',
   '7.1 Mw',
   369,
   250000,
-  'https://www.gob.mx/cenapred',
-  true
+  'https://www.gob.mx/cenapred/articulos/los-sismos-del-19-septiembre',
+  false
 ),
 (
   'sismo-23-junio-2020',
@@ -1913,12 +1913,12 @@ VALUES
   '2020-06-23',
   '["Oaxaca","Chiapas","Guerrero"]',
   'Plan DN-III-E / Plan Marina',
-  'Terremoto con epicentro en La Crucecita, municipio de Santa María Huatulco, Oaxaca. Ocurrido durante la pandemia de COVID-19, obligó a adaptar los protocolos de rescate y atención a damnificados a las restricciones sanitarias. Causó daños en viviendas del Istmo y la Costa de Oaxaca.',
+  'Terremoto con epicentro en La Crucecita, municipio de Santa María Huatulco, Oaxaca, el 23 de junio a las 10:29 horas. Ocurrido durante la pandemia de COVID-19, obligó a adaptar los protocolos de rescate y atención a las restricciones sanitarias. 97 municipios afectados, 10 fallecidos y más de 500 viviendas dañadas.',
   '7.4 Mw',
   10,
   11000,
-  'https://www.gob.mx/cenapred',
-  true
+  'https://www.gob.mx/sspc/prensa/la-cnpc-informa-actualizaciones-de-sismo-en-oaxaca-magnitud-7-4',
+  false
 ),
 (
   'huracan-grace-2021',
@@ -1927,12 +1927,12 @@ VALUES
   '2021-08-21',
   '["Veracruz","Hidalgo","Puebla"]',
   'Plan DN-III-E / Plan Marina',
-  'Huracán que tocó tierra por segunda vez en el norte de Veracruz como categoría 3 el 21 de agosto de 2021, provocando inundaciones en la sierra de Puebla, Hidalgo y Veracruz. Causó el colapso de puentes y caminos que incomunicaron comunidades por días.',
-  'Categoría 3 al segundo impacto en Veracruz',
+  'Huracán que tocó tierra por segunda vez en el norte de Veracruz como categoría 3 el 21 de agosto de 2021, con vientos máximos de 205 km/h. Causó 11 fallecidos (6 en Veracruz y 5 en Puebla) e inundaciones en la sierra de Puebla, Hidalgo y Veracruz. Afectó más de 43,000 hectáreas de cultivos en 68 municipios de Puebla.',
+  'Categoría 3 al segundo impacto en Veracruz (vientos 205 km/h)',
   11,
   50000,
-  'https://www.gob.mx/cenapred',
-  true
+  'https://www.gob.mx/cenapred/articulos/toma-tus-precauciones-ante-el-impacto-del-huracan-grace',
+  false
 ),
 (
   'sismo-19-septiembre-2022',
@@ -1941,12 +1941,12 @@ VALUES
   '2022-09-19',
   '["Michoacán","Colima","Jalisco","Guerrero"]',
   'Plan DN-III-E / Plan Marina',
-  'Terremoto de magnitud 7.6 con epicentro en la región limítrofe entre Michoacán y Colima, ocurrido por tercera ocasión en un 19 de septiembre (1985, 2017 y 2022). Causó daños en viviendas y generó alerta de tsunami en el Pacífico, aunque no se materializó.',
-  '7.6 Mw',
+  'Terremoto de magnitud 7.7 con epicentro al sur de Coalcomán, Michoacán, ocurrido a las 13:05 horas — por tercera ocasión en un 19 de septiembre (1985, 2017 y 2022). Causó 2 fallecidos en Colima y se sintió en 13 estados. Daños y pérdidas estimadas en 789 millones de pesos. Generó alerta de tsunami en el Pacífico que no se materializó.',
+  '7.7 Mw',
   2,
   5000,
-  'https://www.gob.mx/cenapred',
-  true
+  'https://www.gob.mx/sspc/prensa/reporte-de-afectaciones-por-sismo-de-magnitud-7-7-con-epicentro-en-coalcoman-michoacan',
+  false
 ),
 (
   'huracan-otis-2023',
@@ -1955,12 +1955,12 @@ VALUES
   '2023-10-25',
   '["Guerrero"]',
   'Plan DN-III-E / Plan Marina / Guardia Nacional',
-  'El huracán más intenso registrado en el Pacífico mexicano, que se intensificó de depresión tropical a categoría 5 en menos de 24 horas antes de impactar en Acapulco. Destruyó gran parte de la infraestructura hotelera, eléctrica y de comunicaciones de la ciudad. Más de 500,000 personas afectadas.',
+  'El huracán más intenso registrado en el Pacífico mexicano, que se intensificó de depresión tropical a categoría 5 en menos de 24 horas antes de impactar en Acapulco — el único categoría 5 en alcanzar una ciudad de más de un millón de habitantes en el Pacífico este. Destruyó gran parte de la infraestructura hotelera, eléctrica y de comunicaciones. Daños estimados en 88,910 millones de pesos (0.3% del PIB 2023).',
   'Categoría 5 (vientos de 270 km/h al impacto)',
-  50,
+  52,
   500000,
-  'https://www.gob.mx/cenapred',
-  true
+  'https://www.cenapred.gob.mx/es/Publicaciones/archivos/504-RESUMENEJECUTIVOIMPACTO2023.PDF',
+  false
 ),
 (
   'sequia-norte-mexico-2011',
@@ -1973,7 +1973,7 @@ VALUES
   'La peor sequía en 70 años según CONAGUA',
   NULL,
   2000000,
-  'https://www.gob.mx/cenapred',
+  'https://smn.conagua.gob.mx/es/sequia',
   true
 )
 ON CONFLICT (slug) DO NOTHING;

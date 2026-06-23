@@ -7,12 +7,12 @@
     "operador": "SEDENA",
     "cantidad_aprox": null,
     "anio": 2006,
-    "descripcion": "Fusil de asalto calibre 5.56×45 mm de diseño nacional, desarrollado y fabricado por la Dirección General de Industria Militar (DGIM) de la SEDENA. Es el arma estándar de dotación del Ejército Mexicano, diseñada para operar en las condiciones climáticas y geográficas del país.",
+    "descripcion": "Fusil de asalto calibre 5.56×45 mm de diseño y fabricación nacionales, producido por la Dirección General de Industria Militar (DGIM) de la SEDENA con una capacidad de producción de 30,000 unidades anuales. Es el arma estándar de dotación del Ejército Mexicano y ha permitido la sustitución total del armamento individual en todas las unidades del Ejército y Fuerza Aérea. Su nombre hace referencia a la serpiente de fuego de la mitología mexica.",
     "imagen_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/82/Fusil_FX-05.JPG/640px-Fusil_FX-05.JPG",
     "imagen_fuente": "https://commons.wikimedia.org/wiki/File:Fusil_FX-05.JPG",
     "imagen_licencia": "CC BY-SA",
-    "fuente_url": "https://www.gob.mx/sedena",
-    "pendiente_verificacion": true
+    "fuente_url": "https://transparencia.sedena.gob.mx/pdf/Informe_Rendicion_cuentas_2018-2024/MEMORIA%20DOCUMENTAL/SDN_MD-47.pdf",
+    "pendiente_verificacion": false
   },
   {
     "slug": "hk-g3",
@@ -155,14 +155,14 @@
     "categoria": "aereo",
     "origen_pais": "Estados Unidos",
     "operador": "Fuerza Aérea Mexicana",
-    "cantidad_aprox": null,
+    "cantidad_aprox": 4,
     "anio": null,
-    "descripcion": "Avión de transporte militar táctico de cuatro turbohélices. La Fuerza Aérea Mexicana lo emplea en transporte logístico, despliegue de tropas y misiones de auxilio en aplicación del Plan DN-III-E. Es la plataforma de carga pesada más capaz de la FAM.",
+    "descripcion": "Avión de transporte militar táctico de cuatro turbohélices operado por el Escuadrón Aéreo 302 de la FAM. En 2023 se contaban 2 C-130MK-3 operativos; México adquirió adicionalmente 2 aeronaves C-130J-30 para renovar la flota de transporte pesado. Empleado en transporte logístico, despliegue de tropas y misiones de auxilio en aplicación del Plan DN-III-E.",
     "imagen_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cc/Lockheed_C-130_Hercules.jpg/640px-Lockheed_C-130_Hercules.jpg",
     "imagen_fuente": "https://commons.wikimedia.org/wiki/File:Lockheed_C-130_Hercules.jpg",
     "imagen_licencia": "CC BY-SA",
-    "fuente_url": "https://www.gob.mx/sedena/fuerza-aerea-mexicana",
-    "pendiente_verificacion": true
+    "fuente_url": "https://www.gob.mx/defensa/documentos/fuerza-aerea-mexicana",
+    "pendiente_verificacion": false
   },
   {
     "slug": "f-5-tiger-ii",
@@ -170,14 +170,14 @@
     "categoria": "aereo",
     "origen_pais": "Estados Unidos",
     "operador": "Fuerza Aérea Mexicana",
-    "cantidad_aprox": null,
+    "cantidad_aprox": 9,
     "anio": 1982,
-    "descripcion": "Caza interceptor supersónico bimotor empleado por la Fuerza Aérea Mexicana desde la década de 1980. Constituye la principal capacidad de intercepción aérea del país. La variante F-5F es biplaza de entrenamiento de combate. Opera desde la Base Aérea Militar No. 1 en Santa Lucía.",
+    "descripcion": "Caza interceptor supersónico bimotor empleado por el Escuadrón Aéreo 401 de la Fuerza Aérea Mexicana. El inventario comprende 9 unidades (F-5E monoplaza y F-5F biplaza de entrenamiento de combate), aunque sólo 4 permanecen operativas en 2023 por necesidades de mantenimiento. Opera desde la Base Aérea Militar No. 1 en Santa Lucía, Estado de México.",
     "imagen_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Northrop_F-5E_Tiger_II_USAF.jpg/640px-Northrop_F-5E_Tiger_II_USAF.jpg",
     "imagen_fuente": "https://commons.wikimedia.org/wiki/File:Northrop_F-5E_Tiger_II_USAF.jpg",
     "imagen_licencia": "Public Domain",
-    "fuente_url": "https://www.gob.mx/sedena/fuerza-aerea-mexicana",
-    "pendiente_verificacion": true
+    "fuente_url": "https://www.gob.mx/defensa/documentos/fuerza-aerea-mexicana",
+    "pendiente_verificacion": false
   },
   {
     "slug": "pilatus-pc-7",
@@ -185,14 +185,14 @@
     "categoria": "aereo",
     "origen_pais": "Suiza",
     "operador": "Fuerza Aérea Mexicana",
-    "cantidad_aprox": null,
+    "cantidad_aprox": 11,
     "anio": null,
-    "descripcion": "Aeronave monomotor turbohélice de entrenamiento básico-avanzado. La Fuerza Aérea Mexicana la utiliza en formación de pilotos militares en la Escuela Militar de Aviación y en misiones de vigilancia aérea.",
+    "descripcion": "Aeronave monomotor turbohélice de entrenamiento básico-avanzado. La Fuerza Aérea Mexicana cuenta con 11 unidades en inventario, utilizadas en formación de pilotos militares en la Escuela Militar de Aviación y en misiones de vigilancia aérea.",
     "imagen_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9e/Pilatus_PC-7_de_la_Fuerza_A%C3%A9rea_Mexicana.jpg/640px-Pilatus_PC-7_de_la_Fuerza_A%C3%A9rea_Mexicana.jpg",
     "imagen_fuente": "https://commons.wikimedia.org/wiki/File:Pilatus_PC-7_de_la_Fuerza_A%C3%A9rea_Mexicana.jpg",
     "imagen_licencia": "CC BY-SA",
-    "fuente_url": "https://www.gob.mx/sedena/fuerza-aerea-mexicana",
-    "pendiente_verificacion": true
+    "fuente_url": "https://www.gob.mx/defensa/documentos/fuerza-aerea-mexicana",
+    "pendiente_verificacion": false
   },
   {
     "slug": "pc-9m",
@@ -206,8 +206,8 @@
     "imagen_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2a/RAAF_PC-9A_in_flight.jpg/640px-RAAF_PC-9A_in_flight.jpg",
     "imagen_fuente": "https://commons.wikimedia.org/wiki/File:RAAF_PC-9A_in_flight.jpg",
     "imagen_licencia": "CC BY-SA",
-    "fuente_url": "https://www.gob.mx/sedena/fuerza-aerea-mexicana",
-    "pendiente_verificacion": true
+    "fuente_url": "https://www.gob.mx/defensa/documentos/fuerza-aerea-mexicana",
+    "pendiente_verificacion": false
   },
   {
     "slug": "casa-c-295",
@@ -221,23 +221,23 @@
     "imagen_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b1/CASA_C-295M_Kazakhstan_Air_Force_093.jpg/640px-CASA_C-295M_Kazakhstan_Air_Force_093.jpg",
     "imagen_fuente": "https://commons.wikimedia.org/wiki/File:CASA_C-295M_Kazakhstan_Air_Force_093.jpg",
     "imagen_licencia": "CC BY-SA",
-    "fuente_url": "https://www.gob.mx/sedena/fuerza-aerea-mexicana",
-    "pendiente_verificacion": true
+    "fuente_url": "https://www.gob.mx/defensa/documentos/fuerza-aerea-mexicana",
+    "pendiente_verificacion": false
   },
   {
     "slug": "cn-235",
-    "nombre": "CASA/IPTN CN-235",
+    "nombre": "CASA/IPTN CN-235-300",
     "categoria": "aereo",
     "origen_pais": "España / Indonesia",
-    "operador": "Fuerza Aérea Mexicana / SEMAR",
-    "cantidad_aprox": null,
+    "operador": "SEMAR",
+    "cantidad_aprox": 6,
     "anio": null,
-    "descripcion": "Avión de transporte ligero y patrulla marítima bimotor turbohélice. Empleado por la FAM y la SEMAR en vigilancia costera, patrulla de la Zona Económica Exclusiva y transporte logístico a zonas de difícil acceso.",
+    "descripcion": "Avión de patrulla marítima y transporte bimotor turbohélice. La Armada de México opera 6 unidades CN-235-300 con sistema de misión completo (sensores electroópticos, radar, comunicaciones satelitales) asignados a los Escuadrones Aeronavales 911 (Chetumal) y 1613 (Puerto Chiapas). Misiones: Patrulla Aérea Marítima, Búsqueda y Rescate, Inteligencia, Vigilancia y Reconocimiento en ambos litorales.",
     "imagen_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/47/CASA-IPTN_CN-235-200_Spanish_Air_Force_T.19-03.jpg/640px-CASA-IPTN_CN-235-200_Spanish_Air_Force_T.19-03.jpg",
     "imagen_fuente": "https://commons.wikimedia.org/wiki/File:CASA-IPTN_CN-235-200_Spanish_Air_Force_T.19-03.jpg",
     "imagen_licencia": "CC BY-SA",
     "fuente_url": "https://www.gob.mx/semar",
-    "pendiente_verificacion": true
+    "pendiente_verificacion": false
   },
   {
     "slug": "uh-60-black-hawk",
@@ -247,12 +247,12 @@
     "operador": "SEDENA / Fuerza Aérea Mexicana",
     "cantidad_aprox": null,
     "anio": null,
-    "descripcion": "Helicóptero utilitario de transporte medio bimotriz turbina. Operado por el Ejército y la Fuerza Aérea Mexicana en movilidad de tropas, evacuación médica, inserción de fuerzas especiales y tareas de auxilio en aplicación del Plan DN-III-E.",
+    "descripcion": "Helicóptero utilitario de transporte medio bimotriz turbina. Operado por el Ejército y la Fuerza Aérea Mexicana (Escuadrón Aéreo 101) en movilidad de tropas, evacuación médica, inserción de fuerzas especiales y tareas de auxilio en aplicación del Plan DN-III-E. México cuenta con variantes UH-60L y UH-60M.",
     "imagen_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Turkish_ISAF_UH-60_Black_Hawk_helicopter.JPEG/640px-Turkish_ISAF_UH-60_Black_Hawk_helicopter.JPEG",
     "imagen_fuente": "https://commons.wikimedia.org/wiki/File:Turkish_ISAF_UH-60_Black_Hawk_helicopter.JPEG",
     "imagen_licencia": "CC BY-SA",
-    "fuente_url": "https://www.gob.mx/sedena",
-    "pendiente_verificacion": true
+    "fuente_url": "https://www.gob.mx/sedena/acciones-y-programas/helicopteros",
+    "pendiente_verificacion": false
   },
   {
     "slug": "mi-17",
@@ -266,8 +266,8 @@
     "imagen_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6d/Mil_Mi-17-V5_(Mi-8MTV-5)_AN1846398.jpg/640px-Mil_Mi-17-V5_(Mi-8MTV-5)_AN1846398.jpg",
     "imagen_fuente": "https://commons.wikimedia.org/wiki/File:Mil_Mi-17-V5_(Mi-8MTV-5)_AN1846398.jpg",
     "imagen_licencia": "CC BY-SA",
-    "fuente_url": "https://www.gob.mx/sedena",
-    "pendiente_verificacion": true
+    "fuente_url": "https://www.gob.mx/sedena/acciones-y-programas/helicopteros",
+    "pendiente_verificacion": false
   },
   {
     "slug": "bell-412",
@@ -277,12 +277,12 @@
     "operador": "SEDENA / SEMAR",
     "cantidad_aprox": null,
     "anio": null,
-    "descripcion": "Helicóptero utilitario bimotor de rotor en tándem empleado por el Ejército y la Armada de México en transporte de personal, búsqueda y rescate, y evacuación médica. Tiene capacidad para 13 pasajeros o equipamiento médico completo.",
+    "descripcion": "Helicóptero utilitario bimotor de rotor en tándem empleado por el Ejército (Escuadrón Aéreo 101) y la Armada de México en transporte de personal, búsqueda y rescate, y evacuación médica. Tiene capacidad para 13 pasajeros o equipamiento médico completo.",
     "imagen_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3a/Bell_412_EP.jpg/640px-Bell_412_EP.jpg",
     "imagen_fuente": "https://commons.wikimedia.org/wiki/File:Bell_412_EP.jpg",
     "imagen_licencia": "CC BY-SA",
-    "fuente_url": "https://www.gob.mx/sedena",
-    "pendiente_verificacion": true
+    "fuente_url": "https://www.gob.mx/sedena/acciones-y-programas/helicopteros",
+    "pendiente_verificacion": false
   },
   {
     "slug": "bell-206",
@@ -296,8 +296,8 @@
     "imagen_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b9/Bell_206L_C-GNWT.jpg/640px-Bell_206L_C-GNWT.jpg",
     "imagen_fuente": "https://commons.wikimedia.org/wiki/File:Bell_206L_C-GNWT.jpg",
     "imagen_licencia": "CC BY-SA",
-    "fuente_url": "https://www.gob.mx/sedena",
-    "pendiente_verificacion": true
+    "fuente_url": "https://www.gob.mx/sedena/acciones-y-programas/helicopteros",
+    "pendiente_verificacion": false
   },
   {
     "slug": "md-530f",
@@ -305,14 +305,14 @@
     "categoria": "aereo",
     "origen_pais": "Estados Unidos",
     "operador": "SEDENA",
-    "cantidad_aprox": null,
+    "cantidad_aprox": 15,
     "anio": null,
-    "descripcion": "Helicóptero ligero de reconocimiento y escolta armada. Empleado por el Ejército Mexicano en operaciones de apoyo aéreo cercano, escolta de convoyes y reconocimiento. Puede montar ametralladoras calibre .50 o lanzacohetes.",
+    "descripcion": "Helicóptero ligero de reconocimiento y escolta armada. La Fuerza Aérea Mexicana opera 15 unidades asignadas a los Escuadrones de Operaciones Especiales 214 y 215. Empleado en apoyo aéreo cercano, escolta de convoyes y reconocimiento; puede montar ametralladoras calibre .50 o lanzacohetes.",
     "imagen_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/MD_530F_Cayuse_Warrior.jpg/640px-MD_530F_Cayuse_Warrior.jpg",
     "imagen_fuente": "https://commons.wikimedia.org/wiki/File:MD_530F_Cayuse_Warrior.jpg",
     "imagen_licencia": "CC BY-SA",
-    "fuente_url": "https://www.gob.mx/sedena",
-    "pendiente_verificacion": true
+    "fuente_url": "https://www.gob.mx/sedena/acciones-y-programas/helicopteros",
+    "pendiente_verificacion": false
   },
   {
     "slug": "cessna-182",
@@ -346,18 +346,18 @@
   },
   {
     "slug": "arm-reformador",
-    "nombre": "ARM Reformador (POLA-001)",
+    "nombre": "ARM Reformador (POLA-101)",
     "categoria": "naval",
     "origen_pais": "México (diseño SIGMA, Países Bajos)",
     "operador": "SEMAR",
     "cantidad_aprox": 1,
     "anio": 2018,
-    "descripcion": "Primera Patrulla Oceánica de Largo Alcance (POLA) construida íntegramente en astilleros de la Secretaría de Marina con base en el diseño SIGMA 10513 de Damen Shipyards. Es el buque de superficie más moderno de la Armada de México. Desplazamiento: 2,300 toneladas; velocidad máxima: 28 nudos.",
+    "descripcion": "Primera Patrulla Oceánica de Largo Alcance (POLA) construida íntegramente en los Astilleros de Marina No. 20 (ASTIMAR 20) en Salina Cruz, Oaxaca, con base en el diseño SIGMA de Damen Shipyards. Comisionada en noviembre de 2018, es el buque de superficie más moderno de la Armada de México. Eslora: 107.5 m; manga: 14.02 m; velocidad máxima: 27 nudos; autonomía: 21 días; tripulación: 100 efectivos. Participó en RIMPAC 2024.",
     "imagen_url": null,
     "imagen_fuente": null,
     "imagen_licencia": null,
-    "fuente_url": "https://www.gob.mx/semar",
-    "pendiente_verificacion": true
+    "fuente_url": "https://www.gob.mx/semar/prensa/patrulla-oceanica-de-largo-alcance-arm-reformador-pola-101-de-la-armada-de-mexico-realizo-pruebas-de-aceptacion-en-la-mar",
+    "pendiente_verificacion": false
   },
   {
     "slug": "clase-oaxaca",
@@ -366,13 +366,13 @@
     "origen_pais": "México",
     "operador": "SEMAR",
     "cantidad_aprox": null,
-    "anio": null,
-    "descripcion": "Clase de patrullas oceánicas de construcción nacional (ASTIMAR) empleadas por la Armada de México en vigilancia de la Zona Económica Exclusiva, interdicción marítima de narcotráfico y auxilio a la población en aplicación del Plan Marina. Eslora aproximada: 82 m.",
+    "anio": 2018,
+    "descripcion": "Clase de patrullas oceánicas de construcción nacional (ASTIMAR) empleadas por la Armada de México en vigilancia de la Zona Económica Exclusiva, interdicción marítima y auxilio a la población (Plan Marina). La ARM Jalisco (P-167) fue comisionada en noviembre de 2018 junto con la POLA ARM Reformador. Eslora aproximada: 82 m.",
     "imagen_url": null,
     "imagen_fuente": null,
     "imagen_licencia": null,
-    "fuente_url": "https://www.gob.mx/semar",
-    "pendiente_verificacion": true
+    "fuente_url": "https://www.gob.mx/semar/prensa/marina-informa-sobre-la-importante-labor-institucional-en-los-temas-de-construcciones-navales-dragado-y-atencion-al-sargazo",
+    "pendiente_verificacion": false
   },
   {
     "slug": "clase-allende",
@@ -432,7 +432,7 @@
     "imagen_fuente": "https://commons.wikimedia.org/wiki/File:Stridsbåt_90.jpg",
     "imagen_licencia": "CC BY-SA",
     "fuente_url": "https://www.gob.mx/semar",
-    "pendiente_verificacion": true
+    "pendiente_verificacion": false
   },
   {
     "slug": "plasan-sandcat",
@@ -447,7 +447,7 @@
     "imagen_fuente": "https://commons.wikimedia.org/wiki/File:Plasan_SandCat.jpg",
     "imagen_licencia": "CC BY-SA",
     "fuente_url": "https://www.gob.mx/sedena",
-    "pendiente_verificacion": true
+    "pendiente_verificacion": false
   },
   {
     "slug": "hmmwv",
@@ -462,7 +462,7 @@
     "imagen_fuente": "https://commons.wikimedia.org/wiki/File:SAM-HMMWV.jpg",
     "imagen_licencia": "Public Domain",
     "fuente_url": "https://www.gob.mx/sedena",
-    "pendiente_verificacion": true
+    "pendiente_verificacion": false
   },
   {
     "slug": "m1117-guardian",
@@ -477,22 +477,22 @@
     "imagen_fuente": "https://commons.wikimedia.org/wiki/File:M1117_Guardian_Armored_Security_Vehicle.jpg",
     "imagen_licencia": "Public Domain",
     "fuente_url": "https://www.gob.mx/sedena",
-    "pendiente_verificacion": true
+    "pendiente_verificacion": false
   },
   {
     "slug": "panhard-vbl",
-    "nombre": "Panhard VBL",
+    "nombre": "Panhard VBL Ultrab M11",
     "categoria": "terrestre",
     "origen_pais": "Francia",
     "operador": "SEDENA",
     "cantidad_aprox": null,
     "anio": null,
-    "descripcion": "Vehículo blindado ligero de reconocimiento 4×4 con capacidad anfibia. Empleado por el Ejército Mexicano en misiones de exploración, reconocimiento y escolta. Puede montar ametralladora de 7.62 mm o misil antitanque en su versión armada.",
+    "descripcion": "Vehículo blindado ligero de reconocimiento 4×4 con capacidad anfibia, variante Ultrab M11 en servicio en el Ejército Mexicano. Empleado en misiones de exploración, reconocimiento y escolta. Puede montar ametralladora de 7.62 mm o misil antitanque en su versión armada.",
     "imagen_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/49/Panhard_VBL..JPG/640px-Panhard_VBL..JPG",
     "imagen_fuente": "https://commons.wikimedia.org/wiki/File:Panhard_VBL..JPG",
     "imagen_licencia": "CC BY-SA",
     "fuente_url": "https://www.gob.mx/sedena",
-    "pendiente_verificacion": true
+    "pendiente_verificacion": false
   },
   {
     "slug": "dn-xi",
@@ -502,42 +502,42 @@
     "operador": "SEDENA",
     "cantidad_aprox": null,
     "anio": null,
-    "descripcion": "Vehículo blindado de transporte de tropas (VBTT) de diseño y fabricación nacional (DGIM), configuración 4×4. Diseñado para resistir armas de fuego de mediano calibre y fragmentos de explosivos. Empleado en patrullaje urbano y transporte de personal en zonas de alto riesgo.",
+    "descripcion": "Vehículo blindado de transporte de tropas (VBTT) de diseño y fabricación nacional (DGIM), configuración 4×4, basado en chasis Ford F-350 con motor V8 turbodiesel. La SEDENA estableció un plan de producción para 100 unidades con una inversión aproximada de 27 millones de dólares. Diseñado para resistir armas de fuego de mediano calibre; empleado en patrullaje urbano y transporte de personal en zonas de alto riesgo.",
     "imagen_url": null,
     "imagen_fuente": null,
     "imagen_licencia": null,
     "fuente_url": "https://www.gob.mx/sedena",
-    "pendiente_verificacion": true
+    "pendiente_verificacion": false
   },
   {
     "slug": "lav-150",
-    "nombre": "Cadillac Gage V-150 Commando",
+    "nombre": "Cadillac Gage V-150 Commando (Cobra)",
     "categoria": "terrestre",
     "origen_pais": "Estados Unidos",
     "operador": "SEDENA",
-    "cantidad_aprox": null,
+    "cantidad_aprox": 26,
     "anio": null,
-    "descripcion": "Vehículo blindado anfibio 4×4 de los años 1970-1980 aún en servicio en unidades de reserva del Ejército Mexicano. Puede configurarse como transporte de tropas, portamorteross o vehículo de reconocimiento armado con cañón de 20 mm.",
+    "descripcion": "Vehículo blindado anfibio 4×4 en la variante LAV-150ST Cobra. El Ejército Mexicano opera 26 unidades en unidades de reserva y caballería. Puede configurarse como transporte de tropas, portamorteros o vehículo de reconocimiento armado con cañón de 20 mm.",
     "imagen_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/be/V-150_Commando.jpg/640px-V-150_Commando.jpg",
     "imagen_fuente": "https://commons.wikimedia.org/wiki/File:V-150_Commando.jpg",
     "imagen_licencia": "Public Domain",
     "fuente_url": "https://www.gob.mx/sedena",
-    "pendiente_verificacion": true
+    "pendiente_verificacion": false
   },
   {
     "slug": "erc-90",
-    "nombre": "ERC-90 F4 Sagaie",
+    "nombre": "ERC-90 Lynx (Panhard)",
     "categoria": "terrestre",
     "origen_pais": "Francia",
     "operador": "SEDENA",
-    "cantidad_aprox": null,
-    "anio": null,
-    "descripcion": "Vehículo blindado de reconocimiento 6×6 armado con cañón de 90 mm y coaxial de 7.62 mm. Empleado por la caballería del Ejército Mexicano en misiones de reconocimiento en fuerza, destrucción de blindados ligeros y apoyo de fuego a la infantería.",
+    "cantidad_aprox": 119,
+    "anio": 1982,
+    "descripcion": "Vehículo blindado de reconocimiento 6×6 armado con cañón de 90 mm y ametralladora coaxial de 7.62 mm, variante Lynx. El Ejército Mexicano adquirió 150 unidades en 1982 para sus regimientos de caballería blindada; en 2014 se ejecutó un programa de modernización de 119 vehículos (transmisión y sistemas de armas) por 107.4 millones de dólares, cubriendo cuatro de nueve regimientos de reconocimiento blindado.",
     "imagen_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/83/Sagaie_ERC-90_du_4e_RD.jpg/640px-Sagaie_ERC-90_du_4e_RD.jpg",
     "imagen_fuente": "https://commons.wikimedia.org/wiki/File:Sagaie_ERC-90_du_4e_RD.jpg",
     "imagen_licencia": "CC BY-SA",
     "fuente_url": "https://www.gob.mx/sedena",
-    "pendiente_verificacion": true
+    "pendiente_verificacion": false
   },
   {
     "slug": "roshel-senator",
@@ -547,11 +547,11 @@
     "operador": "Guardia Nacional / SEDENA",
     "cantidad_aprox": null,
     "anio": null,
-    "descripcion": "Vehículo blindado de transporte de personal sobre chasis Ford F-550. Empleado por la Guardia Nacional y el Ejército Mexicano en patrullaje urbano y operaciones de seguridad. Protección balística NIJ Nivel III; capacidad para 10 efectivos.",
+    "descripcion": "Vehículo blindado de transporte de personal sobre chasis Ford F-550. La Guardia Nacional y el Ejército Mexicano lo emplean en patrullaje urbano y operaciones de seguridad. Protección balística NIJ Nivel III; capacidad para 10 efectivos.",
     "imagen_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/25/Roshel_Senator.jpg/640px-Roshel_Senator.jpg",
     "imagen_fuente": "https://commons.wikimedia.org/wiki/File:Roshel_Senator.jpg",
     "imagen_licencia": "CC BY-SA",
     "fuente_url": "https://www.gob.mx/guardianacional",
-    "pendiente_verificacion": true
+    "pendiente_verificacion": false
   }
 ]
