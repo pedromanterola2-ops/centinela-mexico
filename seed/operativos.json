@@ -6,10 +6,10 @@
     "fecha_fin": "1985-12-31",
     "tipo": "desastre",
     "entidades_involucradas": ["SEDENA", "Ciudad de México", "Jalisco", "Michoacán"],
-    "descripcion": "Activación del Plan DN-III-E del Ejército Mexicano tras el terremoto de magnitud 8.1 que destruyó miles de edificios en la Ciudad de México y afectó estados del centro-occidente. Las fuerzas armadas participaron en labores de rescate, remoción de escombros y apoyo a la población desplazada. Fue la primera gran prueba del Plan DN-III-E a escala nacional.",
-    "resultado": "Miles de rescatados; se catalizó la creación del Sistema Nacional de Protección Civil (1986).",
-    "fuente_url": "https://www.gob.mx/sedena",
-    "pendiente_verificacion": true
+    "descripcion": "Activación del Plan DN-III-E del Ejército Mexicano tras el terremoto de magnitud 8.1 que destruyó miles de edificios en la Ciudad de México y afectó estados del centro-occidente. Las fuerzas armadas participaron en labores de rescate, remoción de escombros y apoyo a la población desplazada. Fue la primera gran prueba del Plan DN-III-E a escala nacional y detonó la creación del Sistema Nacional de Protección Civil en 1986.",
+    "resultado": "Más de 10,000 muertos estimados y 250,000 damnificados; se catalizó la creación del Sistema Nacional de Protección Civil (1986) y del Sistema de Alerta Sísmica.",
+    "fuente_url": "https://www.gob.mx/cenapred/articulos/los-sismos-historicos-de-septiembre",
+    "pendiente_verificacion": false
   },
   {
     "slug": "huracan-pauline-1997",
@@ -19,9 +19,9 @@
     "tipo": "desastre",
     "entidades_involucradas": ["SEDENA", "SEMAR", "Oaxaca", "Guerrero"],
     "descripcion": "Despliegue de las fuerzas armadas en la Costa Chica y las costas de Oaxaca y Guerrero tras el impacto del huracán Paulina (categoría 4), que causó más de 230 muertes y destruyó comunidades rurales. Se activaron el Plan DN-III-E y el Plan Marina para rescate, distribución de víveres y restablecimiento de comunicaciones.",
-    "resultado": "Más de 300,000 personas afectadas. Las FFA evacuaron y apoyaron a decenas de miles de damnificados.",
-    "fuente_url": "https://www.gob.mx/sedena",
-    "pendiente_verificacion": true
+    "resultado": "Más de 230 muertos y 300,000 damnificados. Las FFA evacuaron y apoyaron a decenas de miles de personas, con daños estimados en 450 millones de dólares.",
+    "fuente_url": "https://www.gob.mx/cenapred/articulos/huracan-pauline-a-20-anos-de-la-destruccion",
+    "pendiente_verificacion": false
   },
   {
     "slug": "huracan-wilma-2005",
@@ -30,10 +30,10 @@
     "fecha_fin": "2005-12-01",
     "tipo": "desastre",
     "entidades_involucradas": ["SEDENA", "SEMAR", "Quintana Roo"],
-    "descripcion": "Despliegue de las fuerzas armadas en Quintana Roo ante el impacto del huracán Wilma (categoría 4) sobre Cancún, Cozumel y la Riviera Maya. Fue el huracán más intenso registrado en el Atlántico hasta esa fecha. En aplicación del Plan DN-III-E y del Plan Marina, las FFA participaron en evacuación masiva, rescate, distribución de ayuda y restablecimiento de servicios básicos.",
-    "resultado": "Más de 46,000 turistas y 130,000 locales evacuados. Daños estimados en miles de millones de pesos.",
-    "fuente_url": "https://www.gob.mx/sedena",
-    "pendiente_verificacion": true
+    "descripcion": "Despliegue de las fuerzas armadas en Quintana Roo ante el impacto del huracán Wilma (categoría 4) sobre Cancún, Cozumel y la Riviera Maya. Fue el huracán más intenso registrado en el Atlántico hasta esa fecha (presión mínima 882 hPa). En aplicación del Plan DN-III-E y del Plan Marina, las FFA participaron en evacuación masiva, rescate, distribución de ayuda y restablecimiento de servicios básicos.",
+    "resultado": "Más de 46,000 turistas y 130,000 locales evacuados; 12 muertos en México y daños estimados en 1,724 millones de dólares.",
+    "fuente_url": "https://www.gob.mx/cenapred/articulos/a-quince-anos-de-los-huracanes-stan-y-wilma",
+    "pendiente_verificacion": false
   },
   {
     "slug": "huracan-stan-2005",
@@ -43,9 +43,9 @@
     "tipo": "desastre",
     "entidades_involucradas": ["SEDENA", "SEMAR", "Chiapas", "Oaxaca", "Veracruz"],
     "descripcion": "Respuesta de las fuerzas armadas ante las devastadoras inundaciones y deslaves provocados por el paso del huracán Stan en el Soconusco y la Sierra de Chiapas. Se activaron el Plan DN-III-E y el Plan Marina para auxilio a comunidades incomunicadas, rescate en zonas de deslaves y distribución de apoyo humanitario.",
-    "resultado": "Más de 80 muertos en México, miles de damnificados y comunidades incomunicadas por semanas.",
-    "fuente_url": "https://www.gob.mx/sedena",
-    "pendiente_verificacion": true
+    "resultado": "Aproximadamente 80 muertos en México, más de 100,000 damnificados y comunidades incomunicadas por semanas. Daños totales estimados en 21,062 millones de pesos.",
+    "fuente_url": "https://www.gob.mx/cenapred/articulos/a-quince-anos-de-los-huracanes-stan-y-wilma",
+    "pendiente_verificacion": false
   },
   {
     "slug": "operativo-conjunto-michoacan-2006",
@@ -54,8 +54,8 @@
     "fecha_fin": null,
     "tipo": "seguridad",
     "entidades_involucradas": ["SEDENA", "SEMAR", "PGR", "Michoacán"],
-    "descripcion": "Primer gran despliegue federal de fuerzas armadas y corporaciones de seguridad en Michoacán dentro de la estrategia de seguridad del gobierno del presidente Felipe Calderón. Considerado el inicio formal de la participación militar ampliada en tareas de seguridad pública contra el crimen organizado, en particular contra La Familia Michoacana.",
-    "resultado": "Redujo temporalmente la violencia; catalizó operativos similares en otras entidades.",
+    "descripcion": "Primer gran despliegue federal de fuerzas armadas y corporaciones de seguridad en Michoacán dentro de la estrategia de seguridad del gobierno del presidente Felipe Calderón, iniciado el 11 de diciembre de 2006 días después de la toma de protesta. Considerado el inicio formal de la participación militar ampliada en tareas de seguridad pública contra el crimen organizado, en particular contra La Familia Michoacana.",
+    "resultado": "Redujo temporalmente la violencia en Michoacán; catalizó operativos similares en otras entidades (Chihuahua, Guerrero, Tijuana) durante el mismo sexenio.",
     "fuente_url": "https://www.gob.mx/sedena",
     "pendiente_verificacion": true
   },
@@ -66,9 +66,9 @@
     "fecha_fin": "2007-12-31",
     "tipo": "desastre",
     "entidades_involucradas": ["SEDENA", "SEMAR", "Guardia Nacional", "Tabasco"],
-    "descripcion": "Despliegue masivo de las fuerzas armadas en Tabasco ante las inundaciones históricas que cubrieron más del 70% del estado, afectando a más de un millón de personas. Se activaron el Plan DN-III-E y el Plan Marina para rescate en lancha, distribución de alimentos, instalación de albergues y restablecimiento de comunicaciones en la entidad más inundada de su historia reciente.",
-    "resultado": "Más de un millón de personas damnificadas; las FFA desplegaron miles de efectivos y centenares de embarcaciones.",
-    "fuente_url": "https://www.gob.mx/sedena",
+    "descripcion": "Despliegue masivo de las fuerzas armadas en Tabasco ante las inundaciones históricas que cubrieron más del 70% del estado, afectando a más de un millón de personas. Se registraron 403.4 mm de lluvia en 24 horas y el desbordamiento de los ríos Grijalva y Usumacinta. Se activaron el Plan DN-III-E y el Plan Marina para rescate en lancha, distribución de alimentos, instalación de albergues y restablecimiento de comunicaciones.",
+    "resultado": "Más de un millón de personas damnificadas en 17 municipios; las FFA desplegaron miles de efectivos, centenares de embarcaciones y helicópteros durante semanas.",
+    "fuente_url": "https://www.gob.mx/cenapred/articulos/domingo-28-de-octubre-2007-mega-inundacion-en-tabasco",
     "pendiente_verificacion": true
   },
   {
@@ -103,9 +103,9 @@
     "tipo": "desastre",
     "entidades_involucradas": ["SEDENA", "CENAPRED", "Puebla", "Morelos", "Estado de México"],
     "descripcion": "Activación permanente del Plan DN-III-E en los estados del entorno del Popocatépetl ante la reactivación volcánica. Incluye la creación del radio de exclusión de seguridad, evacuación preventiva de comunidades en ladera, monitoreo conjunto con el CENAPRED y distribución de información de seguridad a la población.",
-    "resultado": "Protocolo de evacuación activo; comunidades del radio de exclusión cuentan con planes de emergencia actualizados.",
-    "fuente_url": "https://www.gob.mx/sedena",
-    "pendiente_verificacion": true
+    "resultado": "Protocolo de evacuación activo; comunidades del radio de exclusión cuentan con planes de emergencia actualizados. Sin víctimas directas por la respuesta institucional preventiva.",
+    "fuente_url": "https://www.gob.mx/cenapred",
+    "pendiente_verificacion": false
   },
   {
     "slug": "huracanes-ingrid-manuel-2013",
@@ -114,10 +114,10 @@
     "fecha_fin": "2013-11-30",
     "tipo": "desastre",
     "entidades_involucradas": ["SEDENA", "SEMAR", "Guerrero", "Veracruz", "Tamaulipas", "Oaxaca", "Sinaloa"],
-    "descripcion": "Respuesta institucional ante el impacto simultáneo e histórico de los ciclones Ingrid (Golfo de México) y Manuel (Pacífico), que provocaron inundaciones y deslaves en amplias zonas del país entre el 13 y el 16 de septiembre de 2013. La zona más afectada fue Acapulco, que quedó prácticamente incomunicada. Fue el mayor despliegue humanitario de las FFA hasta esa fecha.",
-    "resultado": "Más de 190 muertos; 100,000 turistas y 800,000 personas atendidas. SEDENA y SEMAR coordinaron el puente aéreo y marítimo hacia Acapulco.",
-    "fuente_url": "https://www.gob.mx/sedena",
-    "pendiente_verificacion": true
+    "descripcion": "Respuesta institucional ante el impacto simultáneo e histórico de los ciclones Ingrid (Golfo de México) y Manuel (Pacífico), que provocaron inundaciones y deslaves en 26 estados del país entre el 13 y el 16 de septiembre de 2013. La zona más afectada fue Acapulco, que quedó prácticamente incomunicada. Fue el mayor despliegue humanitario de las FFA hasta esa fecha.",
+    "resultado": "157 muertos (cifra oficial CENAPRED); 800,000 personas atendidas. SEDENA y SEMAR coordinaron el puente aéreo y marítimo hacia Acapulco, con turistas y residentes evacuados.",
+    "fuente_url": "https://www.gob.mx/cenapred/articulos/a-7-anos-del-extraordinario-fenomeno-hidrometeorologico-ingrid-y-manuel",
+    "pendiente_verificacion": false
   },
   {
     "slug": "sismo-7-septiembre-2017",
@@ -126,10 +126,10 @@
     "fecha_fin": "2017-12-31",
     "tipo": "desastre",
     "entidades_involucradas": ["SEDENA", "SEMAR", "Oaxaca", "Chiapas", "Tabasco"],
-    "descripcion": "Respuesta institucional al terremoto de magnitud 8.2 con epicentro en el Golfo de Tehuantepec (el más potente en México desde 1932), que afectó principalmente a Oaxaca y Chiapas. Activación inmediata del Plan DN-III-E y del Plan Marina para labores de rescate, evaluación de daños y atención a damnificados.",
-    "resultado": "96 muertos. Más de 800,000 personas afectadas. Las FFA evaluaron y apoyaron en más de 2,000 localidades.",
-    "fuente_url": "https://www.gob.mx/semar",
-    "pendiente_verificacion": true
+    "descripcion": "Respuesta institucional al terremoto de magnitud 8.2 con epicentro en el Golfo de Tehuantepec (el más potente en México desde 1932), que afectó principalmente a Oaxaca y Chiapas. Activación inmediata del Plan DN-III-E y del Plan Marina para labores de rescate, evaluación de daños y atención a damnificados en 97 municipios afectados.",
+    "resultado": "99 muertos (79 en Oaxaca, 16 en Chiapas, 4 en Tabasco); 112,407 viviendas y 6,419 escuelas afectadas. Las FFA evaluaron y apoyaron en más de 2,000 localidades.",
+    "fuente_url": "https://www.gob.mx/cenapred/articulos/el-sismo-de-mayor-magnitud-en-casi-cien-anos-en-mexico-sismo-de-tehuantepec-7-de-septiembre-de-2017",
+    "pendiente_verificacion": false
   },
   {
     "slug": "sismo-19-septiembre-2017",
@@ -139,9 +139,9 @@
     "tipo": "desastre",
     "entidades_involucradas": ["SEDENA", "SEMAR", "Ciudad de México", "Morelos", "Puebla", "Estado de México", "Oaxaca"],
     "descripcion": "Activación del Plan DN-III-E tras el terremoto de magnitud 7.1 con epicentro entre Puebla y Morelos, coincidente con el simulacro nacional anual. Causó el colapso de edificios en la Ciudad de México, Morelos y Puebla. Las fuerzas armadas participaron en rescate, remoción de escombros y distribución de ayuda durante meses.",
-    "resultado": "369 muertos. Cientos de edificios colapsados. Las FFA desplegaron más de 30,000 elementos en los estados afectados.",
-    "fuente_url": "https://www.gob.mx/sedena",
-    "pendiente_verificacion": true
+    "resultado": "369 muertos (228 en CDMX). Cientos de edificios colapsados; pérdidas superiores a 43,000 millones de pesos en la CDMX. Las FFA desplegaron más de 30,000 elementos.",
+    "fuente_url": "https://www.gob.mx/cenapred/articulos/los-sismos-del-19-septiembre",
+    "pendiente_verificacion": false
   },
   {
     "slug": "plan-dn-iii-e-covid-19-2020",
@@ -151,7 +151,7 @@
     "tipo": "humanitario",
     "entidades_involucradas": ["SEDENA", "SEMAR", "Guardia Nacional"],
     "descripcion": "Activación de los planes de auxilio de las fuerzas armadas durante la emergencia sanitaria por COVID-19, declarada por la OMS el 11 de marzo de 2020. Incluyó la construcción y operación de hospitales de campaña (SEDENA y SEMAR), la distribución de insumos médicos, el apoyo al traslado de pacientes críticos y la seguridad de instalaciones de salud.",
-    "resultado": "SEDENA construyó y operó más de 28 hospitales de campaña en 26 entidades; SEMAR convirtió buques en hospitales flotantes.",
+    "resultado": "SEDENA construyó y operó más de 28 hospitales de campaña en 26 entidades; SEMAR reconvirtió instalaciones navales en hospitales para atención de pacientes COVID.",
     "fuente_url": "https://www.gob.mx/sedena",
     "pendiente_verificacion": true
   },
@@ -163,7 +163,7 @@
     "tipo": "humanitario",
     "entidades_involucradas": ["SEMAR", "Guardia Nacional", "SEDENA"],
     "descripcion": "Operativo de temporada coordinado por la SEMAR y la Guardia Nacional en playas y cuerpos de agua de todo el país durante los periodos vacacionales de Semana Santa, verano y fin de año. Incluye salvavidas navales, patrullaje marítimo y atención médica de primer contacto en litorales.",
-    "resultado": "Operativo recurrente. En Semana Santa 2026 se atendieron decenas de miles de bañistas y se salvaron vidas en los dos litorales.",
+    "resultado": "Operativo recurrente. Cada temporada se atienden decenas de miles de bañistas y se realizan rescates en los dos litorales.",
     "fuente_url": "https://www.gob.mx/semar",
     "pendiente_verificacion": false
   },
@@ -174,10 +174,10 @@
     "fecha_fin": "2020-09-30",
     "tipo": "desastre",
     "entidades_involucradas": ["SEDENA", "SEMAR", "Oaxaca"],
-    "descripcion": "Activación de los planes de auxilio tras el terremoto de magnitud 7.4 con epicentro en La Crucecita, Oaxaca. Ocurrido durante la pandemia de COVID-19, obligó a adaptar los protocolos de rescate y atención a damnificados a las restricciones sanitarias vigentes.",
-    "resultado": "10 muertos; más de 11,000 viviendas afectadas. Las FFA desplegaron elementos con protocolos sanitarios especiales.",
-    "fuente_url": "https://www.gob.mx/sedena",
-    "pendiente_verificacion": true
+    "descripcion": "Activación de los planes de auxilio tras el terremoto de magnitud 7.4 con epicentro en La Crucecita, Oaxaca, el 23 de junio de 2020 a las 10:29 horas. Ocurrido durante la pandemia de COVID-19, obligó a adaptar los protocolos de rescate y atención a damnificados a las restricciones sanitarias vigentes.",
+    "resultado": "10 muertos; más de 11,000 viviendas afectadas en 97 municipios. Las FFA desplegaron elementos con protocolos sanitarios especiales.",
+    "fuente_url": "https://www.gob.mx/sspc/prensa/la-cnpc-informa-actualizaciones-de-sismo-en-oaxaca-magnitud-7-4",
+    "pendiente_verificacion": false
   },
   {
     "slug": "huracan-grace-2021",
@@ -186,10 +186,10 @@
     "fecha_fin": "2021-10-31",
     "tipo": "desastre",
     "entidades_involucradas": ["SEDENA", "SEMAR", "Guardia Nacional", "Veracruz"],
-    "descripcion": "Despliegue de las fuerzas armadas en Veracruz tras el impacto del huracán Grace (categoría 3) en la zona de Tecolutla. Activación del Plan DN-III-E y del Plan Marina para rescate, restablecimiento de comunicaciones y distribución de apoyo humanitario.",
-    "resultado": "11 muertos; decenas de comunidades incomunicadas. Las FFA coordinaron el auxilio en la sierra de Puebla y Veracruz.",
-    "fuente_url": "https://www.gob.mx/sedena",
-    "pendiente_verificacion": true
+    "descripcion": "Despliegue de las fuerzas armadas en Veracruz tras el impacto del huracán Grace (categoría 3, vientos 205 km/h) en la zona de Tecolutla el 21 de agosto de 2021. Activación del Plan DN-III-E y del Plan Marina para rescate, restablecimiento de comunicaciones y distribución de apoyo humanitario en la sierra de Puebla, Hidalgo y Veracruz.",
+    "resultado": "11 muertos (6 en Veracruz y 5 en Puebla); más de 43,000 hectáreas de cultivos afectadas en 68 municipios. Decenas de comunidades incomunicadas fueron atendidas por vía aérea.",
+    "fuente_url": "https://www.gob.mx/cenapred/articulos/toma-tus-precauciones-ante-el-impacto-del-huracan-grace",
+    "pendiente_verificacion": false
   },
   {
     "slug": "sismo-19-septiembre-2022",
@@ -198,10 +198,10 @@
     "fecha_fin": "2022-12-31",
     "tipo": "desastre",
     "entidades_involucradas": ["SEDENA", "SEMAR", "Michoacán", "Colima", "Jalisco"],
-    "descripcion": "Activación de los planes de auxilio tras el terremoto de magnitud 7.6 con epicentro en la región limítrofe de Michoacán y Colima, ocurrido nuevamente un 19 de septiembre (coincidencia con 1985 y 2017). Las FFA evaluaron daños y apoyaron a la población afectada en los estados del Pacífico centro.",
-    "resultado": "2 muertos directamente confirmados; cientos de viviendas afectadas en Colima y Michoacán.",
-    "fuente_url": "https://www.gob.mx/sedena",
-    "pendiente_verificacion": true
+    "descripcion": "Activación de los planes de auxilio tras el terremoto de magnitud 7.7 con epicentro en la región limítrofe de Michoacán y Colima, ocurrido nuevamente un 19 de septiembre (coincidencia con 1985 y 2017). Las FFA evaluaron daños y apoyaron a la población afectada en los estados del Pacífico centro. El sismo generó alerta de tsunami en el litoral Pacífico que no se materializó.",
+    "resultado": "2 muertos confirmados en Colima; cientos de viviendas afectadas. Daños y pérdidas estimadas en 789 millones de pesos.",
+    "fuente_url": "https://www.gob.mx/sspc/prensa/reporte-de-afectaciones-por-sismo-de-magnitud-7-7-con-epicentro-en-coalcoman-michoacan",
+    "pendiente_verificacion": false
   },
   {
     "slug": "huracan-otis-2023",
@@ -210,10 +210,10 @@
     "fecha_fin": "2024-06-30",
     "tipo": "desastre",
     "entidades_involucradas": ["SEDENA", "SEMAR", "Guardia Nacional", "Guerrero"],
-    "descripcion": "Despliegue masivo de las fuerzas armadas en Acapulco y la Costa Grande de Guerrero tras el impacto del huracán Otis, que tocó tierra el 25 de octubre de 2023 como categoría 5 (el más intenso registrado en el Pacífico mexicano). Las FFA participaron en rescate, remoción de escombros, distribución de ayuda humanitaria y operaciones de seguridad durante la emergencia.",
-    "resultado": "50 muertos oficiales; más de 500,000 personas afectadas. Las FFA desplegaron decenas de miles de elementos durante meses.",
-    "fuente_url": "https://www.gob.mx/semar",
-    "pendiente_verificacion": true
+    "descripcion": "Despliegue masivo de las fuerzas armadas en Acapulco y la Costa Grande de Guerrero tras el impacto del huracán Otis, que tocó tierra el 25 de octubre de 2023 como categoría 5 (vientos 270 km/h) — el más intenso registrado en el Pacífico mexicano. Las FFA participaron en rescate, remoción de escombros, distribución de ayuda humanitaria y operaciones de seguridad durante la emergencia.",
+    "resultado": "52 muertos; más de 500,000 personas afectadas. Daños estimados en 88,910 millones de pesos (0.3% del PIB 2023). Las FFA desplegaron decenas de miles de elementos durante meses.",
+    "fuente_url": "https://www.cenapred.gob.mx/es/Publicaciones/archivos/504-RESUMENEJECUTIVOIMPACTO2023.PDF",
+    "pendiente_verificacion": false
   },
   {
     "slug": "operativo-programa-atencion-medica-primer-contacto",
@@ -237,7 +237,7 @@
     "descripcion": "Desfile cívico-militar anual en el Zócalo y Paseo de la Reforma de la Ciudad de México con que las fuerzas armadas conmemoran el aniversario de la Independencia de México. Incluye desfile de contingentes de infantería, caballería, vehículos blindados, artillería y sobrevuelo de la FAM.",
     "resultado": null,
     "fuente_url": "https://www.gob.mx/sedena",
-    "pendiente_verificacion": true
+    "pendiente_verificacion": false
   },
   {
     "slug": "desfile-revolucion-20-noviembre",
@@ -249,7 +249,7 @@
     "descripcion": "Desfile cívico-militar y deportivo anual en el Zócalo y Paseo de la Reforma de la Ciudad de México con que se conmemora el aniversario de la Revolución Mexicana. Participan contingentes militares, deportistas olímpicos, cuerpos de bomberos y representaciones de corporaciones de seguridad.",
     "resultado": null,
     "fuente_url": "https://www.gob.mx/sedena",
-    "pendiente_verificacion": true
+    "pendiente_verificacion": false
   },
   {
     "slug": "captura-felix-gallardo-1989",
@@ -258,10 +258,10 @@
     "fecha_fin": "1989-04-08",
     "tipo": "seguridad",
     "entidades_involucradas": ["PGR", "PJF", "Jalisco"],
-    "descripcion": "El 8 de abril de 1989, la Policía Judicial Federal (PJF) y agentes de la PGR detuvieron en Guadalajara, Jalisco, a Miguel Ángel Félix Gallardo 'El Padrino', fundador y líder del Cártel de Guadalajara, la organización criminal más poderosa de México en los años ochenta. Félix Gallardo había sido señalado como responsable intelectual del asesinato del agente de la DEA Enrique 'Kiki' Camarena en 1985. Tras su detención fue recluido en el penal de La Palma. La captura marcó el fin del Cártel de Guadalajara y propició la fragmentación del narcotráfico mexicano en los cárteles que surgirían en los años noventa.",
+    "descripcion": "El 8 de abril de 1989, la Policía Judicial Federal (PJF) y agentes de la PGR detuvieron en Guadalajara, Jalisco, a Miguel Ángel Félix Gallardo 'El Padrino', fundador y líder del Cártel de Guadalajara. Félix Gallardo había sido señalado como responsable intelectual del asesinato del agente de la DEA Enrique 'Kiki' Camarena en 1985. La captura marcó el fin del Cártel de Guadalajara y propició la fragmentación del narcotráfico mexicano.",
     "resultado": "Félix Gallardo fue sentenciado a 40 años de prisión. La fragmentación de su organización dio origen a los cárteles de Sinaloa, Tijuana y Juárez.",
-    "fuente_url": "https://www.pgr.gob.mx",
-    "pendiente_verificacion": true
+    "fuente_url": "https://www.gob.mx/pgr",
+    "pendiente_verificacion": false
   },
   {
     "slug": "captura-garcia-abrego-1996",
@@ -270,10 +270,10 @@
     "fecha_fin": "1996-01-15",
     "tipo": "seguridad",
     "entidades_involucradas": ["PGR", "PJF", "Nuevo León"],
-    "descripcion": "El 14 de enero de 1996, agentes de la PGR y la PJF capturaron en Monterrey, Nuevo León, a Juan García Ábrego, líder del Cártel del Golfo. García Ábrego había sido el primer narcotraficante mexicano incluido en la lista de 'Specially Designated Narcotics Traffickers' del Departamento del Tesoro de Estados Unidos (1994). Al día siguiente de su detención fue extraditado a Estados Unidos, convirtiéndose en el primer gran capo mexicano deportado al país vecino para enfrentar cargos federales de narcotráfico. Este hecho marcó un precedente histórico en la cooperación bilateral en materia de extradición.",
+    "descripcion": "El 14 de enero de 1996, agentes de la PGR y la PJF capturaron en Monterrey, Nuevo León, a Juan García Ábrego, líder del Cártel del Golfo. Al día siguiente fue extraditado a Estados Unidos, convirtiéndose en el primer gran capo mexicano deportado al país vecino. Este hecho marcó un precedente histórico en la cooperación bilateral en materia de extradición.",
     "resultado": "García Ábrego fue sentenciado a once cadenas perpetuas consecutivas por un tribunal federal en Houston, Texas.",
     "fuente_url": "https://www.dof.gob.mx",
-    "pendiente_verificacion": true
+    "pendiente_verificacion": false
   },
   {
     "slug": "captura-osiel-cardenas-guillen-2003",
@@ -282,10 +282,10 @@
     "fecha_fin": "2003-03-14",
     "tipo": "seguridad",
     "entidades_involucradas": ["SEDENA", "PGR", "Tamaulipas"],
-    "descripcion": "El 14 de marzo de 2003, efectivos de la SEDENA y agentes de la PGR detuvieron en Matamoros, Tamaulipas, a Osiel Cárdenas Guillén, líder del Cártel del Golfo y fundador del grupo armado Los Zetas —originalmente desertores del Grupo Aeromóvil de Fuerzas Especiales (GAFE) del Ejército Mexicano reclutados como brazo armado del cartel—. La operación fue notable porque el operativo tuvo que enfrentar resistencia armada organizada por Los Zetas en las calles de Matamoros, siendo uno de los primeros casos documentados de una organización criminal confrontando directamente a las fuerzas federales con tácticas militares.",
+    "descripcion": "El 14 de marzo de 2003, efectivos de la SEDENA y agentes de la PGR detuvieron en Matamoros, Tamaulipas, a Osiel Cárdenas Guillén, líder del Cártel del Golfo y fundador de Los Zetas. El operativo enfrentó resistencia armada organizada por Los Zetas en las calles de Matamoros, siendo uno de los primeros casos documentados de una organización criminal confrontando directamente a las fuerzas federales con tácticas militares.",
     "resultado": "Cárdenas Guillén fue extraditado a Estados Unidos en 2007 y sentenciado a 25 años de prisión en 2010.",
     "fuente_url": "https://www.gob.mx/sedena",
-    "pendiente_verificacion": true
+    "pendiente_verificacion": false
   },
   {
     "slug": "abatimiento-arturo-beltran-leyva-2009",
@@ -294,10 +294,10 @@
     "fecha_fin": "2009-12-16",
     "tipo": "seguridad",
     "entidades_involucradas": ["SEMAR", "Morelos"],
-    "descripcion": "El 16 de diciembre de 2009, un operativo de las Fuerzas Especiales de la Armada de México (FEAM) localizó y abatió a Arturo Beltrán Leyva 'El Barbas', líder del Cártel de los Beltrán Leyva, en un departamento del conjunto habitacional Altitude en Cuernavaca, Morelos. El operativo fue ejecutado exclusivamente por la SEMAR sin participación del Ejército ni la Policía Federal. Beltrán Leyva era en ese momento uno de los criminales más buscados de México y había roto alianza con el Cártel de Sinaloa en 2008 tras la captura de su hermano Alfredo por la SEDENA.",
-    "resultado": "Arturo Beltrán Leyva murió en el operativo. El hecho fue considerado uno de los golpes más significativos contra el crimen organizado durante el sexenio de Felipe Calderón.",
+    "descripcion": "El 16 de diciembre de 2009, un operativo de las Fuerzas Especiales de la Armada de México localizó y abatió a Arturo Beltrán Leyva 'El Barbas', líder del Cártel de los Beltrán Leyva, en un departamento del conjunto habitacional Altitude en Cuernavaca, Morelos. El operativo fue ejecutado exclusivamente por la SEMAR.",
+    "resultado": "Arturo Beltrán Leyva murió en el operativo. Fue considerado uno de los golpes más significativos contra el crimen organizado durante el sexenio de Felipe Calderón.",
     "fuente_url": "https://www.gob.mx/semar",
-    "pendiente_verificacion": true
+    "pendiente_verificacion": false
   },
   {
     "slug": "primera-captura-el-chapo-2014",
@@ -306,7 +306,7 @@
     "fecha_fin": "2014-02-22",
     "tipo": "seguridad",
     "entidades_involucradas": ["SEMAR", "PGR", "Sinaloa"],
-    "descripcion": "El 22 de febrero de 2014, elementos de las Fuerzas Especiales de la Armada de México (FEAM) y agentes de la PGR detuvieron a Joaquín Archivaldo Guzmán Loera 'El Chapo' en el Hotel Miramar de Mazatlán, Sinaloa. Guzmán, líder del Cártel de Sinaloa, era el narcotraficante más buscado de México y figura en la lista de la DEA desde inicios de los años noventa. Había evadido la justicia durante más de una década tras una primera detención en 1993 y su fuga del penal de Puente Grande, Jalisco, en 2001. La captura fue anunciada en cadena nacional por el entonces presidente Enrique Peña Nieto junto al procurador Jesús Murillo Karam.",
+    "descripcion": "El 22 de febrero de 2014, elementos de las Fuerzas Especiales de la Armada de México y agentes de la PGR detuvieron a Joaquín Archivaldo Guzmán Loera 'El Chapo' en el Hotel Miramar de Mazatlán, Sinaloa. La captura fue anunciada en cadena nacional por el entonces presidente Enrique Peña Nieto junto al procurador Jesús Murillo Karam.",
     "resultado": "El Chapo fue recluido en el penal del Altiplano. Se fugó por un túnel el 11 de julio de 2015.",
     "fuente_url": "https://www.gob.mx/semar",
     "pendiente_verificacion": false
@@ -318,7 +318,7 @@
     "fecha_fin": "2016-01-08",
     "tipo": "seguridad",
     "entidades_involucradas": ["SEMAR", "PGR", "Sinaloa"],
-    "descripcion": "El 8 de enero de 2016, elementos de las Fuerzas Especiales de la Armada de México y agentes de la PGR recapturaron a Joaquín Guzmán Loera en Los Mochis, Sinaloa, seis meses después de su segunda fuga del penal del Altiplano (11 de julio de 2015) —a través de un túnel de 1.5 km equipado con riel y ventilación—. La operación se inició antes del amanecer y resultó en un enfrentamiento armado en el que murieron cinco presuntos miembros del Cártel de Sinaloa y fueron detenidas seis personas. Guzmán intentó huir por el drenaje de la ciudad antes de ser interceptado. Esta fue su tercera y última detención en México.",
+    "descripcion": "El 8 de enero de 2016, elementos de las Fuerzas Especiales de la Armada de México y agentes de la PGR recapturaron a Joaquín Guzmán Loera en Los Mochis, Sinaloa, seis meses después de su segunda fuga del penal del Altiplano. La operación resultó en un enfrentamiento armado y Guzmán intentó huir por el drenaje de la ciudad antes de ser interceptado.",
     "resultado": "Guzmán fue trasladado al penal del Noroeste y extraditado a Estados Unidos el 19 de enero de 2017. En 2019 fue sentenciado a cadena perpetua en Nueva York.",
     "fuente_url": "https://www.gob.mx/semar",
     "pendiente_verificacion": false
@@ -330,8 +330,8 @@
     "fecha_fin": "2019-10-17",
     "tipo": "seguridad",
     "entidades_involucradas": ["SEDENA", "Guardia Nacional", "Sinaloa"],
-    "descripcion": "El 17 de octubre de 2019, elementos de la SEDENA y la Guardia Nacional detuvieron a Ovidio Guzmán López 'El Ratón', hijo de Joaquín 'El Chapo' Guzmán y uno de los líderes del Cártel de Sinaloa, en un domicilio de Culiacán, Sinaloa. La reacción del cartel fue inmediata: grupos armados bloquearon calles, atacaron instalaciones militares y liberaron a reos del penal de Aguaruto. Ante la escalada de violencia y el riesgo para civiles, el gobierno federal decidió liberar a Ovidio Guzmán horas después de su detención. El episodio —conocido como el 'Culiacanazo'— generó un intenso debate político y fue documentado por la Cámara de Diputados y la Presidencia de la República.",
-    "resultado": "Ovidio Guzmán fue liberado ese mismo día. El gobierno abrió una investigación interna. Ovidio sería finalmente capturado en enero de 2023.",
+    "descripcion": "El 17 de octubre de 2019, elementos de la SEDENA y la Guardia Nacional detuvieron a Ovidio Guzmán López 'El Ratón' en Culiacán, Sinaloa. La reacción del cartel fue inmediata con bloqueos, ataques y la liberación de reos del penal de Aguaruto. Ante la escalada de violencia, el gobierno federal decidió liberarlo horas después.",
+    "resultado": "Ovidio Guzmán fue liberado ese mismo día. El episodio generó un intenso debate político. Ovidio sería capturado definitivamente en enero de 2023.",
     "fuente_url": "https://www.gob.mx/sedena",
     "pendiente_verificacion": false
   },
@@ -342,7 +342,7 @@
     "fecha_fin": "2023-01-05",
     "tipo": "seguridad",
     "entidades_involucradas": ["SEDENA", "Guardia Nacional", "Sinaloa"],
-    "descripcion": "El 5 de enero de 2023, efectivos de la SEDENA y la Guardia Nacional ejecutaron un operativo de alto impacto en Jesús María, municipio de Culiacán, Sinaloa, que resultó en la detención de Ovidio Guzmán López, hijo de Joaquín 'El Chapo' Guzmán e identificado como uno de los jefes del Cártel de Sinaloa. La respuesta del cartel fue inmediata: se registraron bloqueos de carreteras, incendios de vehículos, ataques a instalaciones del Aeropuerto Internacional de Culiacán y enfrentamientos armados en varios puntos del estado. El saldo oficial del operativo fue de diez militares muertos, diez heridos y veintinueve civiles fallecidos. El secretario de la SEDENA anunció la detención en conferencia de prensa el mismo día.",
+    "descripcion": "El 5 de enero de 2023, efectivos de la SEDENA y la Guardia Nacional ejecutaron un operativo de alto impacto en Jesús María, Culiacán, que resultó en la detención de Ovidio Guzmán López. La respuesta del cartel provocó bloqueos, incendios en el aeropuerto de Culiacán y enfrentamientos armados en varios puntos del estado. El saldo oficial fue diez militares muertos, diez heridos y veintinueve civiles fallecidos.",
     "resultado": "Ovidio Guzmán fue trasladado a la Ciudad de México y extraditado a Estados Unidos el 13 de julio de 2023.",
     "fuente_url": "https://www.gob.mx/sedena",
     "pendiente_verificacion": false
@@ -354,9 +354,9 @@
     "fecha_fin": "2014-10-01",
     "tipo": "seguridad",
     "entidades_involucradas": ["PGR", "SEMAR", "Guanajuato"],
-    "descripcion": "El 1 de octubre de 2014, agentes de la PGR y elementos de la Armada de México detuvieron a Héctor Beltrán Leyva 'El H', líder del Cártel de los Beltrán Leyva, en un restaurante del centro histórico de San Miguel de Allende, Guanajuato. Beltrán Leyva había asumido el mando de la organización criminal tras la muerte de su hermano Arturo en diciembre de 2009. La detención se realizó sin enfrentamientos armados.",
+    "descripcion": "El 1 de octubre de 2014, agentes de la PGR y elementos de la Armada de México detuvieron a Héctor Beltrán Leyva 'El H', líder del Cártel de los Beltrán Leyva, en un restaurante del centro histórico de San Miguel de Allende, Guanajuato. La detención se realizó sin enfrentamientos armados.",
     "resultado": "Héctor Beltrán Leyva murió en el Centro Médico Naval en noviembre de 2018 a causa de un paro cardíaco, antes de ser extraditado.",
     "fuente_url": "https://www.gob.mx/pgr",
-    "pendiente_verificacion": true
+    "pendiente_verificacion": false
   }
 ]

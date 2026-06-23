@@ -10,8 +10,8 @@
     "descripcion": "Terremoto de magnitud 8.1 con epicentro frente a las costas de Michoacán que causó el colapso de miles de edificios en la Ciudad de México. Con más de 10,000 muertos estimados, fue el desastre más mortífero del siglo XX en México. Detonó la creación del Sistema Nacional de Protección Civil (1986) y del Sistema de Alerta Sísmica.",
     "muertos_aprox": 10000,
     "damnificados_aprox": 250000,
-    "fuente_url": "https://www.gob.mx/cenapred",
-    "pendiente_verificacion": true
+    "fuente_url": "https://www.gob.mx/cenapred/articulos/los-sismos-historicos-de-septiembre",
+    "pendiente_verificacion": false
   },
   {
     "slug": "huracan-pauline-1997",
@@ -21,11 +21,11 @@
     "magnitud": "Categoría 4 (vientos 230 km/h al impacto)",
     "estados_afectados": ["Guerrero", "Oaxaca"],
     "respuesta_institucional": "Plan DN-III-E / Plan Marina",
-    "descripcion": "Huracán categoría 4 que impactó la Costa Chica y el puerto de Acapulco el 9 de octubre de 1997. Causó más de 230 muertos, principalmente en comunidades rurales de la Costa Chica de Guerrero y Oaxaca. Las lluvias provocaron deslaves que destruyeron comunidades enteras en la sierra.",
+    "descripcion": "Huracán categoría 4 que impactó la Costa Chica y el puerto de Acapulco el 9 de octubre de 1997. Causó más de 230 muertos, principalmente en comunidades rurales de la Costa Chica de Guerrero y Oaxaca. Las lluvias provocaron deslaves que destruyeron comunidades enteras en la sierra. Daños estimados en 450 millones de dólares.",
     "muertos_aprox": 230,
     "damnificados_aprox": 300000,
-    "fuente_url": "https://www.gob.mx/cenapred",
-    "pendiente_verificacion": true
+    "fuente_url": "https://www.gob.mx/cenapred/articulos/huracan-pauline-a-20-anos-de-la-destruccion",
+    "pendiente_verificacion": false
   },
   {
     "slug": "huracan-wilma-2005",
@@ -35,11 +35,11 @@
     "magnitud": "Categoría 4 al impacto (fue cat. 5 en el Caribe)",
     "estados_afectados": ["Quintana Roo", "Yucatán"],
     "respuesta_institucional": "Plan DN-III-E / Plan Marina",
-    "descripcion": "Huracán categoría 5 en el Caribe que impactó la Riviera Maya y Cancún como categoría 4. Fue el huracán atlántico más intenso registrado hasta esa fecha (presión mínima de 882 hPa). Activó la evacuación masiva de más de 130,000 personas y la respuesta conjunta de las fuerzas armadas.",
+    "descripcion": "Huracán categoría 5 en el Caribe que impactó la Riviera Maya y Cancún como categoría 4. Fue el huracán atlántico más intenso registrado hasta esa fecha (presión mínima de 882 hPa). Activó la evacuación masiva de más de 130,000 personas y la respuesta conjunta de las fuerzas armadas. Daños estimados en 1,724 millones de dólares en México.",
     "muertos_aprox": 12,
     "damnificados_aprox": 300000,
-    "fuente_url": "https://www.gob.mx/cenapred",
-    "pendiente_verificacion": true
+    "fuente_url": "https://www.gob.mx/cenapred/articulos/a-quince-anos-de-los-huracanes-stan-y-wilma",
+    "pendiente_verificacion": false
   },
   {
     "slug": "huracan-stan-2005",
@@ -49,11 +49,11 @@
     "magnitud": "Categoría 1 al impacto",
     "estados_afectados": ["Chiapas", "Oaxaca", "Veracruz", "Tabasco"],
     "respuesta_institucional": "Plan DN-III-E / Plan Marina",
-    "descripcion": "Huracán que tocó tierra en Veracruz como categoría 1 pero que, combinado con el frente frío, provocó lluvias extremas y deslaves devastadores en el Soconusco y la Sierra de Chiapas. Más de 80 muertos en México; varias comunidades quedaron sepultadas bajo toneladas de lodo.",
+    "descripcion": "Huracán que tocó tierra en Los Tuxtlas, Veracruz, como categoría 1, pero combinado con frentes fríos provocó lluvias extremas y deslaves devastadores en el Soconusco y la Sierra de Chiapas. Más de 100,000 personas evacuadas; varias comunidades quedaron sepultadas bajo toneladas de lodo. Daños totales estimados en 21,062 millones de pesos.",
     "muertos_aprox": 80,
     "damnificados_aprox": 100000,
-    "fuente_url": "https://www.gob.mx/cenapred",
-    "pendiente_verificacion": true
+    "fuente_url": "https://www.gob.mx/cenapred/articulos/a-quince-anos-de-los-huracanes-stan-y-wilma",
+    "pendiente_verificacion": false
   },
   {
     "slug": "inundaciones-tabasco-2007",
@@ -63,10 +63,10 @@
     "magnitud": "Más del 70% del territorio de Tabasco inundado",
     "estados_afectados": ["Tabasco", "Chiapas"],
     "respuesta_institucional": "Plan DN-III-E / Plan Marina",
-    "descripcion": "Inundaciones históricas provocadas por lluvias extraordinarias y el desbordamiento de los ríos Grijalva y Usumacinta en octubre-noviembre de 2007. Más del 70% de Tabasco quedó bajo el agua, incluyendo barrios de la capital Villahermosa. Es uno de los peores desastres hídricos de México.",
+    "descripcion": "Inundaciones históricas provocadas por lluvias extraordinarias (403.4 mm en 24 horas) y el desbordamiento de los ríos Grijalva y Usumacinta en octubre-noviembre de 2007. El 75% de la población de 679 localidades de 17 municipios resultó damnificada. Aproximadamente el 80% de Villahermosa quedó bajo el agua. Es uno de los peores desastres hídricos de México en los últimos 50 años.",
     "muertos_aprox": 6,
     "damnificados_aprox": 1000000,
-    "fuente_url": "https://www.gob.mx/cenapred",
+    "fuente_url": "https://www.gob.mx/cenapred/articulos/domingo-28-de-octubre-2007-mega-inundacion-en-tabasco",
     "pendiente_verificacion": true
   },
   {
@@ -80,7 +80,7 @@
     "descripcion": "Segunda gran inundación en Tabasco en tres años, combinada con inundaciones severas en la región norte de Veracruz. Se declaró emergencia de desastre en múltiples municipios. Las fuerzas armadas desplegaron helicópteros, lanchas y personal para evacuación y abastecimiento.",
     "muertos_aprox": 20,
     "damnificados_aprox": 500000,
-    "fuente_url": "https://www.gob.mx/cenapred",
+    "fuente_url": "https://www.cenapred.gob.mx/es/Publicaciones/archivos/252.pdf",
     "pendiente_verificacion": true
   },
   {
@@ -105,11 +105,11 @@
     "magnitud": "Ingrid: Categoría 1 (Golfo); Manuel: Categoría 1 (Pacífico)",
     "estados_afectados": ["Guerrero", "Oaxaca", "Sinaloa", "Veracruz", "Tamaulipas", "Chihuahua", "Durango"],
     "respuesta_institucional": "Plan DN-III-E / Plan Marina",
-    "descripcion": "Impacto simultáneo histórico de dos ciclones en los litorales del Atlántico y el Pacífico, provocando las lluvias más intensas en México desde 1997. Acapulco quedó prácticamente incomunicada con más de 40,000 turistas atrapados. Las FFA coordinaron un puente aéreo y marítimo de evacuación masiva.",
-    "muertos_aprox": 193,
+    "descripcion": "Impacto simultáneo histórico de dos ciclones en los litorales del Atlántico y el Pacífico, provocando las lluvias más intensas en México desde 1997 y afectando 26 estados. Acapulco quedó prácticamente incomunicada con más de 40,000 turistas atrapados. El deslizamiento de La Pintada, Guerrero, sepultó a decenas de personas. Las FFA coordinaron un puente aéreo y marítimo de evacuación masiva.",
+    "muertos_aprox": 157,
     "damnificados_aprox": 800000,
-    "fuente_url": "https://www.gob.mx/cenapred",
-    "pendiente_verificacion": true
+    "fuente_url": "https://www.gob.mx/cenapred/articulos/a-7-anos-del-extraordinario-fenomeno-hidrometeorologico-ingrid-y-manuel",
+    "pendiente_verificacion": false
   },
   {
     "slug": "sismo-7-septiembre-2017",
@@ -119,11 +119,11 @@
     "magnitud": "8.2 Mw",
     "estados_afectados": ["Oaxaca", "Chiapas", "Tabasco", "Veracruz"],
     "respuesta_institucional": "Plan DN-III-E / Plan Marina",
-    "descripcion": "El terremoto más potente registrado en México desde el sismo de Colima de 1932 (magnitud 8.1). Epicentro frente a la costa del Golfo de Tehuantepec. Causó graves daños en el Istmo de Tehuantepec y las sierras de Oaxaca y Chiapas.",
-    "muertos_aprox": 96,
-    "damnificados_aprox": 875000,
-    "fuente_url": "https://www.gob.mx/cenapred",
-    "pendiente_verificacion": true
+    "descripcion": "El terremoto más potente registrado en México desde el sismo de Colima de 1932 (magnitud 8.1). Epicentro a 140 km al suroeste de Pijijiapan, Chiapas, en el Golfo de Tehuantepec. Causó 99 muertos (79 en Oaxaca, 16 en Chiapas, 4 en Tabasco), afectó 112,407 viviendas y 6,419 escuelas. Pérdidas estimadas en 19,257 millones de pesos.",
+    "muertos_aprox": 99,
+    "damnificados_aprox": 449000,
+    "fuente_url": "https://www.gob.mx/cenapred/articulos/el-sismo-de-mayor-magnitud-en-casi-cien-anos-en-mexico-sismo-de-tehuantepec-7-de-septiembre-de-2017",
+    "pendiente_verificacion": false
   },
   {
     "slug": "sismo-19-septiembre-2017",
@@ -133,11 +133,11 @@
     "magnitud": "7.1 Mw",
     "estados_afectados": ["Ciudad de México", "Morelos", "Puebla", "Estado de México", "Oaxaca", "Guerrero"],
     "respuesta_institucional": "Plan DN-III-E / Plan Marina",
-    "descripcion": "Terremoto con epicentro entre Puebla y Morelos que provocó colapsos de edificios en la Ciudad de México, Morelos y Puebla, y que ocurrió 32 años después del sismo de 1985, en el mismo día en que se realizaba el simulacro nacional. Las redes sociales amplificaron la respuesta ciudadana espontánea.",
+    "descripcion": "Terremoto con epicentro entre Puebla y Morelos que provocó colapsos de edificios en la Ciudad de México (228 muertos), Morelos y Puebla. Ocurrió 32 años después del sismo de 1985 y el mismo día en que se realizaba el simulacro nacional. Las redes sociales amplificaron la respuesta ciudadana espontánea. Las pérdidas en la CDMX superaron los 43,000 millones de pesos.",
     "muertos_aprox": 369,
     "damnificados_aprox": 250000,
-    "fuente_url": "https://www.gob.mx/cenapred",
-    "pendiente_verificacion": true
+    "fuente_url": "https://www.gob.mx/cenapred/articulos/los-sismos-del-19-septiembre",
+    "pendiente_verificacion": false
   },
   {
     "slug": "sismo-23-junio-2020",
@@ -147,39 +147,39 @@
     "magnitud": "7.4 Mw",
     "estados_afectados": ["Oaxaca", "Chiapas", "Guerrero"],
     "respuesta_institucional": "Plan DN-III-E / Plan Marina",
-    "descripcion": "Terremoto con epicentro en La Crucecita, municipio de Santa María Huatulco, Oaxaca. Ocurrido durante la pandemia de COVID-19, obligó a adaptar los protocolos de rescate y atención a damnificados a las restricciones sanitarias. Causó daños en viviendas del Istmo y la Costa de Oaxaca.",
+    "descripcion": "Terremoto con epicentro en La Crucecita, municipio de Santa María Huatulco, Oaxaca, el 23 de junio a las 10:29 horas. Ocurrido durante la pandemia de COVID-19, obligó a adaptar los protocolos de rescate y atención a las restricciones sanitarias. 97 municipios afectados, 10 fallecidos y más de 500 viviendas dañadas.",
     "muertos_aprox": 10,
     "damnificados_aprox": 11000,
-    "fuente_url": "https://www.gob.mx/cenapred",
-    "pendiente_verificacion": true
+    "fuente_url": "https://www.gob.mx/sspc/prensa/la-cnpc-informa-actualizaciones-de-sismo-en-oaxaca-magnitud-7-4",
+    "pendiente_verificacion": false
   },
   {
     "slug": "huracan-grace-2021",
     "nombre": "Huracán Grace (2021)",
     "tipo": "huracan",
     "fecha": "2021-08-21",
-    "magnitud": "Categoría 3 al segundo impacto en Veracruz",
+    "magnitud": "Categoría 3 al segundo impacto en Veracruz (vientos 205 km/h)",
     "estados_afectados": ["Veracruz", "Hidalgo", "Puebla"],
     "respuesta_institucional": "Plan DN-III-E / Plan Marina",
-    "descripcion": "Huracán que tocó tierra por segunda vez en el norte de Veracruz como categoría 3 el 21 de agosto de 2021, provocando inundaciones en la sierra de Puebla, Hidalgo y Veracruz. Causó el colapso de puentes y caminos que incomunicaron comunidades por días.",
+    "descripcion": "Huracán que tocó tierra por segunda vez en el norte de Veracruz como categoría 3 el 21 de agosto de 2021, con vientos máximos de 205 km/h. Causó 11 fallecidos (6 en Veracruz y 5 en Puebla) e inundaciones en la sierra de Puebla, Hidalgo y Veracruz. Afectó más de 43,000 hectáreas de cultivos en 68 municipios de Puebla.",
     "muertos_aprox": 11,
     "damnificados_aprox": 50000,
-    "fuente_url": "https://www.gob.mx/cenapred",
-    "pendiente_verificacion": true
+    "fuente_url": "https://www.gob.mx/cenapred/articulos/toma-tus-precauciones-ante-el-impacto-del-huracan-grace",
+    "pendiente_verificacion": false
   },
   {
     "slug": "sismo-19-septiembre-2022",
     "nombre": "Sismo del 19 de septiembre de 2022",
     "tipo": "sismo",
     "fecha": "2022-09-19",
-    "magnitud": "7.6 Mw",
+    "magnitud": "7.7 Mw",
     "estados_afectados": ["Michoacán", "Colima", "Jalisco", "Guerrero"],
     "respuesta_institucional": "Plan DN-III-E / Plan Marina",
-    "descripcion": "Terremoto de magnitud 7.6 con epicentro en la región limítrofe entre Michoacán y Colima, ocurrido por tercera ocasión en un 19 de septiembre (1985, 2017 y 2022). Causó daños en viviendas y generó alerta de tsunami en el Pacífico, aunque no se materializó.",
+    "descripcion": "Terremoto de magnitud 7.7 con epicentro al sur de Coalcomán, Michoacán, ocurrido a las 13:05 horas — por tercera ocasión en un 19 de septiembre (1985, 2017 y 2022). Causó 2 fallecidos en Colima y se sintió en 13 estados. Daños y pérdidas estimadas en 789 millones de pesos. Generó alerta de tsunami en el Pacífico que no se materializó.",
     "muertos_aprox": 2,
     "damnificados_aprox": 5000,
-    "fuente_url": "https://www.gob.mx/cenapred",
-    "pendiente_verificacion": true
+    "fuente_url": "https://www.gob.mx/sspc/prensa/reporte-de-afectaciones-por-sismo-de-magnitud-7-7-con-epicentro-en-coalcoman-michoacan",
+    "pendiente_verificacion": false
   },
   {
     "slug": "huracan-otis-2023",
@@ -189,11 +189,11 @@
     "magnitud": "Categoría 5 (vientos de 270 km/h al impacto)",
     "estados_afectados": ["Guerrero"],
     "respuesta_institucional": "Plan DN-III-E / Plan Marina / Guardia Nacional",
-    "descripcion": "El huracán más intenso registrado en el Pacífico mexicano, que se intensificó de depresión tropical a categoría 5 en menos de 24 horas antes de impactar en Acapulco. Destruyó gran parte de la infraestructura hotelera, eléctrica y de comunicaciones de la ciudad. Más de 500,000 personas afectadas.",
-    "muertos_aprox": 50,
+    "descripcion": "El huracán más intenso registrado en el Pacífico mexicano, que se intensificó de depresión tropical a categoría 5 en menos de 24 horas antes de impactar en Acapulco — el único categoría 5 en alcanzar una ciudad de más de un millón de habitantes en el Pacífico este. Destruyó gran parte de la infraestructura hotelera, eléctrica y de comunicaciones. Daños estimados en 88,910 millones de pesos (0.3% del PIB 2023).",
+    "muertos_aprox": 52,
     "damnificados_aprox": 500000,
-    "fuente_url": "https://www.gob.mx/cenapred",
-    "pendiente_verificacion": true
+    "fuente_url": "https://www.cenapred.gob.mx/es/Publicaciones/archivos/504-RESUMENEJECUTIVOIMPACTO2023.PDF",
+    "pendiente_verificacion": false
   },
   {
     "slug": "sequia-norte-mexico-2011",
@@ -206,7 +206,7 @@
     "descripcion": "La sequía más severa en siete décadas afectó al norte y centro-norte de México entre 2011 y 2012, causando pérdidas en cultivos y ganado. Las fuerzas armadas participaron en la distribución de agua potable y forraje a comunidades rurales afectadas, y en la contención de incendios forestales exacerbados por la sequía.",
     "muertos_aprox": null,
     "damnificados_aprox": 2000000,
-    "fuente_url": "https://www.gob.mx/cenapred",
+    "fuente_url": "https://smn.conagua.gob.mx/es/sequia",
     "pendiente_verificacion": true
   }
 ]
